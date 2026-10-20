@@ -1,0 +1,77 @@
+{
+  "title": "슈의 햄버거집",
+  "creator": "진한빈",
+  "texts": {
+    "start": "주문 순서에 맞게 재료를 드래그해서 햄버거를 만들고, 손님에게 전달해 줘! 1분 30초 동안 최대한 많이!",
+    "win": "영업 종료! 수고했어!",
+    "lose": "다시 도전해 봐!"
+  },
+  "player": {
+    "name": "슈",
+    "color": "#e53935",
+    "sprite": "",
+    "shape": "round"
+  },
+  "rules": {
+    "goal": 99,
+    "lives": 3,
+    "timeSec": 90
+  },
+  "map": {
+    "background": "#6b3a2a",
+    "menu": [
+      {
+        "name": "빵",
+        "color": "#e8b86d"
+      },
+      {
+        "name": "패티",
+        "color": "#8b4513"
+      },
+      {
+        "name": "치즈",
+        "color": "#ffd54f"
+      },
+      {
+        "name": "양상추",
+        "color": "#7cb342"
+      },
+      {
+        "name": "토마토",
+        "color": "#ef5350"
+      },
+      {
+        "name": "치킨패티",
+        "color": "#d4a574"
+      },
+      {
+        "name": "소스",
+        "color": "#ff7043"
+      }
+    ]
+  },
+  "special": [],
+  "variant": "recipe",
+  "controls": "direct",
+  "assets": {
+    "item": "",
+    "enemy": "",
+    "background": ""
+  },
+  "layout": "landscape",
+  "custom": {
+    "theme": "hamburger",
+    "mechanic": "drag-stack-order",
+    "goalType": "maxOrders",
+    "ingredients": [
+      "빵",
+      "패티",
+      "치즈",
+      "양상추",
+      "토마토",
+      "치킨패티",
+      "소스"
+    ],
+    "onWrong": "remake"
+  }
+}

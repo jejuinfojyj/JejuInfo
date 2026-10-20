@@ -1,0 +1,1 @@
+window.TEMPLATE_INFO = {"variants":[{"id":"classic","name":"기본 놀이","description":"손님이 고른 메뉴와 같은 버튼을 눌러."},{"id":"recipe","name":"두 재료 레시피","description":"손님이 말한 두 메뉴를 순서대로 눌러요."},{"id":"memory","name":"기억 주문","description":"잠깐 보인 메뉴를 기억해요."}]};

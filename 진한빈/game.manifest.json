@@ -1,0 +1,69 @@
+{
+  "schema": 2,
+  "projectId": "25f14fd6-aefe-4205-b412-a7a82c672aa3",
+  "templateId": "cafe",
+  "kitVersion": "3.0.0",
+  "version": "0295337b0d2772c153bbcfb0795f1dd6283a250cfcc5b07c966df3eb40c31941",
+  "files": [
+    {
+      "path": "engine.js",
+      "bytes": 13458,
+      "sha256": "6250294785d3f90f024df6e2dfe873689f76cc73fec18b097ee5bee753624087"
+    },
+    {
+      "path": "game.config.js",
+      "bytes": 1512,
+      "sha256": "c674c16e69ca0dd79c465b6433b81d901de6510ae69f5f1e227f6e3243675f2c"
+    },
+    {
+      "path": "game.config.json",
+      "bytes": 1490,
+      "sha256": "677309e12ece3becca6dd4ec031e3fd5afa055c35216f90d9ccbd170034f276a"
+    },
+    {
+      "path": "game.css",
+      "bytes": 4728,
+      "sha256": "657b81311b672619f27b3ef14c334962b8b6c73e0317225d25d6d446edd75698"
+    },
+    {
+      "path": "game.js",
+      "bytes": 10088,
+      "sha256": "a3a836ec59d11b02634443e33fba7e7b32f12f04b50af5856cf84736d1b5bbdb"
+    },
+    {
+      "path": "icon-192.png",
+      "bytes": 811,
+      "sha256": "1d2539c9d22ea28398bbc1dee8972df9b9458286bb481f14f2813b4376fad09f"
+    },
+    {
+      "path": "icon-512.png",
+      "bytes": 3917,
+      "sha256": "48691f9a4f599265cc286970d850f1581e894656edc58e505a120d316f4ed77e"
+    },
+    {
+      "path": "index.html",
+      "bytes": 1945,
+      "sha256": "7ae3bd0c42fff54090fe230a947afa784c3ee92aaebbc492bcfe57392fc4d952"
+    },
+    {
+      "path": "manifest.webmanifest",
+      "bytes": 502,
+      "sha256": "1f08d2c7dea21d5178c1db5c61e3bbaa733d94f3d360c75c9aaeb17ebf3d8825"
+    },
+    {
+      "path": "pwa.js",
+      "bytes": 3255,
+      "sha256": "95ae1a3760ed7c8c639aa71e257fdf07eac76bce49e51d1f5498903d6628f037"
+    },
+    {
+      "path": "sw.js",
+      "bytes": 1665,
+      "sha256": "f773917aeb08f21386d9cfe41d63ac61775ed3ff520184be3eedfa9780801b53"
+    },
+    {
+      "path": "template.meta.js",
+      "bytes": 357,
+      "sha256": "379da00b8d3e8eb7d84e979f737a9c3e4b32eff325f453c5cea26694862e3e16"
+    }
+  ]
+}

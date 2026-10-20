@@ -5,6 +5,13 @@
       "name": "김민수",
       "title": "우주 점프",
       "href": "/%EA%B9%80%EB%AF%BC%EC%88%98/"
+    },
+    {
+      "name": "진한빈",
+      "title": "슈의 햄버거집",
+      "href": "/%EC%A7%84%ED%95%9C%EB%B9%88/",
+      "projectId": "25f14fd6-aefe-4205-b412-a7a82c672aa3",
+      "version": "0295337b0d2772c153bbcfb0795f1dd6283a250cfcc5b07c966df3eb40c31941"
     }
   ]
 }

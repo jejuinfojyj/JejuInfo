@@ -1,0 +1,42 @@
+:root { color-scheme:dark; font-family:"Malgun Gothic","Apple SD Gothic Neo",sans-serif; }
+* { box-sizing:border-box; }
+html,body { margin:0; height:100%; background:#100e25; color:#fffdf8; }
+body { height:100dvh; display:grid; grid-template-rows:auto minmax(0,1fr) auto auto auto; overflow:hidden; padding:env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left); }
+header { display:flex; align-items:center; flex-wrap:wrap; gap:6px 16px; padding:8px 14px; background:#211b40; }
+header strong { flex:1; min-width:100px; font-size:1.05rem; }
+#score,#extra { font-variant-numeric:tabular-nums; }
+main { position:relative; min-height:0; min-width:0; display:grid; place-items:center; overflow:hidden; }
+canvas { display:block; max-width:100%; max-height:100%; touch-action:none; background:#24165a; border-radius:12px; }
+#overlay { position:absolute; inset:0; display:grid; place-items:center; padding:12px; background:#0c082299; overflow:auto; }
+[hidden] { display:none!important; }
+.card { width:min(440px,96%); max-height:100%; overflow:auto; padding:22px; text-align:center; border-radius:24px; background:#fff6d6; color:#201735; box-shadow:0 12px 40px #0006; }
+h1 { margin:0 0 12px; font-size:clamp(1.2rem,4vw,1.8rem); overflow-wrap:anywhere; }
+.card p { line-height:1.5; margin:0 0 16px; }
+button { min-width:48px; min-height:52px; border:0; border-radius:16px; padding:8px 16px; color:#1b1233; background:#ffca73; font-family:inherit; font-weight:700; font-size:1rem; cursor:pointer; touch-action:none; user-select:none; }
+button:active { background:#fff0b6; transform:translateY(1px); } button:focus-visible { outline:3px solid #82e6ff; outline-offset:2px; } button:disabled { opacity:.45; }
+#pause { min-height:48px; font-size:.82rem; background:#b9aaff; }
+#controls { display:flex; align-items:center; justify-content:space-between; gap:12px; padding:8px 18px; user-select:none; }
+#touch { display:grid; grid-template-areas:". up . action" "left down right action"; grid-template-columns:repeat(3,minmax(48px,76px)) minmax(80px,120px); gap:6px; width:100%; justify-content:space-between; }
+#touch [data-act=left]{grid-area:left} #touch [data-act=right]{grid-area:right} #touch [data-act=up]{grid-area:up} #touch [data-act=down]{grid-area:down} #touch [data-act=action]{grid-area:action;background:#8ff0cb}
+#joystick { display:none; width:116px; height:116px; border-radius:50%; flex-shrink:0; background:#332b5e; border:3px solid #8b80b5; position:relative; touch-action:none; }
+#joystick span { position:absolute; left:calc(50% - 24px); top:calc(50% - 24px); width:48px; height:48px; border-radius:50%; background:#b9aaff; transform:translate(var(--jx,0px),var(--jy,0px)); pointer-events:none; }
+body[data-control=joystick] #joystick { display:block; }
+body[data-control=joystick] #touch { display:flex; justify-content:flex-end; }
+body[data-control=joystick] #touch button:not([data-act=action]) { display:none; }
+body[data-control=joystick] #touch [data-act=action] { width:100px; height:84px; }
+body[data-control=direct] #controls,body[data-control=drag] #controls { display:none; }
+body[data-control=tap] #touch { display:flex; justify-content:flex-end; }
+body[data-control=swipe] #controls { padding-top:2px;padding-bottom:2px; }
+body[data-control=swipe] #touch { grid-template-areas:"left down up right"; grid-template-columns:repeat(4,1fr); max-width:380px; margin:auto; }
+#hint,footer { margin:0; text-align:center; padding:4px 12px; color:#c9c1e8; font-size:.78rem; line-height:1.25; }
+footer { padding-bottom:8px; }
+#install-app { min-height:48px; font-size:.82rem; background:#8ff0cb; }
+#offline-status { display:block; padding-top:4px; font-size:.7rem; }
+#update-game { min-height:44px; font-size:.8rem; margin-top:4px; }
+dialog { max-width:min(420px,92vw); border:0; border-radius:20px; padding:24px; background:#fff6d6; color:#201735; }
+dialog::backdrop { background:#0c0822bb; }
+dialog p { line-height:1.7; }
+@media (orientation:landscape) and (max-height:520px) { header{padding:3px 10px;font-size:.8rem} #controls{padding:3px 12px} #joystick{width:80px;height:80px} body[data-control=joystick] #touch [data-act=action]{height:58px} #touch{grid-template-areas:"left up down right action";grid-template-columns:repeat(4,52px) 90px;justify-content:space-between} #touch button{min-height:48px;padding:4px} #hint{display:none} footer{font-size:.68rem;padding:2px} }
+
+
+#choices{display:none;width:100%;gap:8px;grid-template-columns:repeat(auto-fit,minmax(90px,1fr))} body.has-choices #choices{display:grid} body.has-choices #controls{display:flex} body.has-choices #touch{display:none} #choices button{min-height:52px;font-size:.9rem;overflow-wrap:anywhere}
