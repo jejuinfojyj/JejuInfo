@@ -1,0 +1,8 @@
+{
+  "name": "cursor-infofestival-site",
+  "private": true,
+  "scripts": {
+    "build": "node build-list.js",
+    "check": "node build-list.js --check"
+  }
+}
