@@ -1,0 +1,109 @@
+{
+  "schema": 3,
+  "kind": "authored",
+  "projectId": "c4f44b33-46cf-44db-9542-cd09bd97c6c9",
+  "kitVersion": "4.0.1",
+  "version": "37eb35a2ad270b7844a244d81d2b1b83623dae9774075925cfb8dbf80bcb6bcf",
+  "files": [
+    {
+      "path": "assets/book.svg",
+      "bytes": 5779,
+      "sha256": "94679d2cd23436c6e30c6015666b5bb73c2337e5761991a2eaca12454846863e"
+    },
+    {
+      "path": "assets/candle.svg",
+      "bytes": 3176,
+      "sha256": "ee0bfdb27cf901898a8ec6020f2ebc431a3cbab8e2afafb2cadef4f80a4dd72c"
+    },
+    {
+      "path": "assets/fire.svg",
+      "bytes": 3071,
+      "sha256": "031af2e1a5d386c54ea580bd78d068a31bdd5e3f9f883f91c4d9366d354bd462"
+    },
+    {
+      "path": "assets/mark-berry.svg",
+      "bytes": 2628,
+      "sha256": "baa7f7815deb487ac42dd0274cf2c850cb4813d33424766d39354855fcda5578"
+    },
+    {
+      "path": "assets/mark-crystal.svg",
+      "bytes": 2297,
+      "sha256": "ba9ccc2deeb4083cf1de9306ed26ccd851eec72cab6848ef9216a208065e1d85"
+    },
+    {
+      "path": "assets/mark-leaf.svg",
+      "bytes": 2576,
+      "sha256": "0cce215a10c88862c043e804cb6c858bc7311f0c5c4ee85ae7bb965828d8b801"
+    },
+    {
+      "path": "assets/mark-mushroom.svg",
+      "bytes": 3071,
+      "sha256": "44e163a8adf8246cfb2c81706741121e812ee57fd214fa5371b59902b28eb409"
+    },
+    {
+      "path": "assets/mark-petal.svg",
+      "bytes": 2856,
+      "sha256": "26e6e0dacfeb46460e5035060f1dc920fd8acd31c311078c497b0aeae4965d13"
+    },
+    {
+      "path": "assets/potion.svg",
+      "bytes": 7110,
+      "sha256": "4d31157b3fc025bcc3977df985fb2d8a0aab7c2ca9ffac7468af05a83e260679"
+    },
+    {
+      "path": "assets/witch.svg",
+      "bytes": 27059,
+      "sha256": "74b2167f0b2fe570aea47681c9218fc33040ea5bd75a4330b5559079000948a3"
+    },
+    {
+      "path": "game.config.js",
+      "bytes": 2972,
+      "sha256": "62469c27ca1b82778828b814ee17c05872bdab5aa57b7fcb2e01a4100e866965"
+    },
+    {
+      "path": "game.config.json",
+      "bytes": 2950,
+      "sha256": "79c2916ec932b36f7daf2d0d80699812e64335d2590ac17d83ac2f2f0ffefa57"
+    },
+    {
+      "path": "game.js",
+      "bytes": 24823,
+      "sha256": "005aa1efd7e5805357f412618621fc02378e572202254a41f91ca6f132709095"
+    },
+    {
+      "path": "icon-192.png",
+      "bytes": 914,
+      "sha256": "14565fa8892c829d3e6bcce9543348affd35c3205444b4519bbc367b9325e04c"
+    },
+    {
+      "path": "icon-512.png",
+      "bytes": 4631,
+      "sha256": "e39d73ae8259456d5d45d6dacb4f3715fa421e2d8752fcb5f20704b40cd115e1"
+    },
+    {
+      "path": "index.html",
+      "bytes": 3358,
+      "sha256": "e6d4c5876bae49c9e65fb4bbb7b1010cb76a372b0acbcf9eaa68037ce63b9f6f"
+    },
+    {
+      "path": "manifest.webmanifest",
+      "bytes": 501,
+      "sha256": "14302244416340db17430ae4f0551aa228e33abc131bdc904291ecb4bfc918fa"
+    },
+    {
+      "path": "pwa.js",
+      "bytes": 3072,
+      "sha256": "5b7b49b1610a918d6d97acb3dfd81a3a797583256ee6245add42327bc0aca536"
+    },
+    {
+      "path": "styles.css",
+      "bytes": 11925,
+      "sha256": "3cd3883b72f0f0b533aab24fcbd8595847657b2114b2900195a762a8d1c5f58c"
+    },
+    {
+      "path": "sw.js",
+      "bytes": 1871,
+      "sha256": "0e26df2bd99a01e186fdf838d273890793191303778ca5cb19323ae1f67d49a2"
+    }
+  ]
+}

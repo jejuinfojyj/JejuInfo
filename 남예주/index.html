@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<title>마녀 공방</title>
+<meta name="author" content="남예주">
+<script src="game.config.js"></script>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-192.png">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="app" data-screen="start">
+  <div class="scene">
+    <header class="topbar">
+      <h1 class="sign">마녀 공방</h1>
+      <p id="clock">1:30</p>
+      <div id="rack" aria-live="polite"></div>
+      <button type="button" id="pause-btn">멈춤</button>
+    </header>
+    <div class="stage">
+      <div class="pot-scene">
+        <div class="pot">
+          <div class="brew">
+            <div id="grid"></div>
+            <div class="steam" aria-hidden="true"><i></i><i></i><i></i></div>
+          </div>
+          <div class="belly"></div>
+          <div class="foot">
+            <img class="book" src="assets/book.svg" alt="">
+            <img class="fire" src="assets/fire.svg" alt="">
+            <img class="witch" src="assets/witch.svg" alt="뾰족한 모자와 남색 로브를 입은 마녀가 솥을 젓고 있다">
+            <img class="candle" src="assets/candle.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="shelf">
+      <p id="hint">조각을 잡아 솥 칸에 끼워 봐. 아래로 끌어 내리면 선반으로 돌아와.</p>
+      <div class="shelf-row">
+        <div id="tray"></div>
+        <button type="button" id="rotate-btn">돌리기</button>
+      </div>
+    </div>
+  </div>
+
+  <section id="screen-start" class="overlay overlay-floor">
+    <button type="button" id="start-btn">불 붙이기</button>
+    <div id="start-host">
+      <div id="ledger">
+        <button type="button" id="install-app">앱으로 두기</button>
+        <p id="offline-status" role="status">오프라인 저장 중…</p>
+        <button type="button" id="update-game" hidden>새 버전 적용</button>
+        <p id="game-credit"></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="screen-pause" class="overlay overlay-dim" hidden>
+    <div class="note">
+      <h2>불을 잠시 덮어 두었어</h2>
+      <button type="button" id="resume-btn">계속 끓이기</button>
+      <button type="button" id="restart-btn">처음부터</button>
+      <button type="button" id="sound-btn" aria-pressed="true">소리 끄기</button>
+      <button type="button" id="finish-btn">오늘은 여기까지</button>
+      <div id="pause-host"></div>
+    </div>
+  </section>
+
+  <section id="screen-result" class="overlay overlay-dim" hidden>
+    <div class="note">
+      <h2 id="result-title">불이 꺼졌어</h2>
+      <p id="result-count" class="ending-count">0병</p>
+      <p id="result-text"></p>
+      <div id="result-shelf"></div>
+      <button type="button" id="again-btn">다시 불 붙이기</button>
+      <div id="result-host"></div>
+    </div>
+  </section>
+
+  <div id="float-layer"></div>
+  <p id="live" class="sr-only" aria-live="polite"></p>
+
+  <dialog id="install-help">
+    <p id="install-instructions"></p>
+    <button type="button" id="close-install-help">닫기</button>
+  </dialog>
+</div>
+<script src="game.js"></script>
+<script defer src="pwa.js"></script>
+</body>
+</html>
