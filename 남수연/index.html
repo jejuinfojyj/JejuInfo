@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<title>해저 탐험대</title>
+<meta name="author" content="남수연">
+<script src="game.config.js"></script>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-192.png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main id="stage" data-mode="start">
+    <canvas id="sea" aria-label="해저 동굴"></canvas>
+    <header id="hud" hidden>
+      <p id="shell-count">조개 0/20</p>
+      <p id="hearts" aria-live="polite" aria-label="하트 3개"></p>
+      <button id="pause-btn" type="button">쉬기</button>
+    </header>
+    <p id="hint" hidden>← → 키나 화면 양옆으로 헤엄쳐</p>
+
+    <section id="panel-start" class="veil">
+      <h1>해저 탐험대</h1>
+      <button id="start-btn" type="button">잠수 시작</button>
+    </section>
+
+    <section id="panel-pause" class="sheet" hidden>
+      <h2>물속에서 잠시 멈춤</h2>
+      <button id="resume-btn" type="button">계속 헤엄치기</button>
+      <button id="restart-btn" type="button">처음부터</button>
+      <button id="sound-btn" type="button">소리 끄기</button>
+    </section>
+
+    <section id="panel-result" class="sheet" hidden>
+      <h2 id="result-title">탐험 성공</h2>
+      <p id="result-text"></p>
+      <button id="again-btn" type="button">다시 잠수</button>
+    </section>
+
+    <footer id="meta-dock">
+      <button id="install-app" type="button">앱으로 담기</button>
+      <p id="offline-status" role="status">오프라인 준비 전</p>
+      <button id="update-game" type="button" hidden>새 버전 적용</button>
+      <p id="game-credit"></p>
+    </footer>
+  </main>
+
+  <dialog id="install-help">
+    <p id="install-instructions"></p>
+    <button id="close-install-help" type="button">닫기</button>
+  </dialog>
+  <script src="game.js"></script>
+<script defer src="pwa.js"></script>
+</body>
+</html>

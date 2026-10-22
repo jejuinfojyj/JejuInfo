@@ -1,0 +1,234 @@
+:root {
+  --water: #08344f;
+  --deep: #062838;
+  --foam: #d7eef8;
+  --sand: #f2c14e;
+  --ink: #143044;
+  --shell: #f6e7c1;
+  --danger: #e15b64;
+  --display: "Arial Rounded MT Bold", "Malgun Gothic", "Apple SD Gothic Neo", sans-serif;
+  --body: "Malgun Gothic", "Apple SD Gothic Neo", sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  height: 100%;
+  background: var(--deep);
+  color: var(--foam);
+  font-family: var(--body);
+}
+
+body {
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+button, p, h1, h2 { font-family: inherit; }
+
+button {
+  min-height: 48px;
+  min-width: 48px;
+  padding: 12px 18px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--sand);
+  color: var(--ink);
+  font-family: var(--display);
+  font-size: 1.05rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  cursor: pointer;
+  transition: transform 140ms ease;
+}
+
+button:active { transform: translateY(2px) scale(0.98); }
+
+button:focus-visible {
+  outline: 3px solid #fff4c8;
+  outline-offset: 3px;
+}
+
+[hidden] { display: none !important; }
+
+#stage {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  user-select: none;
+  background: var(--water);
+}
+
+#sea {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  touch-action: none;
+}
+
+#hud {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: calc(10px + env(safe-area-inset-top)) 12px 0 calc(12px + env(safe-area-inset-left));
+  padding-right: calc(12px + env(safe-area-inset-right));
+  pointer-events: none;
+}
+
+#shell-count, #hearts {
+  margin: 0;
+  min-height: 48px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 0 12px;
+  border-radius: 999px;
+  background: rgba(6, 40, 56, 0.55);
+  color: var(--shell);
+  font-weight: 800;
+  font-size: 1rem;
+}
+
+#hearts svg { width: 22px; height: 22px; display: block; }
+
+#pause-btn {
+  pointer-events: auto;
+  margin-left: auto;
+  padding-inline: 16px;
+}
+
+#stage[data-mode="pause"] #pause-btn { visibility: hidden; }
+
+#hint {
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  bottom: calc(22px + env(safe-area-inset-bottom));
+  transform: translateX(-50%);
+  margin: 0;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: rgba(6, 40, 56, 0.5);
+  color: #f4fbff;
+  font-weight: 700;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+.veil {
+  position: absolute;
+  z-index: 3;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: calc(22px + env(safe-area-inset-top)) 20px calc(168px + env(safe-area-inset-bottom));
+  pointer-events: none;
+}
+
+.veil h1, .veil button { pointer-events: auto; }
+
+h1, h2 {
+  margin: 0;
+  font-family: var(--display);
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  text-align: center;
+}
+
+h1 {
+  color: #f4fbff;
+  font-size: clamp(2.3rem, 11vw, 4rem);
+  line-height: 1.05;
+  text-shadow: 0 3px 0 rgba(6, 32, 48, 0.35);
+}
+
+h2 {
+  color: var(--ink);
+  font-size: 1.55rem;
+}
+
+.sheet {
+  position: absolute;
+  z-index: 4;
+  left: 50%;
+  top: 42%;
+  transform: translate(-50%, -50%);
+  width: min(86vw, 340px);
+  max-height: calc(100dvh - 190px);
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 22px 18px 16px;
+  border-radius: 28px;
+  background: rgba(215, 238, 248, 0.94);
+  color: var(--ink);
+  box-shadow: 0 16px 40px rgba(4, 24, 36, 0.28);
+}
+
+.sheet button { width: 100%; }
+
+.sheet button.quiet, #sound-btn, #restart-btn, #install-app, #update-game, #close-install-help {
+  background: #f4fbff;
+  color: var(--ink);
+}
+
+#result-text {
+  margin: 0 0 4px;
+  text-align: center;
+  font-size: 1.05rem;
+  font-weight: 700;
+  line-height: 1.45;
+}
+
+#meta-dock {
+  position: absolute;
+  z-index: 5;
+  left: 12px;
+  right: 12px;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding-bottom: calc(10px + env(safe-area-inset-bottom));
+}
+
+#stage[data-mode="play"] #meta-dock { display: none; }
+
+#meta-dock p {
+  margin: 0;
+  color: #f4fbff;
+  font-size: 0.86rem;
+  font-weight: 700;
+  text-shadow: 0 1px 2px rgba(4, 24, 36, 0.65);
+}
+
+#install-help {
+  border: 0;
+  border-radius: 24px;
+  padding: 22px 18px;
+  background: var(--foam);
+  color: var(--ink);
+  max-width: min(90vw, 360px);
+}
+
+#install-help::backdrop { background: rgba(6, 32, 48, 0.45); }
+
+#install-help p { margin: 0 0 14px; font-weight: 700; line-height: 1.5; }
+
+#install-help button { width: 100%; }
+
+@media (prefers-reduced-motion: reduce) {
+  button { transition: none; }
+}
