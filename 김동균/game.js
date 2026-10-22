@@ -111,19 +111,33 @@
     state.master.gain.setTargetAtTime(state.sound ? 0.85 : 0.0001, state.audio.currentTime, 0.03);
   }
 
+  function makePluckBuffer(ctx, freq, seconds, brightness) {
+    const sr = ctx.sampleRate;
+    const n = Math.max(2, Math.floor(sr / freq));
+    const frames = Math.floor(sr * seconds);
+    const buffer = ctx.createBuffer(1, frames, sr);
+    const data = buffer.getChannelData(0);
+    for (let i = 0; i < n; i++) data[i] = (Math.random() * 2 - 1) * brightness;
+    for (let i = n; i < frames; i++) {
+      const avg = (data[i - n] + data[i - n + 1]) * 0.5;
+      data[i] = avg * 0.996;
+    }
+    return buffer;
+  }
+
   function playGuitarNote(lane, kind) {
     if (!state.audio || !state.master) return;
     const ctx = state.audio;
     const now = ctx.currentTime;
     const freq = NOTE_FREQS[lane] || 262;
-    const dur = kind === "miss" ? 0.16 : kind === "perfect" ? 0.45 : 0.32;
+    const dur = kind === "miss" ? 0.18 : kind === "perfect" ? 0.7 : 0.5;
 
     if (kind === "miss") {
       const osc = ctx.createOscillator();
       const gain = ctx.createGain();
       osc.type = "sawtooth";
-      osc.frequency.value = 70;
-      gain.gain.setValueAtTime(0.05, now);
+      osc.frequency.value = 55;
+      gain.gain.setValueAtTime(0.04, now);
       gain.gain.exponentialRampToValueAtTime(0.001, now + dur);
       osc.connect(gain);
       gain.connect(state.master);
@@ -132,29 +146,28 @@
       return;
     }
 
-    const osc1 = ctx.createOscillator();
-    const osc2 = ctx.createOscillator();
+    const bright = kind === "perfect" ? 0.95 : 0.75;
+    const source = ctx.createBufferSource();
+    source.buffer = makePluckBuffer(ctx, freq, dur + 0.15, bright);
     const filter = ctx.createBiquadFilter();
+    filter.type = "bandpass";
+    filter.frequency.value = Math.min(4200, freq * 3.2);
+    filter.Q.value = 1.1;
+    const tone = ctx.createBiquadFilter();
+    tone.type = "lowpass";
+    tone.frequency.setValueAtTime(freq * 8, now);
+    tone.frequency.exponentialRampToValueAtTime(freq * 2.2, now + dur);
     const gain = ctx.createGain();
-    osc1.type = "sawtooth";
-    osc2.type = "triangle";
-    osc1.frequency.value = freq;
-    osc2.frequency.value = freq * 2.002;
-    filter.type = "lowpass";
-    filter.frequency.setValueAtTime(2200, now);
-    filter.frequency.exponentialRampToValueAtTime(600, now + dur);
-    const peak = kind === "perfect" ? 0.16 : 0.12;
+    const peak = kind === "perfect" ? 0.55 : 0.42;
     gain.gain.setValueAtTime(0.001, now);
-    gain.gain.exponentialRampToValueAtTime(peak, now + 0.012);
+    gain.gain.exponentialRampToValueAtTime(peak, now + 0.004);
     gain.gain.exponentialRampToValueAtTime(0.001, now + dur);
-    osc1.connect(filter);
-    osc2.connect(filter);
-    filter.connect(gain);
+    source.connect(filter);
+    filter.connect(tone);
+    tone.connect(gain);
     gain.connect(state.master);
-    osc1.start(now);
-    osc2.start(now);
-    osc1.stop(now + dur);
-    osc2.stop(now + dur);
+    source.start(now);
+    source.stop(now + dur + 0.05);
   }
 
   function playDrum(kind) {
@@ -210,32 +223,40 @@
     if (!state.audio || !state.master) return;
     const ctx = state.audio;
     const now = ctx.currentTime;
-    const osc = ctx.createOscillator();
+    const source = ctx.createBufferSource();
+    source.buffer = makePluckBuffer(ctx, freq, 0.35, 0.55);
+    const filter = ctx.createBiquadFilter();
+    filter.type = "lowpass";
+    filter.frequency.value = 420;
     const gain = ctx.createGain();
-    osc.type = "triangle";
-    osc.frequency.value = freq;
-    gain.gain.setValueAtTime(0.1, now);
-    gain.gain.exponentialRampToValueAtTime(0.001, now + 0.28);
-    osc.connect(gain);
+    gain.gain.setValueAtTime(0.28, now);
+    gain.gain.exponentialRampToValueAtTime(0.001, now + 0.32);
+    source.connect(filter);
+    filter.connect(gain);
     gain.connect(state.master);
-    osc.start(now);
-    osc.stop(now + 0.3);
+    source.start(now);
+    source.stop(now + 0.35);
   }
 
   function playLead(freq) {
     if (!state.audio || !state.master) return;
     const ctx = state.audio;
     const now = ctx.currentTime;
-    const osc = ctx.createOscillator();
+    const source = ctx.createBufferSource();
+    source.buffer = makePluckBuffer(ctx, freq, 0.4, 0.85);
+    const filter = ctx.createBiquadFilter();
+    filter.type = "bandpass";
+    filter.frequency.value = Math.min(3800, freq * 2.8);
+    filter.Q.value = 0.9;
     const gain = ctx.createGain();
-    osc.type = "triangle";
-    osc.frequency.value = freq;
-    gain.gain.setValueAtTime(0.07, now);
-    gain.gain.exponentialRampToValueAtTime(0.001, now + 0.22);
-    osc.connect(gain);
+    gain.gain.setValueAtTime(0.001, now);
+    gain.gain.exponentialRampToValueAtTime(0.22, now + 0.005);
+    gain.gain.exponentialRampToValueAtTime(0.001, now + 0.34);
+    source.connect(filter);
+    filter.connect(gain);
     gain.connect(state.master);
-    osc.start(now);
-    osc.stop(now + 0.24);
+    source.start(now);
+    source.stop(now + 0.4);
   }
 
   function stopMusic() {

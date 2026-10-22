@@ -3,7 +3,7 @@
   "kind": "authored",
   "projectId": "0c923796-354c-4cef-8349-7812dde371e8",
   "kitVersion": "4.0.1",
-  "version": "0f7a79b212215230489dcc83ec32e9078fd371c02f7c34d8570efdb29a2c8d96",
+  "version": "4150914b0bdb9bb58c01a90aa72257b0570ff5f8e7c46bb91bafb24661362cb5",
   "files": [
     {
       "path": "assets/guitar.svg",
@@ -22,8 +22,8 @@
     },
     {
       "path": "game.js",
-      "bytes": 17047,
-      "sha256": "9b5755a5b5bda9b69213a1a350f3943cfc6753e922d918a7aa5e44c7cca2d3c7"
+      "bytes": 18057,
+      "sha256": "afc44360ff10c9c25da50a922ddc0d6aff9be6601e86fe74b9d35cb8b242b302"
     },
     {
       "path": "icon-192.png",
@@ -58,7 +58,7 @@
     {
       "path": "sw.js",
       "bytes": 1654,
-      "sha256": "af990fcf92ebb2fca1c107762d5161a65a8bea943d1b740b4c3049ca382154c8"
+      "sha256": "9cba273e5bf585b4ebcbf32f1241b2001be080c853de32595f2956d185ed1ae2"
     }
   ]
 }

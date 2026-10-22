@@ -1,5 +1,5 @@
 'use strict';
-const VERSION="c92f0496eca70b612a84dd21b97bc1b337647dd9ef09b7f2925127d143d94e2f";
+const VERSION="5a4006b089f0ecf70e5582e20d731e187768687d04390d29d93fd43e90ede765";
 const PREFIX="cursor-game:0c923796-354c-4cef-8349-7812dde371e8:"+self.registration.scope+':';
 const CACHE=PREFIX+VERSION;
 const FILES=["./","./assets/guitar.svg","./game.config.js","./game.config.json","./game.js","./icon-192.png","./icon-512.png","./index.html","./manifest.webmanifest","./pwa.js","./styles.css"];
