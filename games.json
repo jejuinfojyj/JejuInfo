@@ -2,6 +2,13 @@
   "intervalMs": 8000,
   "games": [
     {
+      "name": "검성검성",
+      "title": "돌고래를 향해서",
+      "href": "/%EA%B2%80%EC%84%B1%EA%B2%80%EC%84%B1/",
+      "projectId": "49e17885-1424-46a0-862b-ba5cdd9c04da",
+      "version": "f3cba65e521653cbb33d462a1c2f9b71b5db2f0ccb8206c2404e47ce7cdf7889"
+    },
+    {
       "name": "김민수",
       "title": "우주 점프",
       "href": "/%EA%B9%80%EB%AF%BC%EC%88%98/"

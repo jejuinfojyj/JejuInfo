@@ -1,0 +1,64 @@
+{
+  "schema": 3,
+  "kind": "authored",
+  "projectId": "49e17885-1424-46a0-862b-ba5cdd9c04da",
+  "kitVersion": "4.0.1",
+  "version": "f3cba65e521653cbb33d462a1c2f9b71b5db2f0ccb8206c2404e47ce7cdf7889",
+  "files": [
+    {
+      "path": "assets/night.svg",
+      "bytes": 4383,
+      "sha256": "b2c45d0f9d6590884fff3e1872167c837499b9bd3886bf28225f5b5f870b911c"
+    },
+    {
+      "path": "game.config.js",
+      "bytes": 2237,
+      "sha256": "107913e00cfb6860a57b1e0fed0c8198831a97f84d5c524bf4159e24998a8457"
+    },
+    {
+      "path": "game.config.json",
+      "bytes": 2215,
+      "sha256": "a4e0cfe3a87f28e2efeeb9e6f0a52d5cdd967ca19842a6273d3cabd5f2cdfd84"
+    },
+    {
+      "path": "game.js",
+      "bytes": 9151,
+      "sha256": "c52a2c557d64762bc97294fd9de54482a80ed4f5f8d3f68028f2a352fa777712"
+    },
+    {
+      "path": "icon-192.png",
+      "bytes": 6023,
+      "sha256": "0455fb35cc81dfb7245aa9fab5bda1487c615d108a0c49bd9f48a149b3475adf"
+    },
+    {
+      "path": "icon-512.png",
+      "bytes": 17539,
+      "sha256": "dcaaffe522ece1ee5102c160e11d67dc5691a6c732ab4fc108f35d1243aad78e"
+    },
+    {
+      "path": "index.html",
+      "bytes": 3216,
+      "sha256": "8171fbefa298313341e9e10f7b2833b597599c1ed722c844ef196547bcb9b0d5"
+    },
+    {
+      "path": "manifest.webmanifest",
+      "bytes": 519,
+      "sha256": "99f6c70283421dbade8fdb881a785273a06ff2db5091f84a5cac6652d27481ac"
+    },
+    {
+      "path": "pwa.js",
+      "bytes": 3072,
+      "sha256": "5b7b49b1610a918d6d97acb3dfd81a3a797583256ee6245add42327bc0aca536"
+    },
+    {
+      "path": "styles.css",
+      "bytes": 7188,
+      "sha256": "8dc9ea8f907c2ec70dadaae48fda98e4bc39375e55a5bd98e48d72c2e87a95da"
+    },
+    {
+      "path": "sw.js",
+      "bytes": 1653,
+      "sha256": "0ab4899026c91f96c6f96b39a98d8443c27d8eb8a6d36c8d2160dcbcfd27e16d"
+    }
+  ]
+}
