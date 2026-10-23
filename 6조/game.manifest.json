@@ -1,0 +1,119 @@
+{
+  "schema": 3,
+  "kind": "authored",
+  "projectId": "1b006126-ad8b-4606-8dcc-f10c486ae3dd",
+  "kitVersion": "4.0.1",
+  "version": "68a3c11b9b143029141ce6f0912f91c8a7ade6b5cdcbf3d05782574dc51c6c25",
+  "files": [
+    {
+      "path": "assets/landscape.png",
+      "bytes": 2502,
+      "sha256": "5d1a34a7816f9b17cd97eb53998fcbe2a02275e6a9cb250aeb733456af6d3eb6"
+    },
+    {
+      "path": "assets/snow-bell.png",
+      "bytes": 274,
+      "sha256": "401fb4bf81c68659cd07b951d53919bae5559b96569f5436ddf83b9ab202ccf0"
+    },
+    {
+      "path": "assets/snow-berry.png",
+      "bytes": 278,
+      "sha256": "130cf3cfad7b418428874d15d4c6d5c7e4a9e0bfce7c195f7ff4b086e8204a8a"
+    },
+    {
+      "path": "assets/snow-gift.png",
+      "bytes": 261,
+      "sha256": "723f8456f1a952835a29138676c9898f6ca165abc3d21b1771af21e69a47b5b7"
+    },
+    {
+      "path": "assets/snow-pine.png",
+      "bytes": 278,
+      "sha256": "15e9635f55480a69ca9760fce6c5f9a675e9a5530e64627540ac8051c60f6a68"
+    },
+    {
+      "path": "assets/snow-plain.png",
+      "bytes": 239,
+      "sha256": "08c0eea22ffc989c906154282e680b18f2d9241dfd4643a821ae673027375e5e"
+    },
+    {
+      "path": "assets/snowman-body.png",
+      "bytes": 703,
+      "sha256": "7a173afba4e898ab49d7095e559a6f00cf9559c94cb3fdb5555b7e4eba49f936"
+    },
+    {
+      "path": "assets/snowman-done.png",
+      "bytes": 733,
+      "sha256": "0399026c37008d17158d8f9f34bb090cca78916ea5c10841a00ae11da20c3318"
+    },
+    {
+      "path": "assets/snowman-lump.png",
+      "bytes": 372,
+      "sha256": "2345b4bcbd21f7b7273d2cf37618f8fd0daffeb3e038d2b6768cea982a3d35de"
+    },
+    {
+      "path": "assets/snowman-mid.png",
+      "bytes": 551,
+      "sha256": "7a3c4b32f133ac74c95ee92a5d74404ad1ed95cbfb9ea861c2a134747cc120bd"
+    },
+    {
+      "path": "assets/snowman-party.png",
+      "bytes": 763,
+      "sha256": "e2969cb97050ae130b59158b9d83985dee7f54b71ffb467b987cb6a6eae999f6"
+    },
+    {
+      "path": "assets/snowman-top.png",
+      "bytes": 757,
+      "sha256": "5fabceabdc96b6e04d9904edfb7b868c7242489966c3f5a7632824698c995cbc"
+    },
+    {
+      "path": "game.config.js",
+      "bytes": 2855,
+      "sha256": "f67e670563c6292aba207e09091b1e5a592658fddab8ea733b5fda71f8099dad"
+    },
+    {
+      "path": "game.config.json",
+      "bytes": 2833,
+      "sha256": "c737f62106b889c5ed8414e2a0a75688c66c41fda41a6abccd6d47723735b4a4"
+    },
+    {
+      "path": "game.js",
+      "bytes": 10103,
+      "sha256": "ae196434e37285c7fee4cf0e75db39d7d3f73e1b2f500f474e0a1fbe4e258309"
+    },
+    {
+      "path": "icon-192.png",
+      "bytes": 1197,
+      "sha256": "0964aaec65df6eba86c689d3b701f580758ab17aa024d0452ba84dc31080633a"
+    },
+    {
+      "path": "icon-512.png",
+      "bytes": 4316,
+      "sha256": "b82bd0dd86d8e7ae82ec12c2bac6fa3ae993e42bcedfd91a5eeaace92d14dc83"
+    },
+    {
+      "path": "index.html",
+      "bytes": 2373,
+      "sha256": "ac38ff10fc72a440124be949f7c02a6ca8b8bedd28baf976af0c9b10812e3695"
+    },
+    {
+      "path": "manifest.webmanifest",
+      "bytes": 539,
+      "sha256": "53af8ef5693843978c3b59dbfdf7da2330e24ff557ad6b3ace7dfb55489edde1"
+    },
+    {
+      "path": "pwa.js",
+      "bytes": 3072,
+      "sha256": "5b7b49b1610a918d6d97acb3dfd81a3a797583256ee6245add42327bc0aca536"
+    },
+    {
+      "path": "styles.css",
+      "bytes": 5523,
+      "sha256": "7347d5c41a1808cee0f37d61ed81444fad7567bcf8d2bb87879b1575643fd904"
+    },
+    {
+      "path": "sw.js",
+      "bytes": 1951,
+      "sha256": "aec870e503f4cf25c97370a66257fda426d8806914a262e2d1f599c967e50e5c"
+    }
+  ]
+}

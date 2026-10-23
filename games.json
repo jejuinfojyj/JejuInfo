@@ -2,6 +2,13 @@
   "intervalMs": 8000,
   "games": [
     {
+      "name": "6조",
+      "title": "눈사람의 눈사람 만들기",
+      "href": "/6%EC%A1%B0/",
+      "projectId": "1b006126-ad8b-4606-8dcc-f10c486ae3dd",
+      "version": "68a3c11b9b143029141ce6f0912f91c8a7ade6b5cdcbf3d05782574dc51c6c25"
+    },
+    {
       "name": "김동균",
       "title": "기타루맨",
       "href": "/%EA%B9%80%EB%8F%99%EA%B7%A0/",

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<title>눈사람의 눈사람 만들기</title>
+<meta name="author" content="6조">
+<script src="game.config.js"></script>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-192.png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#7ec8ea">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app" data-state="start">
+    <div class="world">
+      <img class="landscape" src="assets/landscape.png" alt="">
+      <img id="hero" class="hero" src="assets/snowman-lump.png" alt="만들어지는 눈사람">
+      <p id="timer">1:30</p>
+      <button type="button" id="pause-btn">멈춤</button>
+      <p id="goal-label">같은 눈을 모아 하나로</p>
+    </div>
+    <p id="hint">같은 눈덩이 3칸을 톡</p>
+    <div id="board" role="group" aria-label="눈덩이 판"></div>
+    <p id="announce" class="sr" aria-live="polite"></p>
+
+    <section id="screen-start" class="veil">
+      <h1>눈사람의 눈사람 만들기</h1>
+      <button type="button" id="start-btn" class="big">눈 뭉치기</button>
+    </section>
+
+    <section id="screen-pause" class="veil" hidden>
+      <div class="sign">
+        <h2>잠시 눈 오는 중</h2>
+        <button type="button" id="resume-btn" class="big">계속 뭉치기</button>
+        <button type="button" id="restart-btn">처음부터</button>
+        <button type="button" id="sound-btn">소리 끄기</button>
+      </div>
+    </section>
+
+    <section id="screen-result" class="veil" hidden>
+      <div class="sign">
+        <h2 id="result-title">눈사람</h2>
+        <p id="result-copy"></p>
+        <button type="button" id="again-btn" class="big">다시 만들기</button>
+      </div>
+    </section>
+
+    <div id="utilities">
+      <p id="game-credit"></p>
+      <button type="button" id="install-app" hidden>앱으로 두기</button>
+      <p id="offline-status" role="status"></p>
+      <button type="button" id="update-game" hidden>새 버전 적용</button>
+    </div>
+  </div>
+
+  <dialog id="install-help">
+    <p id="install-instructions"></p>
+    <button type="button" id="close-install-help">닫기</button>
+  </dialog>
+  <script src="game.js"></script>
+<script defer src="pwa.js"></script>
+</body>
+</html>
