@@ -1,0 +1,189 @@
+{
+  "schema": 3,
+  "kind": "authored",
+  "projectId": "1c87e5a3-5a18-466d-bf18-d00c37f52642",
+  "kitVersion": "4.0.1",
+  "version": "99ec5c1ddffd7bda2160183dc4c47c06e9ed21161a87f92836984c37967ff59d",
+  "files": [
+    {
+      "path": "assets/art-absorb.jpg",
+      "bytes": 28516,
+      "sha256": "5b26897e08573054d4276f9c16096f20b6c153b96a5bc436d58b2525e36055d9"
+    },
+    {
+      "path": "assets/art-aim.jpg",
+      "bytes": 17930,
+      "sha256": "a215f46e811f3ad671f0825547a626f2ec0d440a650e9e858c6b4c0c81199ecd"
+    },
+    {
+      "path": "assets/art-dice.jpg",
+      "bytes": 29014,
+      "sha256": "431d369839ec773d5d0dc29bbc4484215175b7c26620c69a040f0da888eb8ef7"
+    },
+    {
+      "path": "assets/art-guard.jpg",
+      "bytes": 33901,
+      "sha256": "e189f3628a7ee537729220049707a47cc183648a28ec95139a9498fb106f4b91"
+    },
+    {
+      "path": "assets/art-pact.jpg",
+      "bytes": 51124,
+      "sha256": "b8c8ad6707f39e0a2a8bf44674e2cea1342193463b87bf275b9a27d25f97bfc5"
+    },
+    {
+      "path": "assets/art-page.jpg",
+      "bytes": 45745,
+      "sha256": "f5364c74f32c4ce474a2413388c699c675f8ffff314dffe29721fd28a49d0bf1"
+    },
+    {
+      "path": "assets/art-shield.jpg",
+      "bytes": 30065,
+      "sha256": "ed9e6bea8da9084ccdea5c7b4d24c5cc568070bb80ac989719ae15cba30f2183"
+    },
+    {
+      "path": "assets/art-sigil.jpg",
+      "bytes": 49197,
+      "sha256": "4196c7dcf26c5e8b4f1a443a32d0ab168332701a7a73e1ffca284a7e1eea646e"
+    },
+    {
+      "path": "assets/art-slash.jpg",
+      "bytes": 43251,
+      "sha256": "0b40fd561330697cdffb9c9492ef311af5ecc39d93a379e916af5d54513aaaa8"
+    },
+    {
+      "path": "assets/characters/librarian/attack.png",
+      "bytes": 366959,
+      "sha256": "f13f0cdee10b76a67de5017e84e4aaa780513a30b4f8d48f82a4a191ebd6ba7f"
+    },
+    {
+      "path": "assets/characters/librarian/cast.png",
+      "bytes": 359542,
+      "sha256": "0bfc90f4c3cce229f973d4663bf6a70cb9eb34f444ab0db9092a1814d290f728"
+    },
+    {
+      "path": "assets/characters/librarian/defeat.png",
+      "bytes": 262996,
+      "sha256": "60ac411a4c1acd950d34ecdd4ddbaf26350444b00e18138e4af406228d9c213e"
+    },
+    {
+      "path": "assets/characters/librarian/defend.png",
+      "bytes": 314029,
+      "sha256": "50a33030a78042b339044fe141ee728ce712ba660d01967463778e41ae1ec515"
+    },
+    {
+      "path": "assets/characters/librarian/hit.png",
+      "bytes": 321151,
+      "sha256": "6bfcdce29b9680462d63ff22853a6de4a42496b19426c6760fe0acb741615359"
+    },
+    {
+      "path": "assets/characters/librarian/idle.png",
+      "bytes": 286231,
+      "sha256": "3fe0de06363cc4a5e027319ef67f3d5ab6fd36a9053afada9ca0c807671b65c0"
+    },
+    {
+      "path": "assets/characters/librarian/portrait.jpg",
+      "bytes": 320071,
+      "sha256": "207e0523538ad5a2f48442d715ddbf6e2f001a3d1ca41fc24fbe74dfd11c2f8a"
+    },
+    {
+      "path": "assets/characters/librarian/victory.png",
+      "bytes": 243151,
+      "sha256": "f2097b8a1c342ae75d5386660d02023a8acfd57212d8bb2fa3cfc0cf9bd123b8"
+    },
+    {
+      "path": "assets/die-attack.png",
+      "bytes": 129545,
+      "sha256": "1e43853c5765e562a44656195f7d575bee22df7fdb2c764a9d84a6c47a70a3f1"
+    },
+    {
+      "path": "assets/die-defend.png",
+      "bytes": 132305,
+      "sha256": "38f208ca2ce3e7a6d8892669571170ce4805fdc6b392fbe82a5bec2885f66849"
+    },
+    {
+      "path": "assets/die-heal.png",
+      "bytes": 150066,
+      "sha256": "9e4bd29339554a9b4f96908a51669a7744b8e9099e73082930da603e45581089"
+    },
+    {
+      "path": "assets/die-neutral.png",
+      "bytes": 91082,
+      "sha256": "9dc461252e60f41fadfd264c0a1e041234f8db95952211226a1c2dbe26bc7a69"
+    },
+    {
+      "path": "assets/enemy-chain.png",
+      "bytes": 467588,
+      "sha256": "543814081b399268c2c6ca5e12317f74a409593cbb9f5b4c335291985c7e8faf"
+    },
+    {
+      "path": "assets/enemy-keeper.png",
+      "bytes": 324151,
+      "sha256": "09ca59e39e2fab77cc044b8ba13fa6119301eb92c61a2d2600a811091fb3da67"
+    },
+    {
+      "path": "assets/enemy-scribe.png",
+      "bytes": 357161,
+      "sha256": "80a8d508d9aa0d334220a6e762aa686d1b372e7ab95772493d6be86166c50f5a"
+    },
+    {
+      "path": "assets/library-hall.jpg",
+      "bytes": 401903,
+      "sha256": "8294d10764a2750c520135e99333f24c392950e40fc20dd1a97b37c638a1fd7d"
+    },
+    {
+      "path": "assets/magic-book.jpg",
+      "bytes": 39198,
+      "sha256": "50f299292b9624bb5d9e5b3c010d68807c151d7401833ff65434f177a2fe5284"
+    },
+    {
+      "path": "game.config.js",
+      "bytes": 2832,
+      "sha256": "565f5b72784e4a8658e03d3485afb112f67bc52bfd801b459c3083502c0e02b2"
+    },
+    {
+      "path": "game.config.json",
+      "bytes": 2810,
+      "sha256": "b17b72f0286bb659d3aa42aeb307956517c1d61f65bb0a66b605b16550df5d5b"
+    },
+    {
+      "path": "game.js",
+      "bytes": 20178,
+      "sha256": "b34eb0e1c8a250f7700dc9e0638ce3784c530c045bf1438a68618e99231c3795"
+    },
+    {
+      "path": "icon-192.png",
+      "bytes": 82350,
+      "sha256": "c6d00f90a32cb9cdba0bb2947f4baa873809224c3db7213d8081e49c75551be3"
+    },
+    {
+      "path": "icon-512.png",
+      "bytes": 557659,
+      "sha256": "3d1b356ff1816efdda8c574d214929bdc53c80b66783b94eab63b91c133f15c1"
+    },
+    {
+      "path": "index.html",
+      "bytes": 4525,
+      "sha256": "d90c5d3d4f241b1a11283a06f5cc4a7a936d5eb799c9e3f628ac58dcaaf1c663"
+    },
+    {
+      "path": "manifest.webmanifest",
+      "bytes": 513,
+      "sha256": "7c0d5afc22383b845f32d147127e504c23f9b22508f748280cbc1f12793056b6"
+    },
+    {
+      "path": "pwa.js",
+      "bytes": 3072,
+      "sha256": "5b7b49b1610a918d6d97acb3dfd81a3a797583256ee6245add42327bc0aca536"
+    },
+    {
+      "path": "styles.css",
+      "bytes": 11276,
+      "sha256": "8e590ac47333adb68bc17db855ea5b1579bc3a528836d433e144e413df7a8cd3"
+    },
+    {
+      "path": "sw.js",
+      "bytes": 2434,
+      "sha256": "81f64b29a35e38ec71d6c972f236ae3809f04cb5e6bae4b055607dbe16b58a05"
+    }
+  ]
+}

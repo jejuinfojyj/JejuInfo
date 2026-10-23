@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<title>운명의 페이지</title>
+<meta name="author" content="김정훈">
+<script src="game.config.js"></script>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-192.png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-screen="start">
+  <div class="library" aria-hidden="true"></div>
+  <div id="app">
+    <section id="screen-start" class="screen">
+      <div class="cast">
+        <img class="portrait" src="assets/characters/librarian/portrait.jpg" alt="검은 코트의 주인공">
+      </div>
+      <div class="title-block">
+        <p class="eyebrow">어두운 서재</p>
+        <h1>운명의 페이지</h1>
+        <p class="lead">위의 다음 수를 보고, 카드 한 장을 낸다.</p>
+      </div>
+      <button id="start-btn" class="seal-btn" type="button">서재를 열다</button>
+    </section>
+
+    <section id="screen-play" class="screen" hidden>
+      <header class="battle-top">
+        <div class="top-row">
+          <button id="pause-btn" class="text-btn" type="button">책갈피</button>
+          <p id="book-count" class="book-count">마법책 5장</p>
+        </div>
+        <div class="enemy-row">
+          <div class="enemy-meta">
+            <p id="fight-label" class="eyebrow"></p>
+            <h2 id="enemy-name"></h2>
+            <div class="hp enemy-hp" aria-hidden="true"><span id="enemy-hp-bar"></span></div>
+            <p id="enemy-hp-text"></p>
+          </div>
+        </div>
+        <div id="intent" class="intent">
+          <span id="intent-kind" class="tag"></span>
+          <strong id="intent-dice"></strong>
+          <span id="intent-detail"></span>
+        </div>
+      </header>
+      <div id="clash" class="clash">
+        <div class="stage">
+          <div id="librarian" class="librarian" role="img" aria-label="검은 코트의 주인공"></div>
+          <img id="enemy-art" class="enemy-figure" alt="">
+        </div>
+        <div class="dice-row">
+          <div class="die player-die" id="player-die" data-tone="neutral"><span>–</span></div>
+          <div class="die enemy-die" id="enemy-die" data-tone="neutral"><span>–</span></div>
+        </div>
+        <p id="clash-log" role="status">다음 수를 보고 카드를 누르세요.</p>
+        <div class="player-stat">
+          <div class="hp player-hp" aria-hidden="true"><span id="player-hp-bar"></span></div>
+          <p id="player-hp-text"></p>
+          <p id="mark" hidden></p>
+        </div>
+      </div>
+      <div id="hand" class="hand"></div>
+    </section>
+
+    <section id="screen-reward" class="screen" hidden>
+      <div class="reward-head">
+        <img class="book reward-book" src="assets/magic-book.jpg" alt="">
+        <div>
+          <h2>책에 남길 페이지</h2>
+          <p id="reward-note" class="lead">한 장만 고른다. 다음 전투의 덱이 된다.</p>
+        </div>
+      </div>
+      <div id="reward-choices" class="reward-list"></div>
+    </section>
+
+    <section id="screen-result" class="screen" hidden>
+      <img id="result-art" src="assets/magic-book.jpg" alt="">
+      <h2 id="result-title"></h2>
+      <p id="result-body" class="lead"></p>
+      <ul id="result-deck"></ul>
+      <button id="retry-btn" class="seal-btn" type="button">다시 펼치기</button>
+    </section>
+
+    <section id="screen-pause" class="screen" hidden>
+      <img class="book" src="assets/magic-book.jpg" alt="">
+      <h2>책갈피</h2>
+      <p class="lead">서재는 이 페이지에서 멈춰 있다.</p>
+      <button id="resume-btn" class="seal-btn" type="button">이어서 읽기</button>
+      <button id="restart-btn" class="text-btn" type="button">처음부터</button>
+      <button id="sound-btn" class="text-btn" type="button">소리 끄기</button>
+    </section>
+
+    <footer id="meta-tools">
+      <button id="install-app" class="text-btn" type="button">앱으로 두기</button>
+      <button id="update-game" class="text-btn" type="button" hidden>새 페이지 적용</button>
+      <p id="offline-status" role="status">오프라인 준비 전</p>
+      <p id="game-credit"></p>
+    </footer>
+  </div>
+  <dialog id="install-help">
+    <p id="install-instructions"></p>
+    <button id="close-install-help" class="seal-btn" type="button">닫기</button>
+  </dialog>
+  <script src="game.js"></script>
+<script defer src="pwa.js"></script>
+</body>
+</html>
