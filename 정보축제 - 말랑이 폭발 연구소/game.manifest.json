@@ -1,0 +1,109 @@
+{
+  "schema": 3,
+  "kind": "authored",
+  "projectId": "e8820cf9-c8ee-5237-b7d7-e039b41e2cd8",
+  "kitVersion": "5.0.0",
+  "version": "7204965b5834bd9b136ab7a3e90588ccad232f89b403b01bb2cf2679aa59bd42",
+  "files": [
+    {
+      "path": "css/style.css",
+      "bytes": 262,
+      "sha256": "7bfb135eadff96224b1a0113a5f0c27a993db60ba60d26e0e48f438743ab37d3"
+    },
+    {
+      "path": "festival-options.js",
+      "bytes": 176,
+      "sha256": "4e5ecba4dfa67184a37151f0cf14a5cb44808b33a836c211e13c1f45a409ae4f"
+    },
+    {
+      "path": "festival-platform.css",
+      "bytes": 5677,
+      "sha256": "f9ac298402a0db51663546da9276ce3777752d3384206ef5e3f6baf7b51a1355"
+    },
+    {
+      "path": "festival-platform.js",
+      "bytes": 4798,
+      "sha256": "1c96e330baed3f866a7e4f74e04f91838a3a89f608ac835b864bb403b5d73222"
+    },
+    {
+      "path": "game-install.js",
+      "bytes": 2379,
+      "sha256": "2a8ffe6d0e14fbc969ea1a44d0e4d8e60320d9b49cc2217c42bb02fe95e2390c"
+    },
+    {
+      "path": "game.config.js",
+      "bytes": 1056,
+      "sha256": "d1e3e273c7690f0d5ea3f8de062fa7d2b8e4b641ae5e156fadee9b5ca7d68501"
+    },
+    {
+      "path": "game.config.json",
+      "bytes": 1224,
+      "sha256": "1c3c154b1d7dbdb8948be4f45f58949827426885d6cf660dd316ddc008f8998e"
+    },
+    {
+      "path": "icon-192.png",
+      "bytes": 812,
+      "sha256": "8118d11eecdc1320e01655613adef4d0df61769e351d04321136e8320b37ece0"
+    },
+    {
+      "path": "icon-512.png",
+      "bytes": 3922,
+      "sha256": "5574ae28cf6709f4045f972bd6fed9c67be4e02316350123075a2358c69dcdd1"
+    },
+    {
+      "path": "index.html",
+      "bytes": 1724,
+      "sha256": "bf71daa4466a140c969ccb65849fff227fc47fd2ae40e1ef9bbe5447adb1d28a"
+    },
+    {
+      "path": "manifest.webmanifest",
+      "bytes": 527,
+      "sha256": "d421232abf7c9906212c279b56e80debe98fe0c71b148102294031c159354c1d"
+    },
+    {
+      "path": "pwa.js",
+      "bytes": 2147,
+      "sha256": "266090c05276e298cf9cc10ae5c348797003ee0514a48a3b221db34fb2a0532a"
+    },
+    {
+      "path": "src/data.js",
+      "bytes": 6622,
+      "sha256": "cfdd3232c40b9c480469ddc453d84c8e71d5f4f87620e8401a62b172917d6065"
+    },
+    {
+      "path": "src/main.js",
+      "bytes": 528,
+      "sha256": "2fa7fb8b04873785567f5b42e52f9cd40361b85d3009c81c8f44c25bcfbd3b9a"
+    },
+    {
+      "path": "src/scenes/GameScene.js",
+      "bytes": 20816,
+      "sha256": "0faeeaf89d88ad4a6cdefef2ac1f27bd6cc1ca45c5cc51df8ca747048ef8ad80"
+    },
+    {
+      "path": "src/scenes/MapScene.js",
+      "bytes": 1074,
+      "sha256": "ce6632190123714945e3809cb41e97d19cbaf366ed36bf1deeef9e3f3cb35a05"
+    },
+    {
+      "path": "src/scenes/StartScene.js",
+      "bytes": 690,
+      "sha256": "b7660acf8222afac2495daf1eaf43e7e6adc47976a0882b40d6c91714e7060d3"
+    },
+    {
+      "path": "src/ui.js",
+      "bytes": 763,
+      "sha256": "24688f77a9ff8bb5750aab45580868d7d42bd6f2aba2723b899327d9aa508d16"
+    },
+    {
+      "path": "sw.js",
+      "bytes": 1873,
+      "sha256": "5a17ec6565223c7fef212a3a44a99ddc843178b1200455aff66861b0f66401a6"
+    },
+    {
+      "path": "vendor/phaser.min.js",
+      "bytes": 1181917,
+      "sha256": "62081f6a1b51d040473f919ffedef9009953c20833518e146da5a8d1c9405ea8"
+    }
+  ]
+}

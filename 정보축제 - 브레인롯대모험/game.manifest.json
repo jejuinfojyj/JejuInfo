@@ -1,0 +1,269 @@
+{
+  "schema": 3,
+  "kind": "authored",
+  "projectId": "2ed6d086-2fe9-53a4-ba79-81cd5d25048b",
+  "kitVersion": "5.0.0",
+  "version": "5a60be62fead4fd2b610c03cda668e06f98b84a3e9db40fce731161d60d2f872",
+  "files": [
+    {
+      "path": "assets/12635e2cfbb8f1ec96b0d08d.webp",
+      "bytes": 43018,
+      "sha256": "12635e2cfbb8f1ec96b0d08dff15678935edf467ab413268dcd7cc534366fde7"
+    },
+    {
+      "path": "assets/154dcd23536fc901ee333033.webp",
+      "bytes": 42762,
+      "sha256": "154dcd23536fc901ee333033ccaaebf6c658738416db6cffd7a99f102549f6c2"
+    },
+    {
+      "path": "assets/1bbc2eb9164279dc37d9da19.webp",
+      "bytes": 112610,
+      "sha256": "1bbc2eb9164279dc37d9da196ab83a0d980c215801b4f720aeddc8ba70f9a798"
+    },
+    {
+      "path": "assets/1e5fc99ce261bb0947f29c06.webp",
+      "bytes": 71418,
+      "sha256": "1e5fc99ce261bb0947f29c069b81a0945b12975ee63e15a0b53740414b4cd435"
+    },
+    {
+      "path": "assets/233b400856dc9aff07cceadc.webp",
+      "bytes": 50166,
+      "sha256": "233b400856dc9aff07cceadc9563c49b17db4a0bc6cd8720cdc13a375ec539e9"
+    },
+    {
+      "path": "assets/2361ee37558a0c38cf9cbb07.jpg",
+      "bytes": 31417,
+      "sha256": "2361ee37558a0c38cf9cbb07912e8c0b2871144c4933a2bf04115481a9cb5f7d"
+    },
+    {
+      "path": "assets/26e4d83ddfb9985557490b05.jpg",
+      "bytes": 33165,
+      "sha256": "26e4d83ddfb9985557490b052e58fd1c64a735b7e934d5fee695f5680bd6f055"
+    },
+    {
+      "path": "assets/2b466f3a4ca1c989ac2a6dff.webp",
+      "bytes": 37180,
+      "sha256": "2b466f3a4ca1c989ac2a6dff3ab6d8ce7356395f1bc2a6bbfafd6899bec6aac7"
+    },
+    {
+      "path": "assets/33f3829bd551b06ec9c189c1.webp",
+      "bytes": 104708,
+      "sha256": "33f3829bd551b06ec9c189c10161cd5e73b00f6658ec8230427312249528e280"
+    },
+    {
+      "path": "assets/3de88354ac984a9d463235b0.webp",
+      "bytes": 78152,
+      "sha256": "3de88354ac984a9d463235b08c1b0db41e3025b301376f7c77917caf3e9550dc"
+    },
+    {
+      "path": "assets/3fe473be0281322fe16c1995.webp",
+      "bytes": 65094,
+      "sha256": "3fe473be0281322fe16c19953c0f9c8d4b19bfe3578fa3b4112f789005d47328"
+    },
+    {
+      "path": "assets/41cd0ed163f7c2d9d0b03092.webp",
+      "bytes": 17764,
+      "sha256": "41cd0ed163f7c2d9d0b030927f78e51f7faa921da5c421d953ae6d678d6acc15"
+    },
+    {
+      "path": "assets/4a9c9ff6344f59024231b4e2.webp",
+      "bytes": 35974,
+      "sha256": "4a9c9ff6344f59024231b4e27213355aa6e7fce2aad08b42b74f170f1924debf"
+    },
+    {
+      "path": "assets/4eba0e362a12c85fc10624c5.webp",
+      "bytes": 67416,
+      "sha256": "4eba0e362a12c85fc10624c5edd88e41bf78505afa55fc965432ec8d1197c334"
+    },
+    {
+      "path": "assets/69aeee336a5bbb9ebeef8470.webp",
+      "bytes": 29304,
+      "sha256": "69aeee336a5bbb9ebeef8470f4f06e1b69d4dfb01bbefe45f39a65312a1f2f77"
+    },
+    {
+      "path": "assets/6f8964348d0a071292b91f00.webp",
+      "bytes": 39764,
+      "sha256": "6f8964348d0a071292b91f005edabeb8402bd41bcb441f0380e2a989cd9efa2f"
+    },
+    {
+      "path": "assets/71df1e34a862650ac4c1d208.webp",
+      "bytes": 34932,
+      "sha256": "71df1e34a862650ac4c1d208e50aeb63a47868092c9329c0c27ed9cb29d84cef"
+    },
+    {
+      "path": "assets/722cf3b960e8f02254c8dce5.webp",
+      "bytes": 67346,
+      "sha256": "722cf3b960e8f02254c8dce52233c36c533ec7d667b66191e5e80a50c77a82f2"
+    },
+    {
+      "path": "assets/7c8168b045c9a7a0456c4abb.webp",
+      "bytes": 31854,
+      "sha256": "7c8168b045c9a7a0456c4abb84f49015a5eea676b619d14fa8fd428dfbf029d2"
+    },
+    {
+      "path": "assets/876eaef99488955cb7d0093f.webp",
+      "bytes": 137030,
+      "sha256": "876eaef99488955cb7d0093f7974938cee97d4291bb700f4b4a3bd4a44fc1482"
+    },
+    {
+      "path": "assets/906e3aaab184ba98576c0b81.webp",
+      "bytes": 80710,
+      "sha256": "906e3aaab184ba98576c0b8157e86772e943f1be6f9474d2ea76141aae97a14c"
+    },
+    {
+      "path": "assets/9948473bcc1dff1b5ecf0ebd.jpg",
+      "bytes": 8677,
+      "sha256": "9948473bcc1dff1b5ecf0ebd72ca918d172c684edc85a1a7d996a5279c6a32ae"
+    },
+    {
+      "path": "assets/9bfa635564ed48047faff3dc.jpg",
+      "bytes": 34160,
+      "sha256": "9bfa635564ed48047faff3dc95af0a17723a5d82343e10e9c3eb791f6dac7f34"
+    },
+    {
+      "path": "assets/9e2096aef769bbccdad427c6.webp",
+      "bytes": 61970,
+      "sha256": "9e2096aef769bbccdad427c6ee0ce1f36ab5e6fdafdfc4e77a2cadb4fd3e6851"
+    },
+    {
+      "path": "assets/a636ae048acdf95d65b4e3c7.webp",
+      "bytes": 98108,
+      "sha256": "a636ae048acdf95d65b4e3c7f8d58440e256501451654db5e7a7badc8ea1f938"
+    },
+    {
+      "path": "assets/af17abbfdd86ab025c6fbeea.webp",
+      "bytes": 40520,
+      "sha256": "af17abbfdd86ab025c6fbeeabd165f3003cc652c5f656bc77bfddf62050ffbd2"
+    },
+    {
+      "path": "assets/bb4726680cb562ca981f01ef.webp",
+      "bytes": 46204,
+      "sha256": "bb4726680cb562ca981f01ef1da22bc9e08e55ca7e250662f250c159a4ccf023"
+    },
+    {
+      "path": "assets/d5764a41c73ed0fffb258365.webp",
+      "bytes": 55256,
+      "sha256": "d5764a41c73ed0fffb2583658c899ce696b9c335eb0c030ead8ccac60b8e3b57"
+    },
+    {
+      "path": "assets/d9bbd3455c99d09e5fcce340.png",
+      "bytes": 382124,
+      "sha256": "d9bbd3455c99d09e5fcce3408f3eb2d310e0bd50d27b3e25ff514f83cad5f1f4"
+    },
+    {
+      "path": "assets/e68e3b02b299b032ec1d3be9.webp",
+      "bytes": 57656,
+      "sha256": "e68e3b02b299b032ec1d3be9039ad2398874ee75414384bf3ec6d8d5106deeec"
+    },
+    {
+      "path": "festival-options.js",
+      "bytes": 319,
+      "sha256": "1b4f60c0db691e8ff1cda76126ece88fd95cd11cf34ba36fbffaabbf8b35fee8"
+    },
+    {
+      "path": "festival-platform.css",
+      "bytes": 5677,
+      "sha256": "f9ac298402a0db51663546da9276ce3777752d3384206ef5e3f6baf7b51a1355"
+    },
+    {
+      "path": "festival-platform.js",
+      "bytes": 4798,
+      "sha256": "1c96e330baed3f866a7e4f74e04f91838a3a89f608ac835b864bb403b5d73222"
+    },
+    {
+      "path": "game-install.js",
+      "bytes": 2379,
+      "sha256": "2a8ffe6d0e14fbc969ea1a44d0e4d8e60320d9b49cc2217c42bb02fe95e2390c"
+    },
+    {
+      "path": "game.config.js",
+      "bytes": 1033,
+      "sha256": "efa164e5314d8b8b2e0d747c0d18a5da073ccfd9aa9997740b77d9a43d0621fe"
+    },
+    {
+      "path": "game.config.json",
+      "bytes": 1201,
+      "sha256": "5e562a348cf427111b1a51f199ca833cda81ee5e24c0b6b9e081d55fe444ab17"
+    },
+    {
+      "path": "icon-192.png",
+      "bytes": 811,
+      "sha256": "0cb0b2e5cb20b2fb7824ebada4e4b399ab399a14daded38c5e65644951673c17"
+    },
+    {
+      "path": "icon-512.png",
+      "bytes": 3920,
+      "sha256": "781aeb3449c1967958af138f42f7c29415d7255dc322fb238d0e7246092b4bb0"
+    },
+    {
+      "path": "index.html",
+      "bytes": 2470,
+      "sha256": "195cb89fb61e508979262e39f8657bc8414d915bb0ebb2a02b20e6ff991bf3ad"
+    },
+    {
+      "path": "inline-script-1.js",
+      "bytes": 608083,
+      "sha256": "a1cb40313a4400d701cd51ca9d37f0fbea00a8c9cf899cac8e77c3f18db1a8db"
+    },
+    {
+      "path": "inline-script-2.js",
+      "bytes": 12948,
+      "sha256": "9f6e9ffcb294d69de91894e95e9598a72d6e8e250ea1a43ae1fef6d5102287e1"
+    },
+    {
+      "path": "inline-script-3.js",
+      "bytes": 1551,
+      "sha256": "02ea320661215ab6a33d8c342bfed0b565778dd111916d9ffe77e478d8189a42"
+    },
+    {
+      "path": "inline-script-4.js",
+      "bytes": 13812,
+      "sha256": "05932de0644ea0f1a8f0df2f77739892bd34ac284c8bc814a6ef5a85b7b8869b"
+    },
+    {
+      "path": "inline-script-5.js",
+      "bytes": 6186,
+      "sha256": "07cc73781940fc01d63c9ee7e28f13e420091ea03439587ab9cba0165ca1aeb1"
+    },
+    {
+      "path": "inline-script-6.js",
+      "bytes": 8318,
+      "sha256": "afa9600bea28b2b88a0e34a863cc69f13528ae3aa9fd1a97aa64b628fa5125d7"
+    },
+    {
+      "path": "inline-script-7.js",
+      "bytes": 11386,
+      "sha256": "25b03f1eb4ed94bb08a5c86fde526338fa8d78c0807b902a9cd56b0bf563750f"
+    },
+    {
+      "path": "inline-script-8.js",
+      "bytes": 4964,
+      "sha256": "bd503ef82bb0b9d935767a455748207a28045ee3ba83246a509fbc5b0537d90a"
+    },
+    {
+      "path": "inline-script-9.js",
+      "bytes": 48314,
+      "sha256": "36ce01f9f9698d90c1fea72ba76f14ecda801af4a8bfc0c42b00e7a98f33ca86"
+    },
+    {
+      "path": "inline-style-1.css",
+      "bytes": 30620,
+      "sha256": "e7929d38b22fdeb2c34df4419ab544a848fd221abfb95d82c2f9404d232cb943"
+    },
+    {
+      "path": "manifest.webmanifest",
+      "bytes": 517,
+      "sha256": "07961a9ec0acfd677fe3eb678f8755e5e3c0554e8794d0b6113050993b611aa2"
+    },
+    {
+      "path": "pwa.js",
+      "bytes": 2147,
+      "sha256": "266090c05276e298cf9cc10ae5c348797003ee0514a48a3b221db34fb2a0532a"
+    },
+    {
+      "path": "sw.js",
+      "bytes": 3155,
+      "sha256": "cba8715664466fd16430907ebf1a2d9fd60b9dcaba32b5f6761655633fea75b3"
+    }
+  ]
+}

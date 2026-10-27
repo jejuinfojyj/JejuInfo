@@ -1,0 +1,79 @@
+{
+  "schema": 3,
+  "kind": "authored",
+  "projectId": "91b84156-1409-56cb-9f59-2108002e165a",
+  "kitVersion": "5.0.0",
+  "version": "f75d178b87fe0aa1adcf9099882038264b99f562112576ef1480eccbf1af2fb7",
+  "files": [
+    {
+      "path": "festival-options.js",
+      "bytes": 198,
+      "sha256": "09d47db8089f3de2ed8e99da4be4bf9db5c2ade68978aec0baa690574a981429"
+    },
+    {
+      "path": "festival-platform.css",
+      "bytes": 5677,
+      "sha256": "f9ac298402a0db51663546da9276ce3777752d3384206ef5e3f6baf7b51a1355"
+    },
+    {
+      "path": "festival-platform.js",
+      "bytes": 4798,
+      "sha256": "1c96e330baed3f866a7e4f74e04f91838a3a89f608ac835b864bb403b5d73222"
+    },
+    {
+      "path": "game-install.js",
+      "bytes": 2379,
+      "sha256": "2a8ffe6d0e14fbc969ea1a44d0e4d8e60320d9b49cc2217c42bb02fe95e2390c"
+    },
+    {
+      "path": "game.config.js",
+      "bytes": 1044,
+      "sha256": "e5d344b31334e7ff2a8fee47e10c16ef409fc0e3f9046a755c113f6a7b7a7b53"
+    },
+    {
+      "path": "game.config.json",
+      "bytes": 1212,
+      "sha256": "1f1ddafd78a83d0736938624516be1e0249b8feacb54eedae3ba33d669c6e9e5"
+    },
+    {
+      "path": "icon-192.png",
+      "bytes": 812,
+      "sha256": "6303b20462c579679e4e2ef0e635aff8110a3c850ded1d7d8d7299581b192fac"
+    },
+    {
+      "path": "icon-512.png",
+      "bytes": 3922,
+      "sha256": "8fb147a69c7ff19f675954216eac27da74ccb212cb1fd072c8eb504226e84577"
+    },
+    {
+      "path": "index.html",
+      "bytes": 1685,
+      "sha256": "7bee7dac603959ed0aef98f885414a12e10302f85f5eed270eb05f59905f4217"
+    },
+    {
+      "path": "inline-script-1.js",
+      "bytes": 36312,
+      "sha256": "f9b6020da77aee1c10b0ea6c59c26b0a586d9f434f434be7f2b576abb3e81868"
+    },
+    {
+      "path": "inline-style-1.css",
+      "bytes": 1387,
+      "sha256": "19ded6b726d07adcf522cab04af80e11211319ee49258659ba0d7c482ffbe5b7"
+    },
+    {
+      "path": "manifest.webmanifest",
+      "bytes": 516,
+      "sha256": "9f2bbd74492018626ea0d564b62e6c4833463bfc04e2decb91690116fedb702f"
+    },
+    {
+      "path": "pwa.js",
+      "bytes": 2147,
+      "sha256": "266090c05276e298cf9cc10ae5c348797003ee0514a48a3b221db34fb2a0532a"
+    },
+    {
+      "path": "sw.js",
+      "bytes": 1746,
+      "sha256": "f3ec39796ae196459bfb9b2e15b6961d6178498712f9d47c855f2d02f8af9d7d"
+    }
+  ]
+}

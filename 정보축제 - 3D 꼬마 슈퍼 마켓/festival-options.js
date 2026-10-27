@@ -1,0 +1,1 @@
+window.FESTIVAL_OPTIONS={"orientation":"landscape","color":"#f6a846","background":"#f5e5c8","touch":"방향 버튼으로 이동, 화면을 끌어 시점 회전, 대상 탭 또는 상호작용 버튼","directions":"all","hideWhen":"#modal-bg:not(.hidden)","actions":[{"label":"상호작용","code":"KeyE"},{"label":"내려놓기","code":"KeyQ"},{"label":"주문","code":"Tab"},{"label":"나가기","code":"Escape"}]};
