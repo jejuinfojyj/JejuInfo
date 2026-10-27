@@ -23,7 +23,7 @@
     {
       "name": "김민혁",
       "title": "다채화",
-      "href": "/%EA%B9%80%EB%AF%BC%ED%98%81%20/",
+      "href": "/%EA%B9%80%EB%AF%BC%ED%98%81/",
       "projectId": "9e18ba76-3eb1-5d6d-a4c7-44bc85d618ed",
       "version": "0277d6fd9856b83a1fcc13d2253c17f3bb1d45aa53715ce9b383d0a3c63f88a7"
     },
@@ -36,24 +36,17 @@
     },
     {
       "name": "남수연",
-      "title": "바다라이더",
-      "href": "/%EB%82%A8%EC%88%98%EC%97%B0%20-%20%EB%B0%94%EB%8B%A4%EB%9D%BC%EC%9D%B4%EB%8D%94/",
-      "projectId": "2067195f-f779-52bc-a601-332a41e0c653",
-      "version": "33579108608786b7892d36c93889cca2d058cbdf95f25da3e953a6f1f0371074"
-    },
-    {
-      "name": "남수연",
       "title": "해저 탐험대",
       "href": "/%EB%82%A8%EC%88%98%EC%97%B0/",
       "projectId": "778154f0-fae2-4020-9955-3eeb0f4d83be",
       "version": "db9e4d620158a7432f87cd9c281c6211d3295b72b99c71ce4c04bf64ab257c35"
     },
     {
-      "name": "남예주",
-      "title": "우박 사막의 뱀",
-      "href": "/%EB%82%A8%EC%98%88%EC%A3%BC%20/",
-      "projectId": "91b84156-1409-56cb-9f59-2108002e165a",
-      "version": "09cac84c48bf0df7b92fae5430eccd94a531011d13c36448f0c3cd1c3523bdab"
+      "name": "남수연",
+      "title": "바다라이더",
+      "href": "/%EB%82%A8%EC%88%98%EC%97%B01/",
+      "projectId": "2067195f-f779-52bc-a601-332a41e0c653",
+      "version": "33579108608786b7892d36c93889cca2d058cbdf95f25da3e953a6f1f0371074"
     },
     {
       "name": "남예주",
@@ -61,6 +54,13 @@
       "href": "/%EB%82%A8%EC%98%88%EC%A3%BC/",
       "projectId": "c4f44b33-46cf-44db-9542-cd09bd97c6c9",
       "version": "37eb35a2ad270b7844a244d81d2b1b83623dae9774075925cfb8dbf80bcb6bcf"
+    },
+    {
+      "name": "남예주",
+      "title": "우박 사막의 뱀",
+      "href": "/%EB%82%A8%EC%98%88%EC%A3%BC1/",
+      "projectId": "91b84156-1409-56cb-9f59-2108002e165a",
+      "version": "09cac84c48bf0df7b92fae5430eccd94a531011d13c36448f0c3cd1c3523bdab"
     },
     {
       "name": "이가연",
@@ -79,42 +79,42 @@
     {
       "name": "정보축제",
       "title": "말랑이 폭발 연구소",
-      "href": "/%EC%A0%95%EB%B3%B4%EC%B6%95%EC%A0%9C%20-%20%EB%A7%90%EB%9E%91%EC%9D%B4%20%ED%8F%AD%EB%B0%9C%20%EC%97%B0%EA%B5%AC%EC%86%8C/",
+      "href": "/%EC%A0%95%EB%B3%B4%EC%B6%95%EC%A0%9C1/",
       "projectId": "e8820cf9-c8ee-5237-b7d7-e039b41e2cd8",
       "version": "7204965b5834bd9b136ab7a3e90588ccad232f89b403b01bb2cf2679aa59bd42"
     },
     {
       "name": "정보축제",
       "title": "브레인롯대모험",
-      "href": "/%EC%A0%95%EB%B3%B4%EC%B6%95%EC%A0%9C%20-%20%EB%B8%8C%EB%A0%88%EC%9D%B8%EB%A1%AF%EB%8C%80%EB%AA%A8%ED%97%98/",
+      "href": "/%EC%A0%95%EB%B3%B4%EC%B6%95%EC%A0%9C2/",
       "projectId": "2ed6d086-2fe9-53a4-ba79-81cd5d25048b",
       "version": "271e8b577b195a402d088c4d33b822c02a183732e61c46b2fb05896da717d0a9"
     },
     {
       "name": "정보축제",
       "title": "어둠의 숲",
-      "href": "/%EC%A0%95%EB%B3%B4%EC%B6%95%EC%A0%9C%20-%20%EC%96%B4%EB%91%A0%EC%9D%98%20%EC%88%B2/",
+      "href": "/%EC%A0%95%EB%B3%B4%EC%B6%95%EC%A0%9C3/",
       "projectId": "478edd4d-cd06-55b9-9b6a-7f82e86370c7",
       "version": "fa617001d5448a447840879ff1e066ad4e6a3da586e45c8fbdc73aef519443f0"
     },
     {
       "name": "정보축제",
       "title": "이머전시 24",
-      "href": "/%EC%A0%95%EB%B3%B4%EC%B6%95%EC%A0%9C%20-%20%EC%9D%B4%EB%A8%B8%EC%A0%84%EC%8B%9C%2024/",
+      "href": "/%EC%A0%95%EB%B3%B4%EC%B6%95%EC%A0%9C4/",
       "projectId": "f1c1508d-5a98-5913-8e7e-e0b5759f1a34",
       "version": "e518b6a81940b0409c06d9c25d9a71eb8d4beba361f65a32d45c2f85d515b445"
     },
     {
       "name": "정보축제",
       "title": "타임키퍼",
-      "href": "/%EC%A0%95%EB%B3%B4%EC%B6%95%EC%A0%9C%20-%20%ED%83%80%EC%9E%84%ED%82%A4%ED%8D%BC/",
+      "href": "/%EC%A0%95%EB%B3%B4%EC%B6%95%EC%A0%9C5/",
       "projectId": "6743acef-fabf-5460-82f1-92b985dea068",
       "version": "a499f13fffefbcac33ccdd16006c8f77800ff6cbe4f62040f969a830eb80c757"
     },
     {
       "name": "정보축제",
       "title": "3D 꼬마 슈퍼 마켓",
-      "href": "/%EC%A0%95%EB%B3%B4%EC%B6%95%EC%A0%9C%20-%203D%20%EA%BC%AC%EB%A7%88%20%EC%8A%88%ED%8D%BC%20%EB%A7%88%EC%BC%93/",
+      "href": "/%EC%A0%95%EB%B3%B4%EC%B6%95%EC%A0%9C6/",
       "projectId": "e1d0631e-ba03-59af-b06c-5dabf07f756d",
       "version": "d32ed7e5bb92828b817734b14b25df5e4ecc814e69b3f68789bf8c29c3712de1"
     },

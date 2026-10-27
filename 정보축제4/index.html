@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+<title>이머전시 24</title>
+<meta name="author" content="정보축제">
+<script src="game.config.js"></script>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-192.png">
+<script src="festival-options.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <meta name="theme-color" content="#08111b" />
+    <meta name="description" content="EMERGENCY 24 — WASD로 응급실을 이동하고 환자의 우선순위를 판단하는 2D 응급실 RP 웹게임" />
+    
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./game.js" defer></script>
+  <link rel="stylesheet" href="festival-platform.css">
+</head>
+  <body data-festival-game="이머전시 24">
+    <div class="app-shell">
+      <header class="topbar">
+        <div class="brand-lockup">
+          <div class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 40 40" fill="none"><path d="M5 21h8l4-10 6 19 4-9h8" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" /></svg>
+          </div>
+          <div class="brand-titles">
+            <div class="brand-name">EMERGENCY <span>24</span></div>
+            <div class="brand-subtitle">SEOUL MEDICAL CENTER <span class="dot-divider">•</span> NIGHT SHIFT</div>
+          </div>
+        </div>
+        <div class="topbar-right">
+          <div class="live-indicator"><i></i> EMERGENCY DEPARTMENT <span class="live-indicator-divider">/</span> LIVE SIMULATION</div>
+          <button id="pauseButton" class="icon-button" type="button" aria-label="일시정지" title="일시정지 (P)" disabled>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M8 5v14M16 5v14" /></svg>
+          </button>
+        </div>
+      </header>
+
+      <main class="content">
+        <section class="hud" aria-label="게임 현황">
+          <article class="hud-card hud-time">
+            <div class="hud-card-header"><span>남은 근무 시간</span><span class="mini-indicator"><i></i> SHIFT 01</span></div>
+            <div id="clockValue" class="hud-value timer-value">03:42</div>
+            <div class="hud-foot"><div class="progress-track"><div id="shiftProgress" class="progress-fill"></div></div><span>TIME LEFT</span></div>
+          </article>
+          <article class="hud-card">
+            <div class="hud-card-header"><span>진료 완료</span><span class="metric-glyph turquoise">✚</span></div>
+            <div class="hud-value"><span id="treatedValue">00</span><small>명</small></div>
+            <div class="hud-foot"><span>성공적으로 처치한 환자</span></div>
+          </article>
+          <article class="hud-card">
+            <div class="hud-card-header"><span>병원 평판</span><span class="metric-glyph lemon">↗</span></div>
+            <div class="hud-value"><span id="repValue">92</span><small>%</small></div>
+            <div class="hud-foot"><span id="repStatus">안정적으로 운영 중</span></div>
+          </article>
+          <article class="hud-card">
+            <div class="hud-card-header"><span>총 점수</span><span class="metric-glyph purple">◈</span></div>
+            <div class="hud-value"><span id="scoreValue">0000</span><small>PTS</small></div>
+            <div class="hud-foot"><span>의료진 지원 호출 <strong id="supportValue">3 / 3</strong></span></div>
+          </article>
+        </section>
+
+        <div class="game-layout">
+          <section class="game-panel" aria-label="2D 응급실 게임 화면">
+            <div class="panel-heading">
+              <div class="panel-heading-left"><span class="panel-status-light"></span><span>ER FLOOR PLAN</span><span class="panel-heading-sub">/ 응급실 1층</span></div>
+              <div class="panel-heading-right"><span class="ping-symbol">⌖</span> CAM 01 <span class="heading-separator">|</span> 2D LIVE</div>
+            </div>
+            <div class="canvas-shell">
+              <canvas id="gameCanvas" width="1120" height="700" aria-label="응급실 내부 지도. WASD 또는 방향키로 이동하고 E키로 상호작용하세요.">Canvas를 지원하는 브라우저가 필요합니다.</canvas>
+              <div class="map-corner map-corner-tl"></div><div class="map-corner map-corner-tr"></div><div class="map-corner map-corner-bl"></div><div class="map-corner map-corner-br"></div>
+              <div id="interactionPrompt" class="interaction-prompt hidden" role="status"><kbd>E</kbd><span id="interactionText">진료하기</span></div>
+              <div id="toastRack" class="toast-rack" aria-live="polite"></div>
+              <div class="map-overlay-label"><span class="map-overlay-dot"></span> ER-01 <span> · </span> INTERNAL SURVEILLANCE</div>
+            </div>
+            <div class="control-strip">
+              <div class="control-label"><span class="control-strong">CONTROL GUIDE</span><span>당직 의사 조작</span></div>
+              <div class="controls"><span><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> 이동</span><span><kbd>E</kbd> 상호작용</span><span><kbd>1</kbd><kbd>2</kbd><kbd>3</kbd> 선택</span><span><kbd>ESC</kbd> 닫기</span><span><kbd>P</kbd> 일시정지</span></div>
+            </div>
+          </section>
+
+          <aside class="sidebar" aria-label="응급실 관리 패널">
+            <section id="alertCard" class="alert-card">
+              <div class="alert-topline"><span class="alert-siren"><i></i> DISPATCH RADIO</span><span id="alertTime">—</span></div>
+              <div id="alertTitle" class="alert-title">당직 근무 대기 중</div>
+              <p id="alertDescription" class="alert-description">근무를 시작하면 환자가 도착합니다. 응급도가 높은 환자를 먼저 진료하세요.</p>
+              <div class="alert-bottom"><span id="alertTag">대기</span><span class="waveform" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span></div>
+            </section>
+
+            <section class="sidebar-section patients-section">
+              <div class="sidebar-heading"><div><span class="sidebar-heading-kicker">PATIENT MONITOR</span><h2>현재 환자 <span id="patientCount" class="count-badge">0</span></h2></div><span class="sidebar-action-label">실시간</span></div>
+              <div class="severity-guide"><span><i class="severity-dot red"></i> 긴급</span><span><i class="severity-dot yellow"></i> 주의</span><span><i class="severity-dot green"></i> 경증</span></div>
+              <div id="patientList" class="patient-list"><div class="empty-state">현재 배정된 환자가 없습니다.</div></div>
+            </section>
+
+            <section class="sidebar-section equipment-section">
+              <div class="sidebar-heading"><div><span class="sidebar-heading-kicker">RESOURCE CONTROL</span><h2>의료 자원 관리</h2></div></div>
+              <div class="equipment-row"><div class="equipment-symbol">✚</div><div><strong>응급 지원 호출기</strong><small>맵 중앙 단말기에서 <kbd>E</kbd> 사용</small></div><span id="supportBadge" class="support-badge">3회</span></div>
+              <div class="equipment-hint">상태가 가장 위급한 환자를 지원해 안정도를 회복시킵니다. 호출 횟수와 재사용 대기시간이 제한됩니다.</div>
+            </section>
+
+            <section class="sidebar-section activity-section">
+              <div class="sidebar-heading"><div><span class="sidebar-heading-kicker">ACTIVITY HISTORY</span><h2>상황 기록</h2></div><span class="sidebar-action-label">AUTO LOG</span></div>
+              <div id="activityList" class="activity-list"><div class="empty-state">아직 기록이 없습니다.</div></div>
+            </section>
+          </aside>
+        </div>
+        <footer class="footerline"><span>EMERGENCY 24 <span class="footer-separator">/</span> ARCADE ROLEPLAY SIMULATOR</span><span>본 게임의 가상 의료 판단은 실제 진료 지침으로 사용할 수 없습니다.</span></footer>
+      </main>
+    </div>
+
+    <div id="screenOverlay" class="screen-overlay" role="dialog" aria-modal="true" aria-labelledby="screenTitle">
+      <div class="screen-card">
+        <div class="screen-decor"><div class="screen-decor-icon">✚</div><div class="decor-line"></div><span>SMC / EMERGENCY RESPONSE SYSTEM</span></div>
+        <div id="screenContent"></div>
+      </div>
+    </div>
+
+    <div id="patientOverlay" class="patient-overlay hidden" role="dialog" aria-modal="true" aria-labelledby="caseTitle">
+      <div class="patient-modal">
+        <header class="modal-header"><div class="modal-eyebrow">PATIENT RECORD <span>/ 응급 진료</span></div><button id="closePatient" class="close-button" type="button" aria-label="진료창 닫기 (ESC)">×</button></header>
+        <div id="patientModalContent"></div>
+      </div>
+    </div>
+  <button id="festival-launcher" type="button" aria-label="앱 설치와 게임 정보">⋮</button><dialog id="festival-panel"><button class="festival-close" aria-label="닫기">×</button><h2></h2><p id="game-credit"></p><button id="install-app" type="button">내 기기에 아이콘 추가</button><p id="offline-status">앱 파일 준비 중…</p><button id="update-game" type="button" hidden>새 버전으로 업데이트</button><p class="festival-online-note"></p></dialog><dialog id="install-help"><h2>내 기기에 아이콘 추가</h2><p id="install-instructions"></p><button id="close-install-help" type="button">확인</button></dialog>
+<script defer src="festival-platform.js"></script>
+<script defer src="game-install.js"></script>
+<script defer src="pwa.js"></script>
+</body>
+</html>

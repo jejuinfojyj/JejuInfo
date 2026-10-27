@@ -1,9 +1,7 @@
 'use strict';
-const VERSION="e09db0b34ebf3a73116732adda0df1b3770e3966b80b7633f520ffb97ce8f741";
+const TARGET="/%EC%A0%95%EB%B3%B4%EC%B6%95%EC%A0%9C3/";
 const PREFIX="cursor-game:478edd4d-cd06-55b9-9b6a-7f82e86370c7:"+self.registration.scope+':';
-const CACHE=PREFIX+VERSION;
-const FILES=["./","./audio.js","./festival-options.js","./festival-platform.css","./festival-platform.js","./game-install.js","./game.config.js","./game.config.json","./game.js","./icon-192.png","./icon-512.png","./index.html","./manifest.webmanifest","./monster.js","./pwa.js","./style.css","./vendor/Galmuri-LICENSE.txt","./vendor/Galmuri11-Bold.woff2","./vendor/Galmuri11.woff2","./world.js"];
-self.addEventListener('install',event=>event.waitUntil((async()=>{const cache=await caches.open(CACHE);await cache.addAll(FILES.map(file=>new Request(new URL(file,self.registration.scope),{cache:'reload'})));})()));
-self.addEventListener('activate',event=>event.waitUntil((async()=>{for(const key of await caches.keys())if(key.startsWith(PREFIX)&&key!==CACHE)await caches.delete(key);await self.clients.claim();})()));
-self.addEventListener('message',event=>{if(event.data==='SKIP_WAITING')self.skipWaiting();if(event.data==='OFFLINE_STATUS')event.waitUntil((async()=>{const cache=await caches.open(CACHE);const ready=(await Promise.all(FILES.map(file=>cache.match(new URL(file,self.registration.scope).href)))).every(Boolean);event.ports[0]?.postMessage({ready,version:VERSION});})());});
-self.addEventListener('fetch',event=>{const url=new URL(event.request.url);if(event.request.method!=='GET'||url.origin!==self.location.origin||!url.href.startsWith(self.registration.scope))return;event.respondWith((async()=>{const cache=await caches.open(CACHE);const request=event.request.mode==='navigate'?new URL('./',self.registration.scope).href:event.request;return(await cache.match(request,{ignoreSearch:true}))||fetch(event.request);})());});
+function destination(source){const old=new URL(source),next=new URL(TARGET,self.location.origin);next.search=old.search;next.hash=old.hash;return next.href;}
+self.addEventListener('install',event=>event.waitUntil(self.skipWaiting()));
+self.addEventListener('activate',event=>event.waitUntil((async()=>{for(const key of await caches.keys())if(key.startsWith(PREFIX))await caches.delete(key);await self.clients.claim();const pages=await self.clients.matchAll({type:'window',includeUncontrolled:true});await Promise.all(pages.filter(client=>client.url.startsWith(self.registration.scope)).map(client=>client.navigate(destination(client.url))));await self.registration.unregister();})()));
+self.addEventListener('fetch',event=>{if(event.request.mode==='navigate')event.respondWith(Response.redirect(destination(event.request.url),302));});
