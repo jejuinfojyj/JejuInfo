@@ -10,7 +10,7 @@ export class SocketHub {
  open(send,close,id=crypto.randomUUID()){
   const hub=this,peer={id,data:{},rooms:new Set([id]),handlers:new Map(),connected:false,send,close,lastPing:0,deadline:0,
    on(event,handler){this.handlers.set(event,handler);return this;},
-   emit(event,payload){if(this.connected)this.send('42'+JSON.stringify([event,payload]));return this;},
+   emit(event,payload){if(this.connected){try{this.send('42'+JSON.stringify([event,payload]));}catch{hub.drop(this.id,true);}}return this;},
    join(room){this.rooms.add(room);},leave(room){this.rooms.delete(room);}
   };
   this.sockets.sockets.set(id,peer);send('0'+JSON.stringify({sid:id,upgrades:[],pingInterval:this.pingInterval,pingTimeout:this.pingTimeout,maxPayload:65536}));
