@@ -1,5 +1,5 @@
 'use strict';
-const VERSION="d51b70cb3d170b24a47ed19840ad1fbed205b6192c1181d7f92098ddb4456b75";
+const VERSION="f167c9eca7d498e5857ddcc5e7c6cbe5b8037a50a4d4e3fc868e1127ce9058a5";
 const PREFIX="cursor-game:2067195f-f779-52bc-a601-332a41e0c653:"+self.registration.scope+':';
 const CACHE=PREFIX+VERSION;
 const FILES=["./","./assets/2dfe2c8794c879a7e0157ff5.png","./assets/7f8d6656aaeb8a35533f35cb.png","./assets/8643094f395aa2dbad6bc438.woff2","./assets/8c3378f4d6118c7bcb094dcf.png","./assets/a8cce715cd74367b3af0e8b3.woff2","./assets/f467d1b10e6b88dfa8399c9f.woff2","./festival-options.js","./festival-platform.css","./festival-platform.js","./game-install.js","./game.config.js","./game.config.json","./icon-192.png","./icon-512.png","./index.html","./inline-script-1.js","./inline-script-2.js","./inline-style-1.css","./manifest.webmanifest","./pwa.js"];

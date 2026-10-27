@@ -1,5 +1,5 @@
 'use strict';
-const VERSION="412f67fa7acb07660b4c52bff757e86013e24ab4b756049cc87390c1a04f0f67";
+const VERSION="c9c8d897c16ec5d8a273fcaca2db32ebf593ff1503ae5191a9cae0ca5367ee5f";
 const PREFIX="cursor-game:9e18ba76-3eb1-5d6d-a4c7-44bc85d618ed:"+self.registration.scope+':';
 const CACHE=PREFIX+VERSION;
 const FILES=["./","./festival-options.js","./festival-platform.css","./festival-platform.js","./game-install.js","./game.config.js","./game.config.json","./icon-192.png","./icon-512.png","./index.html","./levels.js","./main.js","./manifest.webmanifest","./puzzle.js","./pwa.js","./styles.css"];

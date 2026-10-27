@@ -3,7 +3,7 @@
   "kind": "authored",
   "projectId": "2ed6d086-2fe9-53a4-ba79-81cd5d25048b",
   "kitVersion": "5.0.0",
-  "version": "5a60be62fead4fd2b610c03cda668e06f98b84a3e9db40fce731161d60d2f872",
+  "version": "271e8b577b195a402d088c4d33b822c02a183732e61c46b2fb05896da717d0a9",
   "files": [
     {
       "path": "assets/12635e2cfbb8f1ec96b0d08d.webp",
@@ -197,8 +197,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 2470,
-      "sha256": "195cb89fb61e508979262e39f8657bc8414d915bb0ebb2a02b20e6ff991bf3ad"
+      "bytes": 2435,
+      "sha256": "e82be4d8cece12b5b9a387b6452e95561dacca2a5cf1767e8e3614e405ba4111"
     },
     {
       "path": "inline-script-1.js",
@@ -263,7 +263,7 @@
     {
       "path": "sw.js",
       "bytes": 3155,
-      "sha256": "cba8715664466fd16430907ebf1a2d9fd60b9dcaba32b5f6761655633fea75b3"
+      "sha256": "4ba9ef8109205c8e89014584cf5cf79feee243ca517f556ea7d56652389be150"
     }
   ]
 }

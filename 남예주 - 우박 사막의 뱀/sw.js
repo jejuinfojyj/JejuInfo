@@ -1,5 +1,5 @@
 'use strict';
-const VERSION="a82fd90657490d22ab5bb95149bd03dfc0a777a806709d90d789bfdadaae79d3";
+const VERSION="b73974f0e28e8ced0595c444608a05b88b254416622cd7a070936900e0140eb0";
 const PREFIX="cursor-game:91b84156-1409-56cb-9f59-2108002e165a:"+self.registration.scope+':';
 const CACHE=PREFIX+VERSION;
 const FILES=["./","./festival-options.js","./festival-platform.css","./festival-platform.js","./game-install.js","./game.config.js","./game.config.json","./icon-192.png","./icon-512.png","./index.html","./inline-script-1.js","./inline-style-1.css","./manifest.webmanifest","./pwa.js"];

@@ -1,5 +1,5 @@
 'use strict';
-const VERSION="99396efd9452f38e930ef477f1e4664c6f26e0fec07f19994b04dec89d6daa2d";
+const VERSION="ad424d91df2185e278e566fcbffb339cd07023b084c83cb871ea114c01546bd5";
 const PREFIX="cursor-game:6743acef-fabf-5460-82f1-92b985dea068:"+self.registration.scope+':';
 const CACHE=PREFIX+VERSION;
 const FILES=["./","./css/style.css","./festival-options.js","./festival-platform.css","./festival-platform.js","./game-install.js","./game.config.js","./game.config.json","./icon-192.png","./icon-512.png","./index.html","./manifest.webmanifest","./pwa.js","./src/config.js","./src/core/audio.js","./src/core/input.js","./src/core/keybinds.js","./src/core/save.js","./src/core/util.js","./src/data/stage1.js","./src/data/stage2.js","./src/entities/enemies.js","./src/entities/player.js","./src/game.js","./src/gfx/background.js","./src/gfx/effects.js","./src/gfx/particles.js","./src/gfx/pixel.js","./src/gfx/sprites.js","./src/main.js","./src/ui/hud.js","./src/ui/menu.js","./src/world/camera.js","./src/world/fallers.js","./src/world/level.js","./src/world/objects.js","./src/world/physics.js","./src/world/timeline.js"];

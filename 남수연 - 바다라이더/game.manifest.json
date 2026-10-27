@@ -3,7 +3,7 @@
   "kind": "authored",
   "projectId": "2067195f-f779-52bc-a601-332a41e0c653",
   "kitVersion": "5.0.0",
-  "version": "82ea9fc50a0ef901a021cb0627381d5cedbd406ace1fb95aa5a7fdc9d5f79f01",
+  "version": "33579108608786b7892d36c93889cca2d058cbdf95f25da3e953a6f1f0371074",
   "files": [
     {
       "path": "assets/2dfe2c8794c879a7e0157ff5.png",
@@ -77,8 +77,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 1624,
-      "sha256": "0ee4ec364aae16cce22a3758276885bd1a62daef2cdfd073ad34b35cef01d5ce"
+      "bytes": 1611,
+      "sha256": "c20d3936f8b60108ca5127962ace813d41ea8b896f95b843792d097c4e6d483e"
     },
     {
       "path": "inline-script-1.js",
@@ -108,7 +108,7 @@
     {
       "path": "sw.js",
       "bytes": 2015,
-      "sha256": "cf59730d29a745c034db1a0457b60bad21981443e1ee9d899d8441aa36ef22f2"
+      "sha256": "77b4dca6bcb8561fcb308f65a28951b1a4884b7586394a966ce588b2c2a48402"
     }
   ]
 }

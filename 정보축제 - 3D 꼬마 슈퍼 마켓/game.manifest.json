@@ -3,7 +3,7 @@
   "kind": "authored",
   "projectId": "e1d0631e-ba03-59af-b06c-5dabf07f756d",
   "kitVersion": "5.0.0",
-  "version": "feae5a34acf13c61fe51ed30c7b8f545b4a209d784685f48ab375e747fbbb585",
+  "version": "d32ed7e5bb92828b817734b14b25df5e4ecc814e69b3f68789bf8c29c3712de1",
   "files": [
     {
       "path": "festival-options.js",
@@ -47,8 +47,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 3838,
-      "sha256": "997b94a77a0b4a80a1a6fc446f516a4480e324a730c8af7922851a6c8e90d68c"
+      "bytes": 3774,
+      "sha256": "c8e68484d61e6303bd646a86d3f2603915042a50de9ebe0733a389fd37db5c8e"
     },
     {
       "path": "inline-script-1.js",
@@ -88,7 +88,7 @@
     {
       "path": "sw.js",
       "bytes": 5319,
-      "sha256": "ee8bbc2830071331e8f5e5abcfa2ca9dc57fd7b9605894d0f3b6aa80778f1d8c"
+      "sha256": "7b0d5f3e4149671a6eb3f95c50aad9f881ead9835157a54ead450a7cae4c15d6"
     },
     {
       "path": "vendor/00904103005adb6deeaa.woff2",
