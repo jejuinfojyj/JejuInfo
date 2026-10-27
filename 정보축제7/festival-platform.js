@@ -1,0 +1,32 @@
+(function(){
+ 'use strict';
+ const opts=window.FESTIVAL_OPTIONS||{},cfg=window.GAME_CONFIG||{},coarse=matchMedia('(pointer: coarse)');
+ const launcher=document.getElementById('festival-launcher'),panel=document.getElementById('festival-panel'),help=document.getElementById('install-help');
+ panel.querySelector('h2').textContent=cfg.title||document.title;
+ panel.querySelector('.festival-online-note').textContent=opts.onlineNote||'';
+ launcher.addEventListener('pointerdown',e=>e.stopPropagation());launcher.addEventListener('pointerup',e=>e.stopPropagation());
+ launcher.addEventListener('click',()=>{releaseAll();panel.showModal();});panel.querySelector('.festival-close').addEventListener('click',()=>panel.close());
+ panel.addEventListener('click',e=>{if(e.target===panel)panel.close();});
+ for(const modal of [panel,help])for(const name of ['pointerdown','pointerup','pointermove','keydown','keyup'])modal.addEventListener(name,e=>e.stopPropagation());
+ const held=new Map(),codes=new Map();let controls,inset=0;
+ function keyFor(item){const code=item.action&&window.CG?.KEYS?.[item.action]?.[0]||item.code;return{code,key:item.action?keyName(code):item.key||keyName(code)};}
+ function keyName(code){if(code?.startsWith('Key'))return code.slice(3).toLowerCase();if(code?.startsWith('Digit'))return code.slice(5);return{Space:' ',ShiftLeft:'Shift',ShiftRight:'Shift'}[code]||code;}
+ function send(type,code,key){const event=new KeyboardEvent(type,{code,key,bubbles:true,cancelable:true,repeat:false});document.body.dispatchEvent(event);}
+ function release(pointer){const item=held.get(pointer);if(!item)return;held.delete(pointer);const count=(codes.get(item.code)||1)-1;if(count>0)codes.set(item.code,count);else{codes.delete(item.code);send('keyup',item.code,item.key);}if(![...held.values()].some(v=>v.button===item.button))delete item.button.dataset.held;}
+ function releaseAll(){for(const pointer of [...held.keys()])release(pointer);}
+ function makeButton(item,direction){const button=document.createElement('button');button.type='button';button.textContent=item.label;button.setAttribute('aria-label',item.label);if(direction)button.dataset.direction=direction;
+  button.addEventListener('pointerdown',e=>{e.preventDefault();e.stopPropagation();if(held.has(e.pointerId))return;const input=keyFor(item);held.set(e.pointerId,{...input,button});codes.set(input.code,(codes.get(input.code)||0)+1);button.dataset.held='';button.setPointerCapture(e.pointerId);send('keydown',input.code,input.key);});
+  for(const type of ['pointerup','pointercancel','lostpointercapture'])button.addEventListener(type,e=>{e.preventDefault();e.stopPropagation();release(e.pointerId);});
+  button.addEventListener('contextmenu',e=>e.preventDefault());return button;
+ }
+ if(opts.directions||opts.actions?.length){
+  controls=document.createElement('div');controls.id='festival-controls';controls.setAttribute('aria-label','터치 게임 조작');controls.hidden=true;
+  if((opts.actions?.length||0)>6)controls.classList.add('festival-many');
+  if(opts.directions){const pad=document.createElement('div');pad.className='festival-directions'+(opts.directions==='horizontal'?' two':'');for(const [direction,label,code]of [['up','↑','ArrowUp'],['left','←','ArrowLeft'],['down','↓','ArrowDown'],['right','→','ArrowRight']]){if(opts.directions==='horizontal'&&['up','down'].includes(direction))continue;pad.append(makeButton({label,code,action:opts.remappable?direction:null},direction));}controls.append(pad);}
+  const actions=document.createElement('div');actions.className='festival-actions';actions.style.setProperty('--festival-columns',Math.min(3,opts.actions?.length||1));for(const action of opts.actions||[])actions.append(makeButton(action));controls.append(actions);document.body.append(controls);
+  const update=()=>{let playing=true;if(opts.playHook&&typeof window.FESTIVAL_IS_PLAYING==='function')playing=!!window.FESTIVAL_IS_PLAYING();if(opts.hideWhen&&document.querySelector(opts.hideWhen))playing=false;if(opts.chrono)playing=window.CG?.game?.state==='playing';const show=coarse.matches&&playing;controls.hidden=!show;if(!show)releaseAll();const next=show?Math.ceil(controls.getBoundingClientRect().height):0;if(next!==inset){inset=next;window.FESTIVAL_TOUCH_INSET=next;document.documentElement.style.setProperty('--festival-touch-inset',next+'px');window.dispatchEvent(new Event('resize'));}};
+  new ResizeObserver(update).observe(controls);coarse.addEventListener('change',update);setInterval(update,200);update();
+ }
+ window.addEventListener('blur',releaseAll);document.addEventListener('visibilitychange',()=>{if(document.hidden)releaseAll();});
+ if(opts.onlineNote){const status=panel.querySelector('#offline-status');new MutationObserver(()=>{if(status.textContent==='오프라인 준비 완료')status.textContent='앱 파일 저장 완료';}).observe(status,{childList:true});}
+})();

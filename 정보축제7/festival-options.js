@@ -1,0 +1,1 @@
+window.FESTIVAL_OPTIONS={"orientation":"landscape","color":"#f5b270","background":"#142322","touch":"기존 가상 조이스틱과 역할별 행동 버튼 사용","onlineNote":"방 만들기·친구 접속·AI 판정에는 인터넷 연결이 필요합니다. 앱 파일을 저장해도 멀티플레이 서버 연결은 필요합니다."};
