@@ -1,0 +1,174 @@
+{
+  "schema": 3,
+  "kind": "authored",
+  "projectId": "b1933364-9be5-4e75-a0be-00f49d65f958",
+  "kitVersion": "5.0.0",
+  "version": "ceef57c05b0a023de7a2bcefd0d4f443709d043e948348f10404b5e331643864",
+  "files": [
+    {
+      "path": "game.config.js",
+      "bytes": 2982,
+      "sha256": "7e30d5354f5378bd4a826c5ea87485a3be46615dd9b4aa78f9403b07442df8b4"
+    },
+    {
+      "path": "game.config.json",
+      "bytes": 2960,
+      "sha256": "35eb39ae7b2ee0e558ff43a3f69f34b6034e5bfdc8fcff30b3b22f45f0cba3e0"
+    },
+    {
+      "path": "icon-192.png",
+      "bytes": 811,
+      "sha256": "eac0fae8536412b5933da73be90153165949dca00c591edcc84b566da9384fd4"
+    },
+    {
+      "path": "icon-512.png",
+      "bytes": 3920,
+      "sha256": "982c1496139bd0fafbbc91a22b3a963c46e343454d4dddc6c86c0ace65fa7c43"
+    },
+    {
+      "path": "index.html",
+      "bytes": 2228,
+      "sha256": "c34281b3ad3bed06b009c6d2c7010508cf2e0a43d8165fbd72d283f397453365"
+    },
+    {
+      "path": "main.css",
+      "bytes": 3782,
+      "sha256": "d3798f4bbcf45e323b5c6dea1e3cbaf0616dde840d1794d464b92b859f00fb77"
+    },
+    {
+      "path": "manifest.webmanifest",
+      "bytes": 518,
+      "sha256": "0b2c543b7c1e92a26fce1b6a04ddc7d3a2067276a5b2fadb4268b54ce9156a54"
+    },
+    {
+      "path": "pwa.js",
+      "bytes": 3467,
+      "sha256": "40746413421dbc82e89b909045ccf3d07a63601e78128b2387b7857c216f1f13"
+    },
+    {
+      "path": "shell.js",
+      "bytes": 3403,
+      "sha256": "4233b3a66935efcf2a2ee247a0322b6a72ab7c614b7c9fc20297fcb36b60bf6a"
+    },
+    {
+      "path": "src/assets/library.js",
+      "bytes": 1424,
+      "sha256": "73a634dbb9e7e409234cf660b3f9b83fe4d18fc462cf33b21e813c4553510abd"
+    },
+    {
+      "path": "src/assets/manifest.js",
+      "bytes": 775,
+      "sha256": "afbdf9cf88f06ad35676d39335c951b43c2eec3f892a7a7364887c93bb222024"
+    },
+    {
+      "path": "src/audio/engine.js",
+      "bytes": 4346,
+      "sha256": "0eca4fb3700987e6845346b975ac5218b7c44abbdb9b98048ad3b7c8112a0382"
+    },
+    {
+      "path": "src/config/handling.js",
+      "bytes": 635,
+      "sha256": "40e5b129b459db4da872db619ffa9a1a8e1357a55b6c3588693352c329e57a6a"
+    },
+    {
+      "path": "src/config/rules.js",
+      "bytes": 455,
+      "sha256": "958c4c97825a67052fae7c8d07247135421ba1ac79a8e893db864baa2c856072"
+    },
+    {
+      "path": "src/config/track.js",
+      "bytes": 819,
+      "sha256": "23d461a853fb1a65c7d4adec8c93fe8d503e79b2bf56f78a81421c953641eb89"
+    },
+    {
+      "path": "src/config/visual.js",
+      "bytes": 1441,
+      "sha256": "e3d66eacf51653e36e97ffc7f2e6c2d3b104a796cb9befb90c1768a2da2842c6"
+    },
+    {
+      "path": "src/fx/particles.js",
+      "bytes": 3743,
+      "sha256": "b798d57bffb4e4b920afda80bd60a0854877d2bb9eaaa5889d463a0688e823be"
+    },
+    {
+      "path": "src/fx/skids.js",
+      "bytes": 1497,
+      "sha256": "646b5014d5b40c69476438eb98cc834eb4ee917b544d52621155287ad90dedec"
+    },
+    {
+      "path": "src/game.js",
+      "bytes": 17475,
+      "sha256": "4d15474cc73b04c3906cf505c6c78b59a068f78ec336172a6bc37ec29cef982b"
+    },
+    {
+      "path": "src/input.js",
+      "bytes": 5030,
+      "sha256": "02f13595ed5d6c9d8cf98bfbe72e2387883610c6642f639e5fc343acbe558bb0"
+    },
+    {
+      "path": "src/kart/kart.js",
+      "bytes": 7536,
+      "sha256": "b25106603593cf217125b0eb3617ac0bd38284ed321be00f4b6e57ac9c78237e"
+    },
+    {
+      "path": "src/main.js",
+      "bytes": 217,
+      "sha256": "35419ea7528ef0d7a4491246a350f9f3b931d22525b28908306fdfb20b76b196"
+    },
+    {
+      "path": "src/math.js",
+      "bytes": 1944,
+      "sha256": "47e76ccb121e89e72289adc5c2e1d7748e790c850fd06bcf36f61045d6c0010f"
+    },
+    {
+      "path": "src/race/director.js",
+      "bytes": 2408,
+      "sha256": "fdb0282c565104fe8763cfa1b9f8382765e0f848051861c124747cdb098dc5d5"
+    },
+    {
+      "path": "src/render/changeBoard.js",
+      "bytes": 6861,
+      "sha256": "35e35b4c1b823d93b60104e8bf8a6b34fe36292234c28365a34eb2903b06e368"
+    },
+    {
+      "path": "src/render/hud.js",
+      "bytes": 13062,
+      "sha256": "3ef7f943e44ce90274f8910807fd827833006acefdab482f4ab4679be919f9b8"
+    },
+    {
+      "path": "src/render/kartView.js",
+      "bytes": 5870,
+      "sha256": "f1fb20718e82f6a8fb6a4032df548654f783a14f285320c66c1575ceddd1274b"
+    },
+    {
+      "path": "src/render/pixelUi.js",
+      "bytes": 2087,
+      "sha256": "73647003f41f3864b697762bb251f15df5f2bcfa367833e58fce6157ecd5f722"
+    },
+    {
+      "path": "src/render/textures.js",
+      "bytes": 1750,
+      "sha256": "7bf2520ea21cdb9e2e740d000116ff4ba87f0fcf022f99b63eec7f154e7eb513"
+    },
+    {
+      "path": "src/render/world.js",
+      "bytes": 9564,
+      "sha256": "7bac6e2791a2c4302fd9f2b4e63560522c03fbb60ad0de3561dfe3c7b536f017"
+    },
+    {
+      "path": "src/track/oval.js",
+      "bytes": 16000,
+      "sha256": "d8a45caf06f6eff1f511ca7a2d92d613d85f0b75408b1487da7b891d1a45e9de"
+    },
+    {
+      "path": "src/track/props.js",
+      "bytes": 2756,
+      "sha256": "2cd123b157edb60d4be50d92448a02dd88a96a79352fdff69f6c7106368a0703"
+    },
+    {
+      "path": "sw.js",
+      "bytes": 2164,
+      "sha256": "0b71754ddb2942881052d91119b1308ff7f1123495e2773a02ffce04a59d670c"
+    }
+  ]
+}

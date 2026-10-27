@@ -1,0 +1,26 @@
+{
+  "id": "./",
+  "name": "이야아아ㅏㅏㅏ",
+  "short_name": "이야아아ㅏㅏㅏ",
+  "lang": "ko",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "landscape",
+  "background_color": "#0f0f1a",
+  "theme_color": "#ffcd75",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
