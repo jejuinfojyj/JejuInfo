@@ -1,7 +1,7 @@
 {
   "name": "infofestival-fox-mouse-a56f2157",
   "main": "worker.mjs",
-  "compatibility_date": "2026-10-28",
+  "compatibility_date": "2026-10-27",
   "compatibility_flags": [
     "nodejs_compat"
   ],

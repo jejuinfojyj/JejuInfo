@@ -2,6 +2,13 @@
 
 원본의 Room·Game·AI·shared 규칙을 보존한 Cloudflare Workers + Durable Objects 서버입니다. 방별 Durable Object가 원본의 20 Hz 권위 서버 판정을 실행합니다. 화면과 게임 자산은 이 저장소의 작품 폴더에서 제공합니다.
 
+## 현재 운영
+
+- 게임: https://play.wae.kr/정보축제7/
+- 서버: https://infofestival-fox-mouse-a56f2157.a01039271458.workers.dev
+- 2026-10-28(한국 시간) Wrangler 4.153.0으로 배포하고 실제 두 클라이언트의 방 생성·입장·시작·10명 스냅샷·진행·재접속을 확인했습니다.
+- compatibility_date는 배포 서버 UTC 날짜에 맞춘 2026-10-27입니다.
+
 ## 배포
 
 Cloudflare Workers 및 SQLite Durable Objects 사용 권한이 있는 계정에서 실행합니다.
