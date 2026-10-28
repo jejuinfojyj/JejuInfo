@@ -374,10 +374,30 @@ h1 {
   .page-pill { padding: 9px 14px; }
   :root {
     --min-card-w: 220px;
-    --min-card-h: 132px;
-    --gap: 12px;
+    --min-card-h: 84px;
+    --gap: 8px;
   }
-  .card { box-shadow: 5px 5px 0 var(--ink); }
+  .card {
+    gap: 5px;
+    padding: 8px 14px;
+    border-width: 3px;
+    border-radius: 22px;
+    box-shadow: 5px 5px 0 var(--ink);
+  }
+  .who {
+    padding: 3px 10px;
+    font-size: 12px;
+    line-height: 1.2;
+  }
+  .title {
+    font-size: clamp(17px, 4.2vw, 19px);
+    line-height: 1.05;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+  }
 }
 
 @media (max-width: 420px) {
