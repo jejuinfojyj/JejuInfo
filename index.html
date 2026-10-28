@@ -15,12 +15,24 @@
       <p class="eyebrow"><span class="pulse"></span>지금 올라온 게임</p>
       <h1>정보축전 게임</h1>
     </div>
-    <p id="page-label" class="page-pill" aria-live="polite">1 / 1</p>
+    <div class="header-tools">
+      <label class="search-box">
+        <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <circle cx="10.8" cy="10.8" r="6.8"></circle>
+          <path d="m16 16 5 5"></path>
+        </svg>
+        <input id="game-search" type="search" placeholder="제작자 또는 게임 이름 검색" aria-label="제작자 또는 게임 이름 검색" autocomplete="off" enterkeyhint="search" />
+      </label>
+      <p id="page-label" class="page-pill" aria-live="polite">1 / 1</p>
+    </div>
   </header>
-  <main id="board" class="board"></main>
+  <main id="board" class="board" aria-label="게임 목록"></main>
   <footer class="bottom">
-    <span id="board-status" role="status"></span>
-    <div id="dots" class="dots" aria-hidden="true"></div>
+    <div class="bottom-status">
+      <span id="board-status" role="status"></span>
+      <span id="result-count" aria-live="polite"></span>
+    </div>
+    <div id="dots" class="dots" role="group" aria-label="페이지 선택"></div>
     <div class="progress" aria-hidden="true"><span id="progress-bar"></span></div>
   </footer>
   <script src="js/board.js"></script>
