@@ -1,0 +1,199 @@
+{
+  "schema": 3,
+  "kind": "authored",
+  "projectId": "de75952d-3284-4fcd-afd6-30638b0018a4",
+  "kitVersion": "5.0.0",
+  "version": "7cc348edb5fc660e94b15e301f05602bd892a54a97161a007eb301c9c02c84e3",
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 1068,
+      "sha256": "a794b9669a9a128b3caa5b83064062179e15057560d0e0857ffb3166995e74ee"
+    },
+    {
+      "path": "assets/pixel/board_cell.png",
+      "bytes": 36586,
+      "sha256": "fde7ec2201e9f59b25022be4892e038a3856af565eaddbcac2a0f98458d760db"
+    },
+    {
+      "path": "assets/pixel/decors/banner.png",
+      "bytes": 23546,
+      "sha256": "4384dd74c19fb2d1e4eb5bd3b6c15afccc3296df5bed9155339a282047eda940"
+    },
+    {
+      "path": "assets/pixel/decors/fountain.png",
+      "bytes": 49410,
+      "sha256": "9fa69b95f41bff72868b8f16e377bed1b0f657bb77a16305bfc804ccb4a998fd"
+    },
+    {
+      "path": "assets/pixel/decors/garden.png",
+      "bytes": 39037,
+      "sha256": "0ad3e698d70189dd72d12f6b2c804ddde20528f095292ff56ec5008ca880e102"
+    },
+    {
+      "path": "assets/pixel/decors/gate.png",
+      "bytes": 45247,
+      "sha256": "5fde4c8aff3390dd00756e148671cbc75d901c633804b39a69a2740b3f89f517"
+    },
+    {
+      "path": "assets/pixel/decors/throne.png",
+      "bytes": 59354,
+      "sha256": "7b726d7df263fe62786641c8bc4462627f1ccefce67e166d989a4a5b2d5e29ef"
+    },
+    {
+      "path": "assets/pixel/decors/tower.png",
+      "bytes": 39118,
+      "sha256": "c1eef2f5ef93bee8193a6b7074451efcc92f0a100b51e2a06a0ffa32d31c5112"
+    },
+    {
+      "path": "assets/pixel/gems/amethyst.png",
+      "bytes": 80096,
+      "sha256": "8ac684d9224030ff6872233813b293d666ec54913a6471a227942a6c7ca8c004"
+    },
+    {
+      "path": "assets/pixel/gems/emerald.png",
+      "bytes": 69291,
+      "sha256": "a3eaeff252b371090704469c6c6c8aaa495c54714ff75e2a4649f35864917e4a"
+    },
+    {
+      "path": "assets/pixel/gems/ruby.png",
+      "bytes": 69480,
+      "sha256": "f0ee5d712be7400e654fd19419d7ec5e3eafe363b30ecde1d62ce9b51a1408d3"
+    },
+    {
+      "path": "assets/pixel/gems/sapphire.png",
+      "bytes": 80613,
+      "sha256": "9e33dc13c749500581bf11614560e4f7650dffbb0b6dc998d19a4793c0d73e35"
+    },
+    {
+      "path": "assets/pixel/gems/topaz.png",
+      "bytes": 64760,
+      "sha256": "1bb8fd9590f617fa33a6d4ffbaca006576fe73545b96d903145ba6c02d0ca46d"
+    },
+    {
+      "path": "assets/pixel/gems/turquoise.png",
+      "bytes": 66855,
+      "sha256": "f4361f60aacc7f6e2db7c7f31c505a9cfa4039e98f28053bfbfc3bd90617c693"
+    },
+    {
+      "path": "assets/pixel/hud_panel.png",
+      "bytes": 85435,
+      "sha256": "3107340d788998602b85cb87c6c1ee66b753a8348ed9ed80482cf2f862c17787"
+    },
+    {
+      "path": "assets/pixel/kingdom_castle_base.png",
+      "bytes": 667440,
+      "sha256": "ae8dac4966b00006f7d28d4167463c4eb7d7cc6f96d6e66a16d1b630c4bacf62"
+    },
+    {
+      "path": "assets/pixel/specials/bomb.png",
+      "bytes": 35258,
+      "sha256": "a9d10236d0dff63b34efbc776a4a46e5e172c266564fa8cc5d0854ef69ddcfe2"
+    },
+    {
+      "path": "assets/pixel/specials/disco.png",
+      "bytes": 71588,
+      "sha256": "0930e2d24adf7bd0a0f560f023a7239450fe151ee118bb7167ee66117eeb156a"
+    },
+    {
+      "path": "assets/pixel/specials/propeller.png",
+      "bytes": 56238,
+      "sha256": "c537a4ee9870af48eceb3158c1496ccd73fb9ca58409fed916a4aaec2343c2bc"
+    },
+    {
+      "path": "assets/pixel/specials/rocket_h.png",
+      "bytes": 24845,
+      "sha256": "75408cb403932d0f091ebd5f4117d0e46260d43d8aa0821fc75d673bed100243"
+    },
+    {
+      "path": "assets/pixel/specials/rocket_v.png",
+      "bytes": 27773,
+      "sha256": "d43d0d54cb150a7eba2baaa1214b5e6e73f3f33e4d41c4f31c5994d3d5b4d3a1"
+    },
+    {
+      "path": "assets/pixel/ui_button.png",
+      "bytes": 96934,
+      "sha256": "991a7be8b4cb66061ce6b199813c1b8817a06614481376e07259deb7c29a2ad0"
+    },
+    {
+      "path": "config.mjs",
+      "bytes": 3634,
+      "sha256": "cf44ee1104cb6c1cf0eff4d493a858070ff621d2989c75f11f76c395e5c2a5bb"
+    },
+    {
+      "path": "game-install.js",
+      "bytes": 2379,
+      "sha256": "2a8ffe6d0e14fbc969ea1a44d0e4d8e60320d9b49cc2217c42bb02fe95e2390c"
+    },
+    {
+      "path": "game-shell.css",
+      "bytes": 2868,
+      "sha256": "94a6fba4fb0e51729b192ba2b52ec52e0dbf7bd8ef19dbc074a25ca728c00257"
+    },
+    {
+      "path": "game-shell.js",
+      "bytes": 6321,
+      "sha256": "44c520665f4f6f139ae4291149efc7083c81c52974fb4732ec2642c7e1a5c0fc"
+    },
+    {
+      "path": "game-tools.js",
+      "bytes": 9186,
+      "sha256": "30f9f67695965d2b583980715dce1574df5013c05176d75f88b8b3f3eda7dcba"
+    },
+    {
+      "path": "game.config.js",
+      "bytes": 2039,
+      "sha256": "302f22dee869d490cb93d352de1830fe4a3f86bcd2db4d3e951572ea3517e217"
+    },
+    {
+      "path": "game.config.json",
+      "bytes": 2017,
+      "sha256": "3ac5808a3044ab921cba0a4b2200a3be6d318511f7b3474d2e6d3238d63f665c"
+    },
+    {
+      "path": "game.mjs",
+      "bytes": 30518,
+      "sha256": "2a8c88bd716f48293d6f89266ccb413797d0a69a8c378b904870d0bc472201a7"
+    },
+    {
+      "path": "icon-192.png",
+      "bytes": 812,
+      "sha256": "b18566504f35b2bd9975a648455bb24960831565c87a2334dd2d2098bc74eb0b"
+    },
+    {
+      "path": "icon-512.png",
+      "bytes": 3922,
+      "sha256": "778841f4b77e97f1b06278a336ab2a5d3b073507ef44aca053de7e1d21edf3d3"
+    },
+    {
+      "path": "index.html",
+      "bytes": 1821,
+      "sha256": "6805379d34ac2a679e1a392499a7faaab6979b5382789c0ef5ae0b5eb7eb797f"
+    },
+    {
+      "path": "main.css",
+      "bytes": 567,
+      "sha256": "f6fc048daf7f7c2f4907e331f92c09c111b3dfb0c0c8dfef87fd11ce4d328dc4"
+    },
+    {
+      "path": "main.js",
+      "bytes": 13564,
+      "sha256": "957deb2e99ef69a910a0bffaa03d337e560488970954277ef639ff6874882724"
+    },
+    {
+      "path": "manifest.webmanifest",
+      "bytes": 499,
+      "sha256": "ed020b38f947ff5a8b922538fb6bee0d82d695a2c115fb4724b7c25d085c723c"
+    },
+    {
+      "path": "pwa.js",
+      "bytes": 2147,
+      "sha256": "266090c05276e298cf9cc10ae5c348797003ee0514a48a3b221db34fb2a0532a"
+    },
+    {
+      "path": "sw.js",
+      "bytes": 2485,
+      "sha256": "4035ee8b04554ff946f36eefc83a885caf8161cec3278401b30d9ebd1b2061ea"
+    }
+  ]
+}
