@@ -1,0 +1,164 @@
+{
+  "schema": 3,
+  "kind": "authored",
+  "projectId": "d3bce13a-c3e9-4428-b3f7-d5b29c109bfa",
+  "kitVersion": "5.0.0",
+  "version": "22562b74af81a945c406c08f769f5c4897fdc53d43db6799e0971f84eb63c350",
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 1068,
+      "sha256": "a794b9669a9a128b3caa5b83064062179e15057560d0e0857ffb3166995e74ee"
+    },
+    {
+      "path": "assets/paper/background.png",
+      "bytes": 1370104,
+      "sha256": "0962da767549f095f20fbbec25840ddeb2ca40b403dd02f276cb7fcf61bd6fc1"
+    },
+    {
+      "path": "assets/paper/ball.png",
+      "bytes": 92833,
+      "sha256": "c282bd7e1bbd797553d3ca67e19864e59851f322e12118427297db0608b59ec2"
+    },
+    {
+      "path": "assets/paper/batmobile.png",
+      "bytes": 78074,
+      "sha256": "580ac115c753020d5eda59ac833f8c4789ab4e023d49d0778a0045138250c756"
+    },
+    {
+      "path": "assets/paper/boosts-ion.png",
+      "bytes": 69813,
+      "sha256": "de5bf173464e7ea080dfe1ffe4266a728bc0f21ba2e868a1728bae62dffb77b7"
+    },
+    {
+      "path": "assets/paper/boosts-plasma.png",
+      "bytes": 71425,
+      "sha256": "8d78a49544a36a8647aa9483c3642eb38db397f2a9f946ef7b594f79a732ad92"
+    },
+    {
+      "path": "assets/paper/boosts-standard.png",
+      "bytes": 66340,
+      "sha256": "92139bea5940f204233e4d787977c3c487bdae8e7117472586f6db402c325cf2"
+    },
+    {
+      "path": "assets/paper/boosts-thermal.png",
+      "bytes": 67362,
+      "sha256": "ef579705cfcc5baeabb963c5ab9271c83736b2f65fe80688a42efb2f3c84fde6"
+    },
+    {
+      "path": "assets/paper/breakout.png",
+      "bytes": 73193,
+      "sha256": "5db2b726bfcbfee8d19f2348b76cd6c8089df237aa90db9f1030a6f2644a7c0e"
+    },
+    {
+      "path": "assets/paper/dominus.png",
+      "bytes": 69795,
+      "sha256": "307fdfd0ed589a0edfde29a28132f51d0191180ca13bfcc653ee42e75228e135"
+    },
+    {
+      "path": "assets/paper/fennec.png",
+      "bytes": 118638,
+      "sha256": "307c6a36d6dc4e1edee15ad074079c3d67985fde14cef431a1573fd942c442c8"
+    },
+    {
+      "path": "assets/paper/goal_blue.png",
+      "bytes": 211953,
+      "sha256": "02532ed2e1084605a036fb79714d4c7ca7437ec368a7beddccaa3df00b66d323"
+    },
+    {
+      "path": "assets/paper/goal_orange.png",
+      "bytes": 184255,
+      "sha256": "87702fb1ede4bf397db097c80e645bfbf60b961640473793007b7baac0674a88"
+    },
+    {
+      "path": "assets/paper/hoop.png",
+      "bytes": 151253,
+      "sha256": "c443999044f9a89fee06e44e15e8b8b88eddb9ca8a3a68aaa4c096b85178f720"
+    },
+    {
+      "path": "assets/paper/octane.png",
+      "bytes": 135075,
+      "sha256": "0761a7ee9926cc4d0a494de8338acdd513179fdf422e9242891025518fd04d65"
+    },
+    {
+      "path": "config.mjs",
+      "bytes": 4846,
+      "sha256": "978ccdde767fd1e3193fbd3f467d2f7c4e56312d5f91e3786731ee096662e87c"
+    },
+    {
+      "path": "game-install.js",
+      "bytes": 2379,
+      "sha256": "2a8ffe6d0e14fbc969ea1a44d0e4d8e60320d9b49cc2217c42bb02fe95e2390c"
+    },
+    {
+      "path": "game-shell.css",
+      "bytes": 2868,
+      "sha256": "94a6fba4fb0e51729b192ba2b52ec52e0dbf7bd8ef19dbc074a25ca728c00257"
+    },
+    {
+      "path": "game-shell.js",
+      "bytes": 6321,
+      "sha256": "44c520665f4f6f139ae4291149efc7083c81c52974fb4732ec2642c7e1a5c0fc"
+    },
+    {
+      "path": "game-tools.js",
+      "bytes": 9186,
+      "sha256": "30f9f67695965d2b583980715dce1574df5013c05176d75f88b8b3f3eda7dcba"
+    },
+    {
+      "path": "game.config.js",
+      "bytes": 2141,
+      "sha256": "18ae04fa9935948bb9ef8b6665e15796950139337ea80f8de6f78a2bfaf3db28"
+    },
+    {
+      "path": "game.config.json",
+      "bytes": 2119,
+      "sha256": "ce04f016f9809f44d72776d523650b3230548e5ed8bcfd51b91aeda3e912dac5"
+    },
+    {
+      "path": "game.mjs",
+      "bytes": 25729,
+      "sha256": "e9abba75f66eb36685504c30e561b265d63935935c2ffbff969b3e77be206241"
+    },
+    {
+      "path": "icon-192.png",
+      "bytes": 811,
+      "sha256": "2bef70bf4e8227418694dfbdf4ee67900b7b166d965489093a976bd3727f1dfb"
+    },
+    {
+      "path": "icon-512.png",
+      "bytes": 4628,
+      "sha256": "311eb04384424ed713fa3832eee52b99b1bc697bdd7b82b30ac8d5ce223144db"
+    },
+    {
+      "path": "index.html",
+      "bytes": 2298,
+      "sha256": "1e39eacde60648f0b90e3f154d1382505aebf5f483ed6bcf587751bb7c6eef1a"
+    },
+    {
+      "path": "main.css",
+      "bytes": 605,
+      "sha256": "cac6397c373f63e0ea5ca68015abe905a4647dc72cfa7e7c8d3d2fda8cbb04cb"
+    },
+    {
+      "path": "main.js",
+      "bytes": 25742,
+      "sha256": "0a7093cfe4a367297bdb2c99b2c770ffa549c86bbab1a542f14ca6f42c3916bf"
+    },
+    {
+      "path": "manifest.webmanifest",
+      "bytes": 542,
+      "sha256": "34c80a9fb662159a1ff4b808f3d87326ce58b3f8d335c7cb44599eba431c7b7a"
+    },
+    {
+      "path": "pwa.js",
+      "bytes": 2147,
+      "sha256": "266090c05276e298cf9cc10ae5c348797003ee0514a48a3b221db34fb2a0532a"
+    },
+    {
+      "path": "sw.js",
+      "bytes": 2183,
+      "sha256": "072b757058913b43009e5c7e7ed35dcc1ad2a0daf2b4f100080d24b481ec2065"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "./",
+  "name": "로켓 리그 사이드 와이프",
+  "short_name": "로켓 리그 사이드 와이프",
+  "lang": "ko",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "landscape",
+  "background_color": "#0d1b2a",
+  "theme_color": "#00e5a8",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
