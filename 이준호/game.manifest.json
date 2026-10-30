@@ -1,0 +1,129 @@
+{
+  "schema": 3,
+  "kind": "authored",
+  "projectId": "bf9d78cc-f376-44eb-84f7-bf7251297fe0",
+  "kitVersion": "5.0.0",
+  "version": "b232c51a376314827a8bfa8cc0cfb0a5523b86b6e4f071697bde8102b698e6e1",
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 1068,
+      "sha256": "a794b9669a9a128b3caa5b83064062179e15057560d0e0857ffb3166995e74ee"
+    },
+    {
+      "path": "assets/bg-play.png",
+      "bytes": 348072,
+      "sha256": "70a7b8802f1922fc4e6b801e0ffcdad8fea8259dee2390cce93e4e369fda621c"
+    },
+    {
+      "path": "assets/board-panel.png",
+      "bytes": 119615,
+      "sha256": "218226ba0a80b810cd40e0c312939cd42c9ba2aa2acbb96a5221c1ebbb188392"
+    },
+    {
+      "path": "assets/wood-1.png",
+      "bytes": 13833,
+      "sha256": "8934f05990ef92d1d1ffae478ed3337a04afd8652a06fefc1aa43f9115bdf587"
+    },
+    {
+      "path": "assets/wood-2.png",
+      "bytes": 14271,
+      "sha256": "d24109982b89b3a1370a2a37ef33be8d736065279a0141a972f66c7b991c7fa9"
+    },
+    {
+      "path": "assets/wood-3.png",
+      "bytes": 21286,
+      "sha256": "5fa17f78e3512e166f740a4b320375bb257695db702bf750d43d174800cf5f3e"
+    },
+    {
+      "path": "assets/wood-4.png",
+      "bytes": 22016,
+      "sha256": "55fccf6440885379abd0acbb226e885a86308e1845d6c273e09de68954a30590"
+    },
+    {
+      "path": "assets/wood-5.png",
+      "bytes": 18891,
+      "sha256": "ef318bea4d8e2bbe3411dfc898141536095dd7859e9b27868eaa5e25bb957ca4"
+    },
+    {
+      "path": "config.mjs",
+      "bytes": 3076,
+      "sha256": "fcec6183070df190483b672ac6f22d5a85eb0ba1dc199fa4c1484f6c0305feef"
+    },
+    {
+      "path": "game-install.js",
+      "bytes": 2379,
+      "sha256": "2a8ffe6d0e14fbc969ea1a44d0e4d8e60320d9b49cc2217c42bb02fe95e2390c"
+    },
+    {
+      "path": "game-shell.css",
+      "bytes": 2868,
+      "sha256": "94a6fba4fb0e51729b192ba2b52ec52e0dbf7bd8ef19dbc074a25ca728c00257"
+    },
+    {
+      "path": "game-shell.js",
+      "bytes": 6321,
+      "sha256": "44c520665f4f6f139ae4291149efc7083c81c52974fb4732ec2642c7e1a5c0fc"
+    },
+    {
+      "path": "game-tools.js",
+      "bytes": 9186,
+      "sha256": "30f9f67695965d2b583980715dce1574df5013c05176d75f88b8b3f3eda7dcba"
+    },
+    {
+      "path": "game.config.js",
+      "bytes": 2231,
+      "sha256": "2dd448ea6ced3b65716fd42ae2881c5baf0365a556671785c110e268b98ea3fb"
+    },
+    {
+      "path": "game.config.json",
+      "bytes": 2209,
+      "sha256": "663643cb7f075f83b997a5bf89de94be49c5247ad5f3d1e77d8a6f31357aed40"
+    },
+    {
+      "path": "game.mjs",
+      "bytes": 12112,
+      "sha256": "4c0738f4816397f405cc409bb3cee1c837c3e1aa91c1235526de5255f18594c2"
+    },
+    {
+      "path": "icon-192.png",
+      "bytes": 812,
+      "sha256": "57c9239b28a538b48255d8385ab7edcfdf3f889408375ada123aebfecbf505a6"
+    },
+    {
+      "path": "icon-512.png",
+      "bytes": 3922,
+      "sha256": "6aac435ec94a1d83b7a6913578f3e9873ad46bc034ab475e1a002ecadea7c762"
+    },
+    {
+      "path": "index.html",
+      "bytes": 1830,
+      "sha256": "bea6183331d4ac8329db1dcc92f48777fc06df15c0a0de02fc12820c048a5a99"
+    },
+    {
+      "path": "main.css",
+      "bytes": 512,
+      "sha256": "2e6f5ffe398998a63bbe73e60770439e4af9282b76665e938397c590a8a7e4df"
+    },
+    {
+      "path": "main.js",
+      "bytes": 9832,
+      "sha256": "7ca423183adcf9d8eed8f15975ea4baa53b4b3ef56661196cdd0fc55d9cf34d0"
+    },
+    {
+      "path": "manifest.webmanifest",
+      "bytes": 511,
+      "sha256": "6923477707fda77f7db72c8f3bd788657e361d11be2649cfa1b2ee3b2c27bebf"
+    },
+    {
+      "path": "pwa.js",
+      "bytes": 2147,
+      "sha256": "266090c05276e298cf9cc10ae5c348797003ee0514a48a3b221db34fb2a0532a"
+    },
+    {
+      "path": "sw.js",
+      "bytes": 1909,
+      "sha256": "fbe7188c1afa099b293b10458d77a05e3b20a184d9748e0fd8ae77e1f5ef2e72"
+    }
+  ]
+}
