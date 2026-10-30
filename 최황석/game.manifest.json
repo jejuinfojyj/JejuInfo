@@ -1,0 +1,269 @@
+{
+  "schema": 3,
+  "kind": "authored",
+  "projectId": "b612edbf-6241-4c7b-9b9c-326e9788db2f",
+  "kitVersion": "5.0.0",
+  "version": "4b3490db484ed0f9bfeb50fb0939c388e091f26fdb79ed96bdc7ac4df5664089",
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 1068,
+      "sha256": "a794b9669a9a128b3caa5b83064062179e15057560d0e0857ffb3166995e74ee"
+    },
+    {
+      "path": "assets/bg-harbor.png",
+      "bytes": 642528,
+      "sha256": "248c027700df6115d2a270e802897fdd47a39c0e742b34ec24d5f051cf2f1c65"
+    },
+    {
+      "path": "assets/objects/debris.png",
+      "bytes": 50632,
+      "sha256": "4c8c400eb13b07d6f1c6ecfcc327fffa21e8b7618e473460e2b083e52cd47594"
+    },
+    {
+      "path": "assets/objects/floor.png",
+      "bytes": 267627,
+      "sha256": "286892ca6da12dc5230971484966c93211fbf292f941e47f9d59ba0582a459f7"
+    },
+    {
+      "path": "assets/objects/gen-ramen.png",
+      "bytes": 59105,
+      "sha256": "6d16f132b529df7faba3af605cdce9cb12e06a7840c14f9c3144b68ee86d642b"
+    },
+    {
+      "path": "assets/objects/gen-sushi.png",
+      "bytes": 69388,
+      "sha256": "03831323de16b7aacff44153b9208a55ca368a8ab682f24f3d996f64f0bcf7df"
+    },
+    {
+      "path": "assets/objects/gen-tool.png",
+      "bytes": 55563,
+      "sha256": "9312925c4e57d9d36d8da0cbef614865d69117aa2349ccb80da801721e6bd533"
+    },
+    {
+      "path": "assets/objects/items/item-ramen-1.png",
+      "bytes": 86191,
+      "sha256": "9a8cb5f9b2ef1bdb71c2c04f9b14cc7d4c4f37ce8fb60e419a1374b7a85aa7d6"
+    },
+    {
+      "path": "assets/objects/items/item-ramen-2.png",
+      "bytes": 74737,
+      "sha256": "3ff3e0eaa030b01238eee53f38838b58b15255589dc2d18e24c9aa7d17be5b02"
+    },
+    {
+      "path": "assets/objects/items/item-ramen-3.png",
+      "bytes": 91446,
+      "sha256": "161068608ab046ca4ac2b8854b5d510fbe9d21537bcc075513f955d8a0e398af"
+    },
+    {
+      "path": "assets/objects/items/item-ramen-4.png",
+      "bytes": 83549,
+      "sha256": "cbb26909f1ace49a8a936cf5c92a47944b1895e50ee9d1a36fe36689058879cc"
+    },
+    {
+      "path": "assets/objects/items/item-ramen-5.png",
+      "bytes": 66430,
+      "sha256": "e796f2b329dcd9aa67531bf552a03576eaf31e83554b2c67c8746d590c52b241"
+    },
+    {
+      "path": "assets/objects/items/item-sushi-1.png",
+      "bytes": 73158,
+      "sha256": "0a136d4ecc408d48364a5717d07230fd77a0f59b804a440aa35f85948cea7799"
+    },
+    {
+      "path": "assets/objects/items/item-sushi-2.png",
+      "bytes": 77871,
+      "sha256": "4a3c665295371512780f3f0c0e201f5fa601de8e27b6619427fc415131df49b6"
+    },
+    {
+      "path": "assets/objects/items/item-sushi-3.png",
+      "bytes": 60999,
+      "sha256": "cf33c8312e71dc8bfa64f7e6e4907080fc61a5655be9e5a5a95808e1b781b54f"
+    },
+    {
+      "path": "assets/objects/items/item-sushi-4.png",
+      "bytes": 81092,
+      "sha256": "76efeca6abc97d85c3c7b1dc86926ee1436ee8e5bad44c04eb6ac333405859a3"
+    },
+    {
+      "path": "assets/objects/items/item-sushi-5.png",
+      "bytes": 74429,
+      "sha256": "c4ad6dc071aedd0db04e101a8e30361fcbc9d8a9b2db7078cd68239742a6600e"
+    },
+    {
+      "path": "assets/objects/items/item-tool-1.png",
+      "bytes": 12218,
+      "sha256": "df5e1c2c82bfded70d5439fa255b816f6bc31e99b33e5eb8313574662e6f3b1f"
+    },
+    {
+      "path": "assets/objects/items/item-tool-2.png",
+      "bytes": 17730,
+      "sha256": "ce56d1504e35f67b6c6a2e95f49abe6e505fafd7b11eee4a2dcf88d26fc01cfb"
+    },
+    {
+      "path": "assets/objects/items/item-tool-3.png",
+      "bytes": 15213,
+      "sha256": "9dbbc5be86199a2e9ac4961fdf7fe60b643df4d63177262d012dde50ac70d45b"
+    },
+    {
+      "path": "assets/objects/items/item-tool-4.png",
+      "bytes": 48354,
+      "sha256": "76656bd099b181ccabfbb5b30c5b0f4e8b45f9848b9aef0f961bb028b4d3c9c7"
+    },
+    {
+      "path": "assets/objects/items/item-tool-5.png",
+      "bytes": 38268,
+      "sha256": "92658c79a013014c8d4c3416342351cf459cd754e3dbd5289cc32d7ac4336771"
+    },
+    {
+      "path": "assets/objects/light-lantern.png",
+      "bytes": 24991,
+      "sha256": "3d6abe3894b3f76efc7fc116099b18450284ba82dff8823c3eabaffd67424de2"
+    },
+    {
+      "path": "assets/objects/light-neon.png",
+      "bytes": 24218,
+      "sha256": "fd2e8f2edc8dc8b72ba5c0ed70853f03945e6d51af43de977add03e80bb334dc"
+    },
+    {
+      "path": "assets/objects/light-warm.png",
+      "bytes": 20726,
+      "sha256": "4f850d8e0cd4e3fc21807691e299959633da5d11707060e08f8e9ddcd3e76053"
+    },
+    {
+      "path": "assets/objects/plant-bamboo.png",
+      "bytes": 54414,
+      "sha256": "4c3f1d0196cd5ca784fc19cbc90f380abeef8e1769fc5fedb04653d2035210eb"
+    },
+    {
+      "path": "assets/objects/plant-flower.png",
+      "bytes": 62878,
+      "sha256": "81bfebf2f927daeb2201d12daaa64e7cae3eda10642dd6ae6024e1f73699423d"
+    },
+    {
+      "path": "assets/objects/plant-sea.png",
+      "bytes": 76225,
+      "sha256": "5cc5b0f6a7187b01d5acedee021f4e5a0a0d86fca845169f648a883549d0a75f"
+    },
+    {
+      "path": "assets/objects/sign-cloth.png",
+      "bytes": 45455,
+      "sha256": "3b1aec37347ad6089c8b81f3c132297356de33899f08fa8098175af8056187db"
+    },
+    {
+      "path": "assets/objects/sign-glow.png",
+      "bytes": 55181,
+      "sha256": "e6544477f6ef17e706ea6e0bec972b5c56241b516fb603749e421c7c7f6b31cc"
+    },
+    {
+      "path": "assets/objects/sign-wood.png",
+      "bytes": 67249,
+      "sha256": "85e3c676b1e66816d994d9257e7df16ede1d31cc3e187765f35117ad34eacc1a"
+    },
+    {
+      "path": "assets/objects/table-harbor.png",
+      "bytes": 62199,
+      "sha256": "2462cb9ebd8303258b80706008b11816f93f164ca74547db840388292d183dd6"
+    },
+    {
+      "path": "assets/objects/table-modern.png",
+      "bytes": 54007,
+      "sha256": "3646c94d308da4cd72671b01496b1367250ed1f63e626e9b7f6f8bd09c09e16c"
+    },
+    {
+      "path": "assets/objects/table-traditional.png",
+      "bytes": 53442,
+      "sha256": "3c224f114e17653b22d8f051a28bea4d1538eaa1eccd7c2f5814cffe0e770b0c"
+    },
+    {
+      "path": "assets/room-base.png",
+      "bytes": 875904,
+      "sha256": "5f8166c4d19eeb2a8f8006742e37b10ec33bbe6b306f1eb6a35dd0ab2da60c3b"
+    },
+    {
+      "path": "assets/sprites/items.png",
+      "bytes": 890746,
+      "sha256": "b67496d0cbc08f74bd17f0ca4a13cf922207451987296923d407c6c6dd168ac9"
+    },
+    {
+      "path": "config.mjs",
+      "bytes": 5865,
+      "sha256": "02b595a02625e5f304395b8090a8b87d1629fa6db191a3ae8335eed847a79381"
+    },
+    {
+      "path": "game-install.js",
+      "bytes": 2379,
+      "sha256": "2a8ffe6d0e14fbc969ea1a44d0e4d8e60320d9b49cc2217c42bb02fe95e2390c"
+    },
+    {
+      "path": "game-shell.css",
+      "bytes": 2868,
+      "sha256": "94a6fba4fb0e51729b192ba2b52ec52e0dbf7bd8ef19dbc074a25ca728c00257"
+    },
+    {
+      "path": "game-shell.js",
+      "bytes": 6321,
+      "sha256": "44c520665f4f6f139ae4291149efc7083c81c52974fb4732ec2642c7e1a5c0fc"
+    },
+    {
+      "path": "game-tools.js",
+      "bytes": 9186,
+      "sha256": "30f9f67695965d2b583980715dce1574df5013c05176d75f88b8b3f3eda7dcba"
+    },
+    {
+      "path": "game.config.js",
+      "bytes": 2290,
+      "sha256": "e18778e0a0c14682707cfc552c229235c17b17d8f77dcc886c2ec29371dab3d8"
+    },
+    {
+      "path": "game.config.json",
+      "bytes": 2268,
+      "sha256": "8fd8e5c4b20ba6dadbd22d6cb9b1d2fdf887a54bd1fceb7d41aed6978b1f9f68"
+    },
+    {
+      "path": "game.mjs",
+      "bytes": 16329,
+      "sha256": "8a5f1abec86c4667bb6d28450423f1471649df37ce3a68fe5e77d60b6812f5bd"
+    },
+    {
+      "path": "icon-192.png",
+      "bytes": 812,
+      "sha256": "375779c247ac266be1b383d4385d031d71e708786dc3426b0e3bf2c1b9bfa6f0"
+    },
+    {
+      "path": "icon-512.png",
+      "bytes": 3922,
+      "sha256": "fe4f705f50c6003b4dccb238c5f2f6b66e91d0bb99795150ef4892a4d9e9dc3a"
+    },
+    {
+      "path": "index.html",
+      "bytes": 1823,
+      "sha256": "69003706d9de136967a704817fd45896f7d776879e4d897ee511d0e323602e71"
+    },
+    {
+      "path": "main.css",
+      "bytes": 701,
+      "sha256": "929b4c9cac05dc0c929b5e92910dc91164bbb28a9aaba0951f7422a4bdfb07f1"
+    },
+    {
+      "path": "main.js",
+      "bytes": 17694,
+      "sha256": "2647b5987d7953620c9aaaafe6c83e696b7ee5f7511c0894cb80169dd0760e5f"
+    },
+    {
+      "path": "manifest.webmanifest",
+      "bytes": 499,
+      "sha256": "9b1097b9bc282bb0357bdb6bee6a6801f2d314b8d012efa3cd7bd08ad3c452ab"
+    },
+    {
+      "path": "pwa.js",
+      "bytes": 2147,
+      "sha256": "266090c05276e298cf9cc10ae5c348797003ee0514a48a3b221db34fb2a0532a"
+    },
+    {
+      "path": "sw.js",
+      "bytes": 3033,
+      "sha256": "eb50a72135c90e9a1cb065bd9f811640978a6bc5bbd323c30cb9ebe2809df90b"
+    }
+  ]
+}
