@@ -1,0 +1,234 @@
+{
+  "schema": 3,
+  "kind": "authored",
+  "projectId": "f42fe24a-2a47-4bd1-849f-15b37d692376",
+  "kitVersion": "5.0.0",
+  "version": "36bfcac4080b5da5e629760928988ca91c617fe8eec0abc5aa0b3d224409edbd",
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 1068,
+      "sha256": "a794b9669a9a128b3caa5b83064062179e15057560d0e0857ffb3166995e74ee"
+    },
+    {
+      "path": "assets/backgrounds/sky_morning.png",
+      "bytes": 465393,
+      "sha256": "13b82361d9353e998833f8b1dc50bfca8f37eb36f064fc163f8866b7c90cae5a"
+    },
+    {
+      "path": "assets/backgrounds/sky_night.png",
+      "bytes": 289474,
+      "sha256": "5530884e481e9ce55f9db9a309a598897cd0effd3766905656e5f595bafcd20b"
+    },
+    {
+      "path": "assets/backgrounds/sky_space.png",
+      "bytes": 399151,
+      "sha256": "c9ef187b9137eeacd8f635c78c287acc878cfc0d2fafb343da68521742a072dc"
+    },
+    {
+      "path": "assets/backgrounds/sky_sunset.png",
+      "bytes": 445726,
+      "sha256": "01c7d31b3310621fa0501c9e29bf9de0a9e96a1a7c29c253ce2fda879860c0ca"
+    },
+    {
+      "path": "assets/coin.png",
+      "bytes": 410,
+      "sha256": "a6f306843c46e29438bce78ee15eb521b3274fb16068a4c1b1b0c3fe903e21b6"
+    },
+    {
+      "path": "assets/flag.png",
+      "bytes": 436,
+      "sha256": "86db4ad1563fcc5aeb3b08bf622d3a709b66fa0f4ea4c08972a9f12106f23c54"
+    },
+    {
+      "path": "assets/heroes/berry_stand.png",
+      "bytes": 21870,
+      "sha256": "e5ca1ea6ecf7b4ec34f0bc2409936181aa6d3a042c5a341c6b5cbfe7a2c93701"
+    },
+    {
+      "path": "assets/heroes/berry_step.png",
+      "bytes": 20967,
+      "sha256": "105725799d077901dea4048d80954a01435bad00cc994acd288043cbce509591"
+    },
+    {
+      "path": "assets/heroes/fire_stand.png",
+      "bytes": 16120,
+      "sha256": "0e5ba433e1d5da180169f527f24a0e06bb6455f02a293e2e7c2b1d92d7f62712"
+    },
+    {
+      "path": "assets/heroes/fire_step.png",
+      "bytes": 15519,
+      "sha256": "3d05c1c8241a0c91e6c98b29912a59e36b4412a499da6f3e22e95154389bd2f5"
+    },
+    {
+      "path": "assets/heroes/robot_stand.png",
+      "bytes": 18854,
+      "sha256": "f801b40c5f49d752e8953011da9759c4b87fd944eacffee3f69460cdb0ddbe28"
+    },
+    {
+      "path": "assets/heroes/robot_step.png",
+      "bytes": 18158,
+      "sha256": "c49f3e348b0db4a687587ecdd60b67872af30bae195ba91947f4253febb05301"
+    },
+    {
+      "path": "assets/heroes/sky_stand.png",
+      "bytes": 13445,
+      "sha256": "21bf949e89d59d6cdf08b1301eacbc551d0cc70006a1bd10ee72a7b9df04a5f7"
+    },
+    {
+      "path": "assets/heroes/sky_step.png",
+      "bytes": 12900,
+      "sha256": "f736e3dc2d26c1b186b2528ac744f9245b856dca9dd231ba078ec742fa5fec50"
+    },
+    {
+      "path": "assets/hud/button_climb.png",
+      "bytes": 6651,
+      "sha256": "c1c29d7a7c0301c7e080cc35020fdb1db86c400145f2413ad6b1e123bd21cbc1"
+    },
+    {
+      "path": "assets/hud/button_turn.png",
+      "bytes": 7726,
+      "sha256": "cddc6ac5187815d04beaba73d7450c75ed8966daa7435615f197f1ef61955a1c"
+    },
+    {
+      "path": "assets/hud/clock.png",
+      "bytes": 997,
+      "sha256": "4e02330bd5befc0556f7ba83088e1f1f9da92e749a2866047cf060d9a0ca4fd1"
+    },
+    {
+      "path": "assets/hud/time_bar.png",
+      "bytes": 3821,
+      "sha256": "a6ae2091235ad66694535fcd8346ba7f388b180b5a7ef331d5018a96d2970325"
+    },
+    {
+      "path": "assets/pets/cat.png",
+      "bytes": 10815,
+      "sha256": "c227037dd7e29c9a454e8c5212b69e1f1bc1f305b9574bb7fc11d75e1af50696"
+    },
+    {
+      "path": "assets/pets/chick.png",
+      "bytes": 10374,
+      "sha256": "afbec8f8c3d4400c7691df75ba3c9082f540e8f52be4bef6ca4b3d09790d1508"
+    },
+    {
+      "path": "assets/stairs/step_morning.png",
+      "bytes": 442,
+      "sha256": "32f67f5579e26928fdd0cec4c81b4b80e8e53627a26114a4fcc31e3fdef9eaa4"
+    },
+    {
+      "path": "assets/stairs/step_night.png",
+      "bytes": 445,
+      "sha256": "728a9cb506f5fdca55350a09f9beb410d2f390a379c4c6859bd32a7195f7948f"
+    },
+    {
+      "path": "assets/stairs/step_space.png",
+      "bytes": 440,
+      "sha256": "4caa2a820cb223fbd5ce88eb4d5b4d28393adadf0d0d0d75a10cd29efbfb3469"
+    },
+    {
+      "path": "assets/stairs/step_sunset.png",
+      "bytes": 446,
+      "sha256": "2a8ef814af5e9db49407d2000e5e5e033364912f866efb0008dd75aee7af7307"
+    },
+    {
+      "path": "characters.mjs",
+      "bytes": 4738,
+      "sha256": "dd87f4f2ad73ba77d6d28c32a9cea09154f20f6f2e8f972dda942eeaf474bdb5"
+    },
+    {
+      "path": "config.mjs",
+      "bytes": 2495,
+      "sha256": "1a487a1834bd73fcaa654cb760d8b888eb18f31636001677107840637ee64643"
+    },
+    {
+      "path": "game-install.js",
+      "bytes": 2379,
+      "sha256": "2a8ffe6d0e14fbc969ea1a44d0e4d8e60320d9b49cc2217c42bb02fe95e2390c"
+    },
+    {
+      "path": "game-shell.css",
+      "bytes": 2868,
+      "sha256": "94a6fba4fb0e51729b192ba2b52ec52e0dbf7bd8ef19dbc074a25ca728c00257"
+    },
+    {
+      "path": "game-shell.js",
+      "bytes": 6399,
+      "sha256": "1c7100e8d522b4877bf1ac79e2b98667da39d4707d1ee231ad64718c8ef5ec35"
+    },
+    {
+      "path": "game-tools.js",
+      "bytes": 9186,
+      "sha256": "30f9f67695965d2b583980715dce1574df5013c05176d75f88b8b3f3eda7dcba"
+    },
+    {
+      "path": "game.config.js",
+      "bytes": 2078,
+      "sha256": "fba1530dec84e4e593d4b655ecff85a174e1a3bd30b30e792cfd56e22f8e8985"
+    },
+    {
+      "path": "game.config.json",
+      "bytes": 2056,
+      "sha256": "c44f05c791f8b2ca1b770c447b8a72e7d0cac028babf52b4c29c437471fd5c8a"
+    },
+    {
+      "path": "game.mjs",
+      "bytes": 5007,
+      "sha256": "ce95148428e6d8763099015e995d7e62f44e5b0bf658da33af3fd0a318fd4e8b"
+    },
+    {
+      "path": "icon-192.png",
+      "bytes": 811,
+      "sha256": "9925d7a13650de7037c123ea95859fc8bf73235d1ee64d7224d125fe59a712e3"
+    },
+    {
+      "path": "icon-512.png",
+      "bytes": 3920,
+      "sha256": "cfa2c561391d23d35bcae08736dca03f27bbc64ee0dd97968538291ff9a733f7"
+    },
+    {
+      "path": "index.html",
+      "bytes": 2572,
+      "sha256": "7d5e22b08a5140560c9ccab4a4be4574a2276c386fa30d2562b528a272035453"
+    },
+    {
+      "path": "main.css",
+      "bytes": 2003,
+      "sha256": "1c1a18345473e3366e4bbf8b8bb573b051c47944726eebdb8483cf37c980e18f"
+    },
+    {
+      "path": "main.js",
+      "bytes": 8724,
+      "sha256": "d2407ed0a9597b9c0b17baacd23f0b4ef05a5283c723534976dbcd3a1c3d6799"
+    },
+    {
+      "path": "manifest.webmanifest",
+      "bytes": 487,
+      "sha256": "d05d586cbeac8735f12c75c87650671327fbc24247f592110a4817a2338e2888"
+    },
+    {
+      "path": "profile.mjs",
+      "bytes": 1463,
+      "sha256": "9afc78a5931c0e29fbbb6fec8281d5bd9f39dbd30ed360edff7eb95c13d48790"
+    },
+    {
+      "path": "pwa.js",
+      "bytes": 2147,
+      "sha256": "266090c05276e298cf9cc10ae5c348797003ee0514a48a3b221db34fb2a0532a"
+    },
+    {
+      "path": "render.mjs",
+      "bytes": 12606,
+      "sha256": "29c564c160a3bc9270e6c8736dcbece82d062fda4cf703afc989cceae653b11b"
+    },
+    {
+      "path": "sound.mjs",
+      "bytes": 1611,
+      "sha256": "56c933e8c90e5653c605cad9bc657a6461316d7eec468868a55bd5ef6fad518b"
+    },
+    {
+      "path": "sw.js",
+      "bytes": 2567,
+      "sha256": "3d474ed91bcf2872d100f08f34259b8e85bd06ecceeeb3a63ec52880d2518a92"
+    }
+  ]
+}
