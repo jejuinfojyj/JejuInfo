@@ -9,34 +9,6 @@
       "version": "68a3c11b9b143029141ce6f0912f91c8a7ade6b5cdcbf3d05782574dc51c6c25"
     },
     {
-      "name": "고준혁",
-      "title": "쿠키런 오븐브레이크",
-      "href": "/%EA%B3%A0%EC%A4%80%ED%98%81/",
-      "projectId": "1d156655-0b95-4505-9b0a-a5e3a817b742",
-      "version": "974ef7d4b36f85c40b3e8c3fbfdc0676a5abc4889709fb5904c15ab84e0de0eb"
-    },
-    {
-      "name": "김경미",
-      "title": "한빈이가 만든 멋진 게임",
-      "href": "/%EA%B9%80%EA%B2%BD%EB%AF%B8/",
-      "projectId": "e1a68c27-e978-400f-b822-c231ede0a11a",
-      "version": "a28f4cc972a35619aba4c1954914877f12c872d0dc67291a9736cf43d7848333"
-    },
-    {
-      "name": "김김김",
-      "title": "색종이 계단",
-      "href": "/%EA%B9%80%EA%B9%80%EA%B9%80/",
-      "projectId": "a33f3e92-3b4c-45d7-a594-03d17bdce1dc",
-      "version": "8440fa41b1539883e0a3dafd0f2a9bd2bd50f8db66fae8f193837527fa360c82"
-    },
-    {
-      "name": "김김김",
-      "title": "김김김 브롤",
-      "href": "/%EA%B9%80%EA%B9%80%EA%B9%801/",
-      "projectId": "f01b4993-1c03-4a4d-abb8-8c6620211a9f",
-      "version": "c1887e06b73c2c465af1beed626c917ab643cddf9070930a865939ddef858b4d"
-    },
-    {
       "name": "김동균",
       "title": "동균파티",
       "href": "/%EA%B9%80%EB%8F%99%EA%B7%A0/",
@@ -149,13 +121,6 @@
       "version": "01a424e5fc4313bab5a42d614d76ff3373b7524f5741e742086ed861502b9aaa"
     },
     {
-      "name": "이가연",
-      "title": "우나나우나 우나나야하야하",
-      "href": "/%EC%9D%B4%EA%B0%80%EC%97%B0/",
-      "projectId": "7ab829b5-eced-4fac-a897-80b10525ccb7",
-      "version": "b8eb37f83892a9572ced791651a067c12efa153733c63400c6d54fa76df101de"
-    },
-    {
       "name": "이서진",
       "title": "Snake.io",
       "href": "/%EC%9D%B4%EC%84%9C%EC%A7%84/",
@@ -182,55 +147,6 @@
       "href": "/%EC%A0%95%EA%B7%BC/",
       "projectId": "de75952d-3284-4fcd-afd6-30638b0018a4",
       "version": "7cc348edb5fc660e94b15e301f05602bd892a54a97161a007eb301c9c02c84e3"
-    },
-    {
-      "name": "정보축제",
-      "title": "말랑이 폭발 연구소",
-      "href": "/%EC%A0%95%EB%B3%B4%EC%B6%95%EC%A0%9C1/",
-      "projectId": "e8820cf9-c8ee-5237-b7d7-e039b41e2cd8",
-      "version": "7204965b5834bd9b136ab7a3e90588ccad232f89b403b01bb2cf2679aa59bd42"
-    },
-    {
-      "name": "정보축제",
-      "title": "브레인롯대모험",
-      "href": "/%EC%A0%95%EB%B3%B4%EC%B6%95%EC%A0%9C2/",
-      "projectId": "2ed6d086-2fe9-53a4-ba79-81cd5d25048b",
-      "version": "271e8b577b195a402d088c4d33b822c02a183732e61c46b2fb05896da717d0a9"
-    },
-    {
-      "name": "정보축제",
-      "title": "어둠의 숲",
-      "href": "/%EC%A0%95%EB%B3%B4%EC%B6%95%EC%A0%9C3/",
-      "projectId": "478edd4d-cd06-55b9-9b6a-7f82e86370c7",
-      "version": "fa617001d5448a447840879ff1e066ad4e6a3da586e45c8fbdc73aef519443f0"
-    },
-    {
-      "name": "정보축제",
-      "title": "이머전시 24",
-      "href": "/%EC%A0%95%EB%B3%B4%EC%B6%95%EC%A0%9C4/",
-      "projectId": "f1c1508d-5a98-5913-8e7e-e0b5759f1a34",
-      "version": "e518b6a81940b0409c06d9c25d9a71eb8d4beba361f65a32d45c2f85d515b445"
-    },
-    {
-      "name": "정보축제",
-      "title": "타임키퍼",
-      "href": "/%EC%A0%95%EB%B3%B4%EC%B6%95%EC%A0%9C5/",
-      "projectId": "6743acef-fabf-5460-82f1-92b985dea068",
-      "version": "a499f13fffefbcac33ccdd16006c8f77800ff6cbe4f62040f969a830eb80c757"
-    },
-    {
-      "name": "정보축제",
-      "title": "3D 꼬마 슈퍼 마켓",
-      "href": "/%EC%A0%95%EB%B3%B4%EC%B6%95%EC%A0%9C6/",
-      "projectId": "e1d0631e-ba03-59af-b06c-5dabf07f756d",
-      "version": "d32ed7e5bb92828b817734b14b25df5e4ecc814e69b3f68789bf8c29c3712de1"
-    },
-    {
-      "name": "정보축제",
-      "title": "여우와 쥐",
-      "href": "/%EC%A0%95%EB%B3%B4%EC%B6%95%EC%A0%9C7/",
-      "projectId": "97d643e4-2736-4182-97ca-17dacb014146",
-      "version": "e1742f0611cf60b358ff89be4ff98dbbb5ffa086a6d9dbaf958cfc8082898c38"
     },
     {
       "name": "정진",
