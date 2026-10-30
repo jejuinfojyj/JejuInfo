@@ -1,0 +1,94 @@
+{
+  "schema": 3,
+  "kind": "authored",
+  "projectId": "f575932f-163a-4abc-917a-88562081bbd1",
+  "kitVersion": "5.0.0",
+  "version": "9f98dbf6aecf36f89f7038456ef8cc57da06a63d6070cdd11d06b23209094bd6",
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 1068,
+      "sha256": "a794b9669a9a128b3caa5b83064062179e15057560d0e0857ffb3166995e74ee"
+    },
+    {
+      "path": "config.mjs",
+      "bytes": 1338,
+      "sha256": "03dd9d2b8fd00490a8650d2d40e55cde0491fb2a39ff519faaff477f86aa9808"
+    },
+    {
+      "path": "game-install.js",
+      "bytes": 2379,
+      "sha256": "2a8ffe6d0e14fbc969ea1a44d0e4d8e60320d9b49cc2217c42bb02fe95e2390c"
+    },
+    {
+      "path": "game-shell.css",
+      "bytes": 2868,
+      "sha256": "94a6fba4fb0e51729b192ba2b52ec52e0dbf7bd8ef19dbc074a25ca728c00257"
+    },
+    {
+      "path": "game-shell.js",
+      "bytes": 6321,
+      "sha256": "44c520665f4f6f139ae4291149efc7083c81c52974fb4732ec2642c7e1a5c0fc"
+    },
+    {
+      "path": "game-tools.js",
+      "bytes": 9186,
+      "sha256": "30f9f67695965d2b583980715dce1574df5013c05176d75f88b8b3f3eda7dcba"
+    },
+    {
+      "path": "game.config.js",
+      "bytes": 2195,
+      "sha256": "baa90229474571a371fdddc1dcc4cf78d557f961865caebf6c7054305d0d5b3e"
+    },
+    {
+      "path": "game.config.json",
+      "bytes": 2173,
+      "sha256": "c60a16dc2a0bb4c03d5b8a3082d2ce77a04cd9af27ac9ef26624ba76e21c63e4"
+    },
+    {
+      "path": "game.mjs",
+      "bytes": 21086,
+      "sha256": "72bf68ebd04aa65a7eb04b8a7fcbf6a22a2eb089651635b7d8a9b9f017bf8d3d"
+    },
+    {
+      "path": "icon-192.png",
+      "bytes": 811,
+      "sha256": "c244272c75fdffa1c4565f5593bb02e7e11d56457769b0b61032f5206bc1dd1d"
+    },
+    {
+      "path": "icon-512.png",
+      "bytes": 3920,
+      "sha256": "1a41dc3f6c65770c367bf30004471cbb867cf19ebc25050c1bded607db211e55"
+    },
+    {
+      "path": "index.html",
+      "bytes": 1879,
+      "sha256": "ad9c8537674d3fc8b8d66f0d49c4f0b498eb85cb700f39b8882f2f9b085dba71"
+    },
+    {
+      "path": "main.css",
+      "bytes": 418,
+      "sha256": "e510551c45d55a3fe7f587b16c1e0a31dc0921b0f07ba4d0671a28c4f73dfd46"
+    },
+    {
+      "path": "main.js",
+      "bytes": 11734,
+      "sha256": "9354407f81c3caedc241f456a3045866adec8ec677d7d6c1cd672a9c39ec9989"
+    },
+    {
+      "path": "manifest.webmanifest",
+      "bytes": 491,
+      "sha256": "7e76e06a0f66f67df750fac2f33bdc509e7b6d61fcc27e4598f47d3a019a8595"
+    },
+    {
+      "path": "pwa.js",
+      "bytes": 2147,
+      "sha256": "266090c05276e298cf9cc10ae5c348797003ee0514a48a3b221db34fb2a0532a"
+    },
+    {
+      "path": "sw.js",
+      "bytes": 1749,
+      "sha256": "63a646e54bed107e4442b80980d9d291cfc8d72105de9564b3370de9d270e035"
+    }
+  ]
+}
