@@ -1,1 +1,0 @@
-window.FESTIVAL_OPTIONS={"orientation":"responsive","color":"#46dec6","background":"#07111b","touch":"방향 버튼으로 이동, 상호작용 버튼으로 환자 선택 후 화면 선택지 터치","directions":"all","playHook":true,"actions":[{"label":"상호작용","code":"KeyE","key":"e"},{"label":"일시정지","code":"KeyP","key":"p"}]};

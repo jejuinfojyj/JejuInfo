@@ -1,1 +1,0 @@
-window.FESTIVAL_OPTIONS={"orientation":"portrait","color":"#ff7ab8","background":"#fff7e8","touch":"기존 화면 버튼으로 캐릭터·장비·전투 선택","onlineNote":"게임은 저장 후 오프라인으로 열 수 있습니다. 온라인 배경음악·YouTube 기능은 인터넷 연결이 필요합니다."};
