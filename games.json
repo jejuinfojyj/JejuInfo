@@ -37,18 +37,6 @@
       "version": "c1887e06b73c2c465af1beed626c917ab643cddf9070930a865939ddef858b4d"
     },
     {
-      "name": "김동균",
-      "title": "기타루맨",
-      "href": "/%EA%B9%80%EB%8F%99%EA%B7%A0/",
-      "projectId": "0c923796-354c-4cef-8349-7812dde371e8",
-      "version": "4150914b0bdb9bb58c01a90aa72257b0570ff5f8e7c46bb91bafb24661362cb5"
-    },
-    {
-      "name": "김민수",
-      "title": "우주 점프",
-      "href": "/%EA%B9%80%EB%AF%BC%EC%88%98/"
-    },
-    {
       "name": "김민혁",
       "title": "다채화",
       "href": "/%EA%B9%80%EB%AF%BC%ED%98%81/",
@@ -210,46 +198,11 @@
       "version": "7443d19d22ac1bf26695a702f322bdf9ff7102ae446eb43e72f57c34d17cf2b2"
     },
     {
-      "name": "진진자라야",
-      "title": "이야아아ㅏㅏㅏ",
-      "href": "/%EC%A7%84%EC%A7%84%EC%9E%90%EB%9D%BC%EC%95%BC/",
-      "projectId": "b1933364-9be5-4e75-a0be-00f49d65f958",
-      "version": "ceef57c05b0a023de7a2bcefd0d4f443709d043e948348f10404b5e331643864"
-    },
-    {
-      "name": "진한남",
-      "title": "한남이의 수박가게",
-      "href": "/%EC%A7%84%ED%95%9C%EB%82%A8/",
-      "projectId": "3c08a855-b2ce-4297-aa7e-98865b16ed30",
-      "version": "038ac10110cff2c495b0ef39cb40149f1c78bb3285dfb4f90f93c0d5c8a72639"
-    },
-    {
-      "name": "진한빈",
-      "title": "슈의 햄버거집",
-      "href": "/%EC%A7%84%ED%95%9C%EB%B9%88/",
-      "projectId": "25f14fd6-aefe-4205-b412-a7a82c672aa3",
-      "version": "0295337b0d2772c153bbcfb0795f1dd6283a250cfcc5b07c966df3eb40c31941"
-    },
-    {
-      "name": "진한빈",
-      "title": "길동의 햄버거집",
-      "href": "/%EC%A7%84%ED%95%9C%EB%B9%881/",
-      "projectId": "c13c9b62-00df-4231-9b38-188841921655",
-      "version": "ccc0671ac99003e587c7af92010db35598d0c55371f58527e08af0d8361a8290"
-    },
-    {
       "name": "최황석",
       "title": "가십하버",
       "href": "/%EC%B5%9C%ED%99%A9%EC%84%9D/",
       "projectId": "b612edbf-6241-4c7b-9b9c-326e9788db2f",
       "version": "4b3490db484ed0f9bfeb50fb0939c388e091f26fdb79ed96bdc7ac4df5664089"
-    },
-    {
-      "name": "최황석",
-      "title": "김태진",
-      "href": "/%EC%B5%9C%ED%99%A9%EC%84%9D1/",
-      "projectId": "8cafd5ba-71a9-44f8-8007-4b357b9a5ab4",
-      "version": "af8098e8ffae617ca068487911d8032c714368cc4c686a663b0a30463ee004b8"
     }
   ]
 }
