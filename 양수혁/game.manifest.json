@@ -1,0 +1,189 @@
+{
+  "schema": 3,
+  "kind": "authored",
+  "projectId": "ad955478-3032-46ac-a144-cbcb29f406e9",
+  "kitVersion": "5.0.0",
+  "version": "01a424e5fc4313bab5a42d614d76ff3373b7524f5741e742086ed861502b9aaa",
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 1068,
+      "sha256": "a794b9669a9a128b3caa5b83064062179e15057560d0e0857ffb3166995e74ee"
+    },
+    {
+      "path": "assets/cute-pixel/background.png",
+      "bytes": 49823,
+      "sha256": "804df7e8df5e4ee079d4313840e63836aa633769b9fa56ec8211091783a3f461"
+    },
+    {
+      "path": "assets/cute-pixel/cloud.png",
+      "bytes": 17724,
+      "sha256": "4c5cdeaa4413b44acc6a8ba99d509bf3e3a210b8f4152cc245ae3124e45e42e2"
+    },
+    {
+      "path": "assets/cute-pixel/crate-back.png",
+      "bytes": 90015,
+      "sha256": "619ad2c62dd5900857461626fe3f22a4b23cfaaf75db4ca3587bdd3ccb1851d3"
+    },
+    {
+      "path": "assets/cute-pixel/crate-front.png",
+      "bytes": 69145,
+      "sha256": "7925b5d6b16132576d303a59d72ca35823c22bc50de406cd586ffbe2ad9a34a2"
+    },
+    {
+      "path": "assets/cute-pixel/fruits/apple.png",
+      "bytes": 54758,
+      "sha256": "a9e09a2c81fe98e8b60164d8336619a7d336c432665d8a2cf37dc75a1f7cb0d0"
+    },
+    {
+      "path": "assets/cute-pixel/fruits/cherry.png",
+      "bytes": 65336,
+      "sha256": "a705edb1fe285623aa00c4257088f5ca142c2f106d9b2021828492fba6162ab9"
+    },
+    {
+      "path": "assets/cute-pixel/fruits/grape.png",
+      "bytes": 72677,
+      "sha256": "6d7798daaf9b28d4954ed2ea9ce82cd09bd78e738362e05d3a279decf58d4ecb"
+    },
+    {
+      "path": "assets/cute-pixel/fruits/lemon.png",
+      "bytes": 47286,
+      "sha256": "6f16904fc319e1e05944b057174add260d62a223dcc9f8766b119ac7cd8901aa"
+    },
+    {
+      "path": "assets/cute-pixel/fruits/melon.png",
+      "bytes": 66450,
+      "sha256": "fabbe94dbed535ab688fffd9a794823bfb6bb837dd0af0374143627211982bb4"
+    },
+    {
+      "path": "assets/cute-pixel/fruits/orange.png",
+      "bytes": 60562,
+      "sha256": "3e6b31eba0658876a6970ce5de19d83d6afc1288e8c35074d67dd7e506d6c1cc"
+    },
+    {
+      "path": "assets/cute-pixel/fruits/peach.png",
+      "bytes": 62056,
+      "sha256": "c77cbe24ee3710354a0e6a4aced010f717cb8c5a1cb1187fcb0172eb98818f71"
+    },
+    {
+      "path": "assets/cute-pixel/fruits/pear.png",
+      "bytes": 46514,
+      "sha256": "44a38ab668ad15036b6c830283ea7bb1c12701391b8176aa777e93bd6ac49f1b"
+    },
+    {
+      "path": "assets/cute-pixel/fruits/pineapple.png",
+      "bytes": 64513,
+      "sha256": "df041d5ad726187b1a5a217603b900a905b79f5f27b45bdcec505d2f9ab5ecc2"
+    },
+    {
+      "path": "assets/cute-pixel/fruits/strawberry.png",
+      "bytes": 49775,
+      "sha256": "af98aae9193e8d466592b7bdc23e7256a24f18927613cd01b5c93d9a73b9f677"
+    },
+    {
+      "path": "assets/cute-pixel/fruits/watermelon.png",
+      "bytes": 69007,
+      "sha256": "710c8df10288b868f844be96007a3c532a96d2df173060bc937bdeec687da24c"
+    },
+    {
+      "path": "assets/cute-pixel/hud-panel.png",
+      "bytes": 32608,
+      "sha256": "bc3c511b95ed730791138835e6887d224d188d48b0ba16d43e35caf09766ef9b"
+    },
+    {
+      "path": "assets/cute-pixel/shadow.png",
+      "bytes": 17064,
+      "sha256": "7b585748d7bdd36f5b5f613df7059caf5c5621032257cf80f425067d4f3a0369"
+    },
+    {
+      "path": "audio.mjs",
+      "bytes": 1211,
+      "sha256": "9f8796e19f887b799d9916bc7bae0ce1eef8d0e79e215870e1486d2af8bd3493"
+    },
+    {
+      "path": "config.mjs",
+      "bytes": 2192,
+      "sha256": "8ed6881e750acbe0e0afabd3834e3d44f269171bf64603d57eddd556ec72e3f0"
+    },
+    {
+      "path": "draw.mjs",
+      "bytes": 14869,
+      "sha256": "cae10d10f2f732d3aa600f83118d38b63d639bd6f43a49ec3b3d90db608198fa"
+    },
+    {
+      "path": "game-install.js",
+      "bytes": 2379,
+      "sha256": "2a8ffe6d0e14fbc969ea1a44d0e4d8e60320d9b49cc2217c42bb02fe95e2390c"
+    },
+    {
+      "path": "game-shell.css",
+      "bytes": 2868,
+      "sha256": "94a6fba4fb0e51729b192ba2b52ec52e0dbf7bd8ef19dbc074a25ca728c00257"
+    },
+    {
+      "path": "game-shell.js",
+      "bytes": 6321,
+      "sha256": "44c520665f4f6f139ae4291149efc7083c81c52974fb4732ec2642c7e1a5c0fc"
+    },
+    {
+      "path": "game-tools.js",
+      "bytes": 9186,
+      "sha256": "30f9f67695965d2b583980715dce1574df5013c05176d75f88b8b3f3eda7dcba"
+    },
+    {
+      "path": "game.config.js",
+      "bytes": 2081,
+      "sha256": "39fa7957d218fb4c0c34fd6ae8e34658f18d5f095a0b25219b8d993b0d7d27d3"
+    },
+    {
+      "path": "game.config.json",
+      "bytes": 2059,
+      "sha256": "83087d1ca0364e20277926094c9f9701d5fa3afefa2bbc729f08925a3ed43ae9"
+    },
+    {
+      "path": "game.mjs",
+      "bytes": 12820,
+      "sha256": "dbf1604ddeb6881c1d670f89d11ee39ab3adadbf29c4aff4e6f5749c2208f573"
+    },
+    {
+      "path": "icon-192.png",
+      "bytes": 812,
+      "sha256": "34b09f54a5011b61ccf5bf49e5e16cf36d87db1cd59afa596a14317e88a8c922"
+    },
+    {
+      "path": "icon-512.png",
+      "bytes": 3922,
+      "sha256": "d61a0140893d559bf9fb785429b2b0d79e76c8ee2dd56bfe1b4c72b2ccd8b953"
+    },
+    {
+      "path": "index.html",
+      "bytes": 1824,
+      "sha256": "db821face2f488df6de0a009e1d2e400f34edbfca8c46b81ed5e8b2f86b94d59"
+    },
+    {
+      "path": "main.css",
+      "bytes": 230,
+      "sha256": "10b4f558e99a6e0e717bdbbe42653d6d9e66e398b6c069da58da01ff1396bbb7"
+    },
+    {
+      "path": "main.js",
+      "bytes": 900,
+      "sha256": "fa3ce00dd1138700bb8cc22379dd5e3e0d3b513a04c2692487ff68a8a776d99a"
+    },
+    {
+      "path": "manifest.webmanifest",
+      "bytes": 499,
+      "sha256": "3c157a4d66ba189125daf3ce5e46ad80e18ca48a12322f88eca5224f26e08bf7"
+    },
+    {
+      "path": "pwa.js",
+      "bytes": 2147,
+      "sha256": "266090c05276e298cf9cc10ae5c348797003ee0514a48a3b221db34fb2a0532a"
+    },
+    {
+      "path": "sw.js",
+      "bytes": 2433,
+      "sha256": "e447a5e2bcc3e2fa8f59b0c30c0139fafad316b3e1e7e43b5f454ca6b581c458"
+    }
+  ]
+}
