@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<title>던전요리사</title>
+<meta name="author" content="정보축제">
+<script src="game.config.js"></script>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-192.png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  
+  <link rel="stylesheet" href="assets/fonts/galmuri.css">
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<div id="wrap">
+    <canvas id="game" width="480" height="270"></canvas>
+
+    <div id="title-ui">
+      <div class="logo">
+        <div class="logo-en">DUNGEON<br>CHEF</div>
+        <div class="logo-ko">던전 요리사</div>
+      </div>
+      <div class="title-menu">
+        <button id="btn-new" class="pbtn">새 게임</button>
+        <button id="btn-continue" class="pbtn">이어하기</button>
+        <button id="btn-help" class="pbtn">조작법</button>
+      </div>
+    </div>
+
+    <div id="hud" class="hidden">
+      <div class="hud-box hud-left">
+        <div class="hp"><span class="lbl">HP</span><div class="bar"><div id="hp-fill"></div></div><span id="hp-text"></span></div>
+        <div id="buffs"></div>
+      </div>
+      <div class="hud-box hud-center"><span id="zone-name"></span></div>
+      <div class="hud-right">
+        <div class="hud-box gold"><img id="coin-ico" alt=""><span id="gold-text">0</span></div>
+        <button class="hbtn" data-act="bag">가방 [I]</button>
+        <button class="hbtn" data-act="book">레시피 [R]</button>
+        <button class="hbtn" data-act="help">도움말 [H]</button>
+      </div>
+    </div>
+
+    <div id="boss-bar" class="hidden">
+      <div class="boss-name">킹 랍스터 크랩</div>
+      <div class="bar"><div id="boss-fill"></div></div>
+    </div>
+
+    <div id="prompt" class="hidden"></div>
+    <div id="toasts"></div>
+
+    <div id="panel-bg" class="hidden"><div id="panel"></div></div>
+
+    <div id="dialog" class="hidden">
+      <canvas id="dlg-portrait" width="32" height="32"></canvas>
+      <div class="dlg-body">
+        <div id="dlg-name" class="dlg-name"></div>
+        <div id="dlg-text" class="dlg-text"></div>
+        <div class="dlg-next">클릭 / Space ▶</div>
+      </div>
+    </div>
+
+    <div id="fade"></div>
+  
+    <div id="platform-bar">
+      <span id="game-credit"></span>
+      <button id="install-app" type="button">내 기기에 아이콘 추가</button>
+      <span id="offline-status" role="status"></span>
+      <button id="update-game" type="button" hidden>새 버전 적용</button>
+    </div>
+  </div>
+  <dialog id="install-help" aria-labelledby="install-help-title">
+    <h2 id="install-help-title">게임 아이콘 추가하기</h2>
+    <p id="install-instructions"></p>
+    <button id="close-install-help" type="button">닫기</button>
+  </dialog>
+  <script defer src="game.js"></script>
+  <script defer src="game-install.js"></script>
+
+
+<script defer src="pwa.js"></script>
+</body>
+</html>

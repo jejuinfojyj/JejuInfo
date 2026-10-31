@@ -331,6 +331,13 @@
       "version": "7cc348edb5fc660e94b15e301f05602bd892a54a97161a007eb301c9c02c84e3"
     },
     {
+      "name": "정보축제",
+      "title": "던전요리사",
+      "href": "/%EC%A0%95%EB%B3%B4%EC%B6%95%EC%A0%9C/",
+      "projectId": "71ba573d-6c96-44c8-ba4c-d14da514f633",
+      "version": "3bfb5fbcd0c8b4f591047457bd21dfd0691a1675acb8a0254848cc9b540f0ea5"
+    },
+    {
       "name": "정진",
       "title": "보글보글",
       "href": "/%EC%A0%95%EC%A7%84/",
