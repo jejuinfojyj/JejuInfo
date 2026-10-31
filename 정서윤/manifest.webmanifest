@@ -1,0 +1,26 @@
+{
+  "id": "./",
+  "name": "달콤 폭풍 쿠키런",
+  "short_name": "달콤 폭풍 쿠키런",
+  "lang": "ko",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "landscape",
+  "background_color": "#2a1520",
+  "theme_color": "#ffb347",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
