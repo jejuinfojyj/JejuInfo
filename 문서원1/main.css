@@ -1,0 +1,26 @@
+/* 탕탕특공대 — 고퀄리티 세로 전장 톤 */
+:root {
+  --background: #121a24;
+  --primary: #ffd166;
+  --text: #f8f4e8;
+}
+
+#game-frame {
+  box-shadow:
+    0 0 0 1px rgba(255, 209, 102, 0.18),
+    0 22px 48px rgba(0, 0, 0, 0.55),
+    0 0 60px rgba(255, 209, 102, 0.08);
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+#round-description {
+  max-width: 36em;
+  line-height: 1.45;
+}
+
+#start-game,
+#pause-game,
+#resume-game {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.28);
+}
