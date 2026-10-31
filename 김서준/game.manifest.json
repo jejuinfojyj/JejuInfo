@@ -1,0 +1,134 @@
+{
+  "schema": 3,
+  "kind": "authored",
+  "projectId": "a1b7c1ae-f888-421a-ae7c-1bcbc31db571",
+  "kitVersion": "5.0.0",
+  "version": "722ba86c47ebfc7e0207d24ea963346fd3f629c850fc53a8752a129fa12024fb",
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 1068,
+      "sha256": "a794b9669a9a128b3caa5b83064062179e15057560d0e0857ffb3166995e74ee"
+    },
+    {
+      "path": "art.mjs",
+      "bytes": 2588,
+      "sha256": "e7e9391ad27efb75c616c1f57eb3253d198141b38202b253da29973eb6e4f79a"
+    },
+    {
+      "path": "assets/background.png",
+      "bytes": 846871,
+      "sha256": "0a22412ebee98421a92d932fe55bd069103d8735934a70f046c3eeb1455d0cb8"
+    },
+    {
+      "path": "assets/basic_enemy_sheet.png",
+      "bytes": 429666,
+      "sha256": "731196c436683d4752b9f58c80a53c4f9f60ca77c9b8fb695ffb1d61125b56cc"
+    },
+    {
+      "path": "assets/boss_enemy_sheet.png",
+      "bytes": 631653,
+      "sha256": "009f7cbef11255f15a60a80b35a7b469c5fe5fa766b0096230c820070fc97ec9"
+    },
+    {
+      "path": "assets/elite_enemy_sheet.png",
+      "bytes": 640880,
+      "sha256": "5b861e2ea20b3acdea7899593a3af717b08a838531723976c366b38fa49efd71"
+    },
+    {
+      "path": "assets/fast_enemy_sheet.png",
+      "bytes": 372246,
+      "sha256": "d233caeb867688db8d736789df66c5d289924833e3684dc19a88466761dbf029"
+    },
+    {
+      "path": "assets/player_sheet.png",
+      "bytes": 461657,
+      "sha256": "56184a68a70927316960cd2a7c257805ea8af1f3fabf37a560c59482b902b793"
+    },
+    {
+      "path": "assets/props_atlas.png",
+      "bytes": 487392,
+      "sha256": "e99eda0861e5fdcc4f02908ecf224abf7bd0b311197d22197dbd7af422fbe6f5"
+    },
+    {
+      "path": "config.mjs",
+      "bytes": 2815,
+      "sha256": "cf6fadfb80eb40b6d6e92e10111d553314dc47440cba13f5ed4fa0935a2ee742"
+    },
+    {
+      "path": "game-install.js",
+      "bytes": 2379,
+      "sha256": "2a8ffe6d0e14fbc969ea1a44d0e4d8e60320d9b49cc2217c42bb02fe95e2390c"
+    },
+    {
+      "path": "game-shell.css",
+      "bytes": 2868,
+      "sha256": "94a6fba4fb0e51729b192ba2b52ec52e0dbf7bd8ef19dbc074a25ca728c00257"
+    },
+    {
+      "path": "game-shell.js",
+      "bytes": 6321,
+      "sha256": "44c520665f4f6f139ae4291149efc7083c81c52974fb4732ec2642c7e1a5c0fc"
+    },
+    {
+      "path": "game-tools.js",
+      "bytes": 9186,
+      "sha256": "30f9f67695965d2b583980715dce1574df5013c05176d75f88b8b3f3eda7dcba"
+    },
+    {
+      "path": "game.config.js",
+      "bytes": 2194,
+      "sha256": "c59137503b3e7a19ce14346c71870648ee5df6a050656dbb1e0ead3ec364a701"
+    },
+    {
+      "path": "game.config.json",
+      "bytes": 2172,
+      "sha256": "96b63921f6e6e8e4ab5b9ab4bd12113ce1cdc9e9f7012e0dffe675be8ac48aad"
+    },
+    {
+      "path": "game.mjs",
+      "bytes": 23100,
+      "sha256": "2220c458f2298c5512b179ef5e1e4d60b36bb740d86a39b10a3428f68f2c6961"
+    },
+    {
+      "path": "icon-192.png",
+      "bytes": 811,
+      "sha256": "6fc09e6aae15ecf3db81632d912ed8b1134cdb493fb112555e05d201b7c5a390"
+    },
+    {
+      "path": "icon-512.png",
+      "bytes": 3920,
+      "sha256": "165d601003d478e28ec4d2de5b0c5a1622bb612c7db029e91a893d6cd791e1ff"
+    },
+    {
+      "path": "index.html",
+      "bytes": 1832,
+      "sha256": "1567dc1c4e4348bc5dc290886b70d5889067d56f280fc5b8d79f3aa675fc1b82"
+    },
+    {
+      "path": "main.css",
+      "bytes": 227,
+      "sha256": "70a87077d4742ee5d99d54eee445419ea83d3424db3ead866d039e87c9692ade"
+    },
+    {
+      "path": "main.js",
+      "bytes": 12658,
+      "sha256": "abe7b699f0be1ef74a08173135b8f2ea51ee83a0f3a938132f915848721c1ff7"
+    },
+    {
+      "path": "manifest.webmanifest",
+      "bytes": 513,
+      "sha256": "df1c491dadd7e1b1ddcf958a7e49ad81b264d72491e1669ed828372e8c963441"
+    },
+    {
+      "path": "pwa.js",
+      "bytes": 2147,
+      "sha256": "266090c05276e298cf9cc10ae5c348797003ee0514a48a3b221db34fb2a0532a"
+    },
+    {
+      "path": "sw.js",
+      "bytes": 1972,
+      "sha256": "50ae8a2b63b0cc35882ad2d03a26e5442871e8b4fa2c45f180c64ea04e44676a"
+    }
+  ]
+}
