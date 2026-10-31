@@ -1,0 +1,9 @@
+'use strict';
+const VERSION="b65a13ab6b3174fdcc7b8dce2fd0ba8c1ebe264d68bb96dbf3e7f2ba1aaf5459";
+const PREFIX="cursor-game:ac6cebc6-0da5-4397-9955-39cab87d5302:"+self.registration.scope+':';
+const CACHE=PREFIX+VERSION;
+const FILES=["./","./LICENSE.txt","./assets/pixel/background.png","./assets/pixel/enemy_basic.png","./assets/pixel/enemy_boss.png","./assets/pixel/enemy_elite.png","./assets/pixel/enemy_fast.png","./assets/pixel/player.png","./assets/pixel/props.png","./config.mjs","./game-install.js","./game-shell.css","./game-shell.js","./game-tools.js","./game.config.js","./game.config.json","./game.mjs","./icon-192.png","./icon-512.png","./index.html","./main.css","./main.js","./manifest.webmanifest","./pwa.js"];
+self.addEventListener('install',event=>event.waitUntil((async()=>{const cache=await caches.open(CACHE);await cache.addAll(FILES.map(file=>new Request(new URL(file,self.registration.scope),{cache:'reload'})));})()));
+self.addEventListener('activate',event=>event.waitUntil((async()=>{for(const key of await caches.keys())if(key.startsWith(PREFIX)&&key!==CACHE)await caches.delete(key);await self.clients.claim();})()));
+self.addEventListener('message',event=>{if(event.data==='SKIP_WAITING')self.skipWaiting();if(event.data==='OFFLINE_STATUS')event.waitUntil((async()=>{const cache=await caches.open(CACHE);const ready=(await Promise.all(FILES.map(file=>cache.match(new URL(file,self.registration.scope).href)))).every(Boolean);event.ports[0]?.postMessage({ready,version:VERSION});})());});
+self.addEventListener('fetch',event=>{const url=new URL(event.request.url);if(event.request.method!=='GET'||url.origin!==self.location.origin||!url.href.startsWith(self.registration.scope))return;event.respondWith((async()=>{const cache=await caches.open(CACHE);const request=event.request.mode==='navigate'?new URL('./',self.registration.scope).href:event.request;return(await cache.match(request,{ignoreSearch:true}))||fetch(event.request);})());});
