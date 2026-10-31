@@ -1,0 +1,204 @@
+{
+  "schema": 3,
+  "kind": "authored",
+  "projectId": "0fc94f35-0d2e-42d9-bb67-4843fd19ba2a",
+  "kitVersion": "5.0.0",
+  "version": "71d7542de024b11ba84bad2c1c7f207fd8f415fa5e9f2b5ad45a0dc77e0e5446",
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 1068,
+      "sha256": "a794b9669a9a128b3caa5b83064062179e15057560d0e0857ffb3166995e74ee"
+    },
+    {
+      "path": "assets/board_cell.png",
+      "bytes": 96128,
+      "sha256": "e9289a4b46314f46b2ef1c79203d143c8fdd2c685d416dd8b1f5387d9718bcf2"
+    },
+    {
+      "path": "assets/board_frame.png",
+      "bytes": 59332,
+      "sha256": "b8e70669a579cbcce6c44e9c3eb59cf8f4ad30fe663c3328165b21b68fa0f8ea"
+    },
+    {
+      "path": "assets/decors/banner.png",
+      "bytes": 28345,
+      "sha256": "6cbcedff0b8ef1038eaf95a0889f6ff67317c2d5424fc8ab03528b438f34fa93"
+    },
+    {
+      "path": "assets/decors/fountain.png",
+      "bytes": 54246,
+      "sha256": "7096b354f6308d68e0c591e82c38623f9953a0d6cbf91534144470bf5a12f6e7"
+    },
+    {
+      "path": "assets/decors/garden.png",
+      "bytes": 55933,
+      "sha256": "4acd8edb175f478c5090fd396b86c640b04dc097cac80efaa7575cca6f5dbae5"
+    },
+    {
+      "path": "assets/decors/gate.png",
+      "bytes": 46841,
+      "sha256": "a7fa46e4708efda880c3ac536ba5b57fd8d1722910f78bbbb2deb3775cbdb3a2"
+    },
+    {
+      "path": "assets/decors/throne.png",
+      "bytes": 61800,
+      "sha256": "666f81098134f7d84092df7aedfa32b3fd2020ca0f290b1a6b1f9a25ad2e72c3"
+    },
+    {
+      "path": "assets/decors/tower.png",
+      "bytes": 47866,
+      "sha256": "1fbc419c289ffb22882aa9b9edbed1f78a1c25144e8c9b7c8da20733ed1ee5c4"
+    },
+    {
+      "path": "assets/gems/amethyst.png",
+      "bytes": 102853,
+      "sha256": "7d394997c656e0c5b31908177d822e4dce41f8582c454954fb08e88477973b96"
+    },
+    {
+      "path": "assets/gems/emerald.png",
+      "bytes": 106464,
+      "sha256": "2c59ea23f30e3bbe3deb99409eed0dfe2734eca08a9b10fc719e2021003e1530"
+    },
+    {
+      "path": "assets/gems/ruby.png",
+      "bytes": 102491,
+      "sha256": "68050d6525008b24db6c49e83c70df452e8da7cb2993fdfc361cd9ff11fdf494"
+    },
+    {
+      "path": "assets/gems/sapphire.png",
+      "bytes": 112230,
+      "sha256": "6daccdce7c3777a6b0b88dbc3c85d815adce11877b42b339fab3fa2bc46e2516"
+    },
+    {
+      "path": "assets/gems/topaz.png",
+      "bytes": 81957,
+      "sha256": "0e286e15f7090442f442d75f29c9cb7bbc5bcbc7a18fe626cabc83d55188a4bb"
+    },
+    {
+      "path": "assets/gems/turquoise.png",
+      "bytes": 88775,
+      "sha256": "d3d1c746af74b006999f78dfac5a00dd78fcbd2441c1876275d3dc0fc677b3d2"
+    },
+    {
+      "path": "assets/hud_panel.png",
+      "bytes": 81306,
+      "sha256": "e70df78dfb85ef28ee3d8c3b0f358075f9fe6881ec051f1aac730caf39ad9529"
+    },
+    {
+      "path": "assets/kingdom_castle_base.png",
+      "bytes": 1353780,
+      "sha256": "a758f0bdf4c345a3c6ee294a57c92b9d2a47f5a2b54bfda82e4040fc2baf8aaa"
+    },
+    {
+      "path": "assets/specials/bomb.png",
+      "bytes": 34044,
+      "sha256": "959c596173454877b8d1475bc2257b861b9dd06d97f303ac623f461aadef7d68"
+    },
+    {
+      "path": "assets/specials/disco.png",
+      "bytes": 76349,
+      "sha256": "7cf0c21eff05be13bcd73ddd27a7a671bc894fb68e465e195d1a60099c8c91d5"
+    },
+    {
+      "path": "assets/specials/propeller.png",
+      "bytes": 56256,
+      "sha256": "afb72914b23e5b82d7380aa61d5bbd30c6f70301828a3c49c7bc210759e42918"
+    },
+    {
+      "path": "assets/specials/rocket_h.png",
+      "bytes": 26306,
+      "sha256": "a44e0504326a016d8786620e67d262dd6b23c604202f48d728ceaefad9895fcb"
+    },
+    {
+      "path": "assets/specials/rocket_v.png",
+      "bytes": 29318,
+      "sha256": "7e6888e34e1cca8ee7cb40559ebbd39dc7dacc26efbbbcf95f63fc8c82433d93"
+    },
+    {
+      "path": "assets/ui_button.png",
+      "bytes": 148738,
+      "sha256": "f139d0db0566c3bc5615132328256cd591a4b542b871d9a764b89b74fa3bc94c"
+    },
+    {
+      "path": "config.mjs",
+      "bytes": 3634,
+      "sha256": "2e1187c6e46de1dc7c5e6a15b8f6b29e17ba30e75529b77376cd61b0926d5d7c"
+    },
+    {
+      "path": "game-install.js",
+      "bytes": 2379,
+      "sha256": "2a8ffe6d0e14fbc969ea1a44d0e4d8e60320d9b49cc2217c42bb02fe95e2390c"
+    },
+    {
+      "path": "game-shell.css",
+      "bytes": 2868,
+      "sha256": "94a6fba4fb0e51729b192ba2b52ec52e0dbf7bd8ef19dbc074a25ca728c00257"
+    },
+    {
+      "path": "game-shell.js",
+      "bytes": 6321,
+      "sha256": "44c520665f4f6f139ae4291149efc7083c81c52974fb4732ec2642c7e1a5c0fc"
+    },
+    {
+      "path": "game-tools.js",
+      "bytes": 9186,
+      "sha256": "30f9f67695965d2b583980715dce1574df5013c05176d75f88b8b3f3eda7dcba"
+    },
+    {
+      "path": "game.config.js",
+      "bytes": 2353,
+      "sha256": "81d514d997fa525012e89878203d09ca068a3e83f02de85bfcc53ae240f926af"
+    },
+    {
+      "path": "game.config.json",
+      "bytes": 2331,
+      "sha256": "48471c1f11ee08dd714e7ccde166a2abbb73c147ecabd8fc3b81594ff852e0a3"
+    },
+    {
+      "path": "game.mjs",
+      "bytes": 31396,
+      "sha256": "aa18c74297ca7fbca8916018f014536e18c9daeee38c6fc6d09ed7254e4c290a"
+    },
+    {
+      "path": "icon-192.png",
+      "bytes": 812,
+      "sha256": "b18566504f35b2bd9975a648455bb24960831565c87a2334dd2d2098bc74eb0b"
+    },
+    {
+      "path": "icon-512.png",
+      "bytes": 3922,
+      "sha256": "778841f4b77e97f1b06278a336ab2a5d3b073507ef44aca053de7e1d21edf3d3"
+    },
+    {
+      "path": "index.html",
+      "bytes": 1818,
+      "sha256": "0c4f7ea59470f09e137c25eb33b30b44ad0ea7830be0cc8e1a0c0738881d7a82"
+    },
+    {
+      "path": "main.css",
+      "bytes": 567,
+      "sha256": "f6fc048daf7f7c2f4907e331f92c09c111b3dfb0c0c8dfef87fd11ce4d328dc4"
+    },
+    {
+      "path": "main.js",
+      "bytes": 16585,
+      "sha256": "e5321c8ea2ca5dc2e4a284c06d2e7a4682a725ecfccb4efc7026cd307ed8b856"
+    },
+    {
+      "path": "manifest.webmanifest",
+      "bytes": 487,
+      "sha256": "31f0a9db8d42be4c15e4a3e0fbed3d879ee3460fbda9a560e056995435a50ce8"
+    },
+    {
+      "path": "pwa.js",
+      "bytes": 2147,
+      "sha256": "266090c05276e298cf9cc10ae5c348797003ee0514a48a3b221db34fb2a0532a"
+    },
+    {
+      "path": "sw.js",
+      "bytes": 2386,
+      "sha256": "b581ccf9f1fd1455a58df33236f2e8951102c1ee04285aafd47d4e31ed2737db"
+    }
+  ]
+}
