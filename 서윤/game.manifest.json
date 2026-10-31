@@ -1,0 +1,174 @@
+{
+  "schema": 3,
+  "kind": "authored",
+  "projectId": "d02cd79c-86e4-4956-8d85-04bab8f081b2",
+  "kitVersion": "5.0.0",
+  "version": "2072be7a5888aef1350a8dc12359a1c325844ea5163b5049ccfca295ec22a996",
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 1068,
+      "sha256": "a794b9669a9a128b3caa5b83064062179e15057560d0e0857ffb3166995e74ee"
+    },
+    {
+      "path": "assets.mjs",
+      "bytes": 1243,
+      "sha256": "f9ceaf34ec5f2415f85bfa5a4f8ec4e083604d4fc09766806cfef72a1a596bec"
+    },
+    {
+      "path": "assets/backboard.png",
+      "bytes": 356584,
+      "sha256": "b72010976cbdf09ea22e5a3fa0a7db52298fea474a14b1836c5eead2dc61fcef"
+    },
+    {
+      "path": "assets/ball-baseball.png",
+      "bytes": 62483,
+      "sha256": "c9c864a6e3679a43c387af8fff0e579e11f8c49af015aaea7212042869f0a558"
+    },
+    {
+      "path": "assets/ball-earth.png",
+      "bytes": 84833,
+      "sha256": "2671f4142ef14e560559c6597cee5d9b476e383828e087889326ee53d7e20d90"
+    },
+    {
+      "path": "assets/ball-eight.png",
+      "bytes": 83043,
+      "sha256": "9ed8942c708501e7197023da608df7bf0011d794f68c6c4452b03a6bf22edd79"
+    },
+    {
+      "path": "assets/ball-flame.png",
+      "bytes": 68293,
+      "sha256": "5c7901d15b0576e8cb8fba8e65a925dc8f9063db4e113be41815b05bea410f23"
+    },
+    {
+      "path": "assets/ball-orange.png",
+      "bytes": 60157,
+      "sha256": "e9ae9e1cff727a1660295f2f3792c4380662effa3539ba5aa4d5d45d3264268a"
+    },
+    {
+      "path": "assets/court.png",
+      "bytes": 1013944,
+      "sha256": "08f1bd47ab61adedb3530f1e4cf00983e31b19ef987e33d1f6621caf1110a01d"
+    },
+    {
+      "path": "assets/flame.png",
+      "bytes": 20724,
+      "sha256": "4d07aebcdf2d37ae45bd53c7097b8545f0426e5c349475ebba1821934c93fef0"
+    },
+    {
+      "path": "assets/net.png",
+      "bytes": 295658,
+      "sha256": "0f926d5a8cb902110598c6c682363a0ca928556190dfd6bb6f9057338a69e8c6"
+    },
+    {
+      "path": "assets/rim-back.png",
+      "bytes": 48105,
+      "sha256": "1d7a9c15db1ff6e5dd730623b17457cf0d425791779b8845cff12be9a95a2f44"
+    },
+    {
+      "path": "assets/rim-front.png",
+      "bytes": 47937,
+      "sha256": "077adf365ad160f5c3f99c691468e5f47e3667f4de2b097ac4b5d103ddfcc340"
+    },
+    {
+      "path": "assets/rim.png",
+      "bytes": 49445,
+      "sha256": "68330f38b763172156af72c0a8f94629af70c27d9da609b06782204e2a8d5e23"
+    },
+    {
+      "path": "assets/star.png",
+      "bytes": 24766,
+      "sha256": "35c258a3c388a8ad12d67485b3f2c0fcfce997ef36e5c6db841bd00dcc7a77fd"
+    },
+    {
+      "path": "audio.mjs",
+      "bytes": 1363,
+      "sha256": "bd1131c1ea7fe62b4dfd33c3bf639b97a067381477b815d12c49549db997f860"
+    },
+    {
+      "path": "config.mjs",
+      "bytes": 1099,
+      "sha256": "51ae4a215aceceb16535311090a1cb889b5869300ae9a8c882c39f64f5735461"
+    },
+    {
+      "path": "game-install.js",
+      "bytes": 2379,
+      "sha256": "2a8ffe6d0e14fbc969ea1a44d0e4d8e60320d9b49cc2217c42bb02fe95e2390c"
+    },
+    {
+      "path": "game-shell.css",
+      "bytes": 2868,
+      "sha256": "94a6fba4fb0e51729b192ba2b52ec52e0dbf7bd8ef19dbc074a25ca728c00257"
+    },
+    {
+      "path": "game-shell.js",
+      "bytes": 6321,
+      "sha256": "44c520665f4f6f139ae4291149efc7083c81c52974fb4732ec2642c7e1a5c0fc"
+    },
+    {
+      "path": "game-tools.js",
+      "bytes": 9186,
+      "sha256": "30f9f67695965d2b583980715dce1574df5013c05176d75f88b8b3f3eda7dcba"
+    },
+    {
+      "path": "game.config.js",
+      "bytes": 1995,
+      "sha256": "b82e109b01fe430d67fc1e1dc72aa970accc1333cbd1a6bb5525c2fd7c78c200"
+    },
+    {
+      "path": "game.config.json",
+      "bytes": 1973,
+      "sha256": "ba6a58caf02523346a62e3fbd47420a45e15d4e81555885219f7454fa5a7e5ff"
+    },
+    {
+      "path": "game.mjs",
+      "bytes": 17054,
+      "sha256": "76855dabaecb33b9b5d976392893d6ac8dc617b725868658d5cb4c4c69f8db8f"
+    },
+    {
+      "path": "icon-192.png",
+      "bytes": 811,
+      "sha256": "9bff8828df73d90eac8940ebc405d7af88a1d9f92e4004aa8fff4369ea35600f"
+    },
+    {
+      "path": "icon-512.png",
+      "bytes": 3920,
+      "sha256": "a37f3c72cc8a3f099bade976a862cb5571d9382d6d1e5562dbd39356dde0e7b1"
+    },
+    {
+      "path": "index.html",
+      "bytes": 1820,
+      "sha256": "2ce704aa482ed77e01d67cb58c437708dbfe446106656b670f67d7827a524a33"
+    },
+    {
+      "path": "main.css",
+      "bytes": 1482,
+      "sha256": "96032de2fbf61674804ac61686c8bc46862108736e2de0f6cf6df16ce4d4f737"
+    },
+    {
+      "path": "main.js",
+      "bytes": 803,
+      "sha256": "c7a264423d5c330df1885316bde3f4fbb05d12cce94f1caa72a36c150a483e19"
+    },
+    {
+      "path": "manifest.webmanifest",
+      "bytes": 495,
+      "sha256": "ce179e27663fa3f3bf0ec1d73def54305c2725c74749ebae92fb7538c73622a2"
+    },
+    {
+      "path": "pwa.js",
+      "bytes": 2147,
+      "sha256": "266090c05276e298cf9cc10ae5c348797003ee0514a48a3b221db34fb2a0532a"
+    },
+    {
+      "path": "render.mjs",
+      "bytes": 9207,
+      "sha256": "7ddf9965d796b85f6021855f6f3622fd4ef34c45635b63c36e275297d1401b5a"
+    },
+    {
+      "path": "sw.js",
+      "bytes": 2101,
+      "sha256": "62ffd06cc84ad15587b631ba4d208259d8c92b769afa042fe6bd0f1e0e02f753"
+    }
+  ]
+}
