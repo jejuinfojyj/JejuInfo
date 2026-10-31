@@ -1,0 +1,239 @@
+{
+  "schema": 3,
+  "kind": "authored",
+  "projectId": "c729e149-2ba0-4b5f-a947-c502a888221b",
+  "kitVersion": "5.0.0",
+  "version": "90e0d70533a1c073cc42d0b8aa7764706a28d8f76a3c16294ecae40baa5be669",
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 1068,
+      "sha256": "a794b9669a9a128b3caa5b83064062179e15057560d0e0857ffb3166995e74ee"
+    },
+    {
+      "path": "app.js",
+      "bytes": 108888,
+      "sha256": "64a9b28e3f52cd2a4517b6b9712d0854de4382252053b2faeef50791e7613523"
+    },
+    {
+      "path": "assets/pack/bomb.png",
+      "bytes": 9730,
+      "sha256": "89b1a6e394f116e7a57c74da1e9aee4f50847f103217ad9356b0bad8c5a6fb2c"
+    },
+    {
+      "path": "assets/pack/bull.png",
+      "bytes": 55379,
+      "sha256": "9373303fd1c3015cd3e6c8246363fa36c765221f539a685d862890abcb503641"
+    },
+    {
+      "path": "assets/pack/bullet.png",
+      "bytes": 3954,
+      "sha256": "ef983077015caaf7813b7883b566e7d51baec0dbf857780cb77c6dfc5e6eddef"
+    },
+    {
+      "path": "assets/pack/bush.png",
+      "bytes": 66977,
+      "sha256": "201bb3d1c2e611787d1c430f803f4c48e6d4d94469cc5ae3dc45c1c7be85406c"
+    },
+    {
+      "path": "assets/pack/colt.png",
+      "bytes": 64511,
+      "sha256": "77b2bf7b86a6b6229c64be758f750934781f199dadbf4c0a428f892664cdc451"
+    },
+    {
+      "path": "assets/pack/dynamike.png",
+      "bytes": 61719,
+      "sha256": "ee1d867f60a67419353f4dd8d5289736e957130f34537a67013c5def2cfde1db"
+    },
+    {
+      "path": "assets/pack/fx-boom.png",
+      "bytes": 18515,
+      "sha256": "f4c0a37fc4023a6df34b0df270ab51af9c9ea79c10cdcaf039c337de72ee161b"
+    },
+    {
+      "path": "assets/pack/fx-gadget.png",
+      "bytes": 17954,
+      "sha256": "d6b37f78648b66e05ea99309edcdbe837ae76384856ba05ce7135b0e64fc885a"
+    },
+    {
+      "path": "assets/pack/fx-heal.png",
+      "bytes": 24319,
+      "sha256": "760af465b298cbcec1ccbe5dba58f7f123b35194801643e9f2ce8c633c35326a"
+    },
+    {
+      "path": "assets/pack/fx-hit.png",
+      "bytes": 6392,
+      "sha256": "7c61d4ea53153b1364a4f97219810746ca79d91cb303f50799b1bcaa8673b840"
+    },
+    {
+      "path": "assets/pack/fx-ko.png",
+      "bytes": 18575,
+      "sha256": "bfd69cd49ae5a0ea0774d46e00a3b7b5aa728f3182b1e1c15c0cb91d098bf9d7"
+    },
+    {
+      "path": "assets/pack/fx-slash.png",
+      "bytes": 15066,
+      "sha256": "f90f8e4480598668a1d8c2f32c871e47e05f53a65b7f6145e8945f6adaa20498"
+    },
+    {
+      "path": "assets/pack/fx-super.png",
+      "bytes": 20556,
+      "sha256": "ff7925a4783bdfdb5d9ebd837b98042da375271edfa4aafe623b4fe1a2ca0e6f"
+    },
+    {
+      "path": "assets/pack/gem.png",
+      "bytes": 13194,
+      "sha256": "4f19d6ea4359f32cc1f1ae153aea666ce78786cecab461b97ec148c238083df2"
+    },
+    {
+      "path": "assets/pack/grass.png",
+      "bytes": 718523,
+      "sha256": "ab65e0da2ad24b7cef08c833d6095f4b57662358e444aab8d839b910df831c65"
+    },
+    {
+      "path": "assets/pack/heal.png",
+      "bytes": 14506,
+      "sha256": "5771cb378cbdbc86fdcd1142fef2621ec77c8aa7ddc37c9482e1f06d41485bc6"
+    },
+    {
+      "path": "assets/pack/leon.png",
+      "bytes": 49220,
+      "sha256": "59e882ed95d9344366dc643962fd862ad899b8f2602dfe32015485103c2e0a3b"
+    },
+    {
+      "path": "assets/pack/mine.png",
+      "bytes": 80698,
+      "sha256": "26c8dac4f171b8ec7ff0aead9eacc1af0a6c80775747900ff55bec5da14c2151"
+    },
+    {
+      "path": "assets/pack/mortis.png",
+      "bytes": 78585,
+      "sha256": "0d44ea72fe6370cb7f0684d8a02202da80ae98aba8167b66108eec27bb7ef6f2"
+    },
+    {
+      "path": "assets/pack/piper.png",
+      "bytes": 32871,
+      "sha256": "5eac03b5525bf9a895bdf5151a55bf6314edc7290bbe7ce8635119a0ee539de1"
+    },
+    {
+      "path": "assets/pack/poco.png",
+      "bytes": 55540,
+      "sha256": "b13728e508795205e35fabf7dd60a48f12f5407d0cc3bc3edc0036070f845892"
+    },
+    {
+      "path": "assets/pack/primo.png",
+      "bytes": 69043,
+      "sha256": "7b71dc07bffd0fc3965336926b99964cefb76c0d7c8ee544e5b0a2c9c233f799"
+    },
+    {
+      "path": "assets/pack/shelly.png",
+      "bytes": 50088,
+      "sha256": "e4dd3ed7411fe2cdb256ac63f189b82d620029f657fef2ef56815314203d5d45"
+    },
+    {
+      "path": "assets/pack/spike.png",
+      "bytes": 59260,
+      "sha256": "4a14ae11b36ce1bbd74894dcc6cfc30fab10e49bcbba1bf7f6eef47efab6cb6a"
+    },
+    {
+      "path": "assets/pack/wall.png",
+      "bytes": 21665,
+      "sha256": "416d7f8aed5c732b065695c0b1ba4c21aa096c85f753f0b5052039089d719e38"
+    },
+    {
+      "path": "assets/pack/zone.png",
+      "bytes": 54820,
+      "sha256": "c8cdb8f0c42219869e097946dce00c0c1b9cf8f7d8ac5dbb401befef504c3a44"
+    },
+    {
+      "path": "cam3d.mjs",
+      "bytes": 3744,
+      "sha256": "38d5fe87cd192af0f602d1fa5dacaaaf5a8bc6296639ab18d8aef882a144552c"
+    },
+    {
+      "path": "camera2d.mjs",
+      "bytes": 1562,
+      "sha256": "454645e69f7388eb6629eed9649e9eb28ef0899efa037e59b3cf75a8cc8607cd"
+    },
+    {
+      "path": "config.mjs",
+      "bytes": 5667,
+      "sha256": "485c91c2a6354954ce10c3545d59b84f1363082414524e3db09032f07efd2167"
+    },
+    {
+      "path": "game-install.js",
+      "bytes": 2379,
+      "sha256": "2a8ffe6d0e14fbc969ea1a44d0e4d8e60320d9b49cc2217c42bb02fe95e2390c"
+    },
+    {
+      "path": "game-shell.css",
+      "bytes": 2868,
+      "sha256": "94a6fba4fb0e51729b192ba2b52ec52e0dbf7bd8ef19dbc074a25ca728c00257"
+    },
+    {
+      "path": "game-shell.js",
+      "bytes": 6392,
+      "sha256": "903012b27cd4f0f6f417169d3fc03b1f04d3c3a1bfe83372e0144f7da1ff8d68"
+    },
+    {
+      "path": "game-tools.js",
+      "bytes": 9186,
+      "sha256": "30f9f67695965d2b583980715dce1574df5013c05176d75f88b8b3f3eda7dcba"
+    },
+    {
+      "path": "game.config.js",
+      "bytes": 2867,
+      "sha256": "01585b15f17fdc9d9e566b0e20b817fc98a5f63ce0b994fa1cb5e601d04bbb8d"
+    },
+    {
+      "path": "game.config.json",
+      "bytes": 2845,
+      "sha256": "487e68fc4c8e4f44ec180fd3b016531afdccb5fe357c060d0f6e01f3a577e3e7"
+    },
+    {
+      "path": "game.mjs",
+      "bytes": 40523,
+      "sha256": "8aaeec1f79cbb752861d5b30e9f11e0d66e9994e00af71a109556513ae9cf9e2"
+    },
+    {
+      "path": "icon-192.png",
+      "bytes": 811,
+      "sha256": "d437794e372ec3f70c351d9fd30915c78196bddcd064a43ce42abf8a066e377b"
+    },
+    {
+      "path": "icon-512.png",
+      "bytes": 3920,
+      "sha256": "80e596586d91c07a13d7ff4ceb6b2f4ebb81c46c119babe2d6f5afa8f94b4eb8"
+    },
+    {
+      "path": "index.html",
+      "bytes": 2091,
+      "sha256": "6472cf2d41bf7415fdd2466aaa708217ab382a6cbb6a030b5f46912b6e425a1b"
+    },
+    {
+      "path": "main.css",
+      "bytes": 988,
+      "sha256": "9f4aa5d52b296cf2087a7ebb9a53cb4c65e2ed7b4f6ce20aefadea847090f878"
+    },
+    {
+      "path": "main.js",
+      "bytes": 19957,
+      "sha256": "709cd644cc2dbb60691b486a998389a32e45d15540a05d215218f4e761d24c71"
+    },
+    {
+      "path": "manifest.webmanifest",
+      "bytes": 496,
+      "sha256": "450c85a584f9178b95b2b44b34fb55950bf694d5def6dad71d35ec2c83b1992a"
+    },
+    {
+      "path": "pwa.js",
+      "bytes": 2147,
+      "sha256": "266090c05276e298cf9cc10ae5c348797003ee0514a48a3b221db34fb2a0532a"
+    },
+    {
+      "path": "sw.js",
+      "bytes": 2476,
+      "sha256": "cd94a337d2bca4bac510991309ae31fc04650d091990651a1285af6a6727137f"
+    }
+  ]
+}
