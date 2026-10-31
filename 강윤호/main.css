@@ -1,0 +1,40 @@
+:root {
+  --background: #1a0508;
+  --surface: #3a0a10;
+  --primary: #ffb347;
+  --text: #fff2e0;
+}
+
+body {
+  background:
+    radial-gradient(ellipse at 30% 0%, rgba(255, 80, 20, 0.45), transparent 50%),
+    radial-gradient(ellipse at 70% 15%, rgba(180, 20, 40, 0.4), transparent 45%),
+    linear-gradient(180deg, #2a080c 0%, #120406 55%, #080203 100%);
+}
+
+#game-frame {
+  box-shadow: 0 18px 40px rgba(40, 0, 0, 0.55);
+}
+
+#game-toolbar {
+  background: rgba(60, 10, 16, 0.7);
+  color: var(--text);
+}
+
+#round-overlay .round-sheet {
+  background: linear-gradient(180deg, rgba(70, 12, 18, 0.95), rgba(30, 5, 8, 0.97));
+  border: 2px solid rgba(255, 179, 71, 0.45);
+  color: var(--text);
+}
+
+#round-primary {
+  background: var(--primary);
+  color: #3a1400;
+  font-weight: 800;
+}
+
+#round-restart,
+#pause-game,
+#install-app {
+  border-color: rgba(255, 200, 160, 0.35);
+}
