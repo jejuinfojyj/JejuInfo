@@ -1,0 +1,129 @@
+{
+  "schema": 3,
+  "kind": "authored",
+  "projectId": "78e737c1-8f7d-42c8-9abc-e3917ff6a148",
+  "kitVersion": "5.0.0",
+  "version": "f2725ca0178b1a1300ac6a176cb6e444e96b67379989d001c879eaf07d14a5a8",
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 1068,
+      "sha256": "a794b9669a9a128b3caa5b83064062179e15057560d0e0857ffb3166995e74ee"
+    },
+    {
+      "path": "assets/comic/background.png",
+      "bytes": 1426529,
+      "sha256": "b6d8a27fc3f7d29353eb65f73a5cbcda1abd519312625c2e0defc6b159f9f6cd"
+    },
+    {
+      "path": "assets/comic/basic.png",
+      "bytes": 1031101,
+      "sha256": "1d6532cce88a3f802f2407c9249325d0eda1e134519e5089f279e6a336ad67cf"
+    },
+    {
+      "path": "assets/comic/boss.png",
+      "bytes": 2069150,
+      "sha256": "0521a088a05ac18ced260be9c55821bd588d28e7fd8285e8a4e113f42a960c9d"
+    },
+    {
+      "path": "assets/comic/elite.png",
+      "bytes": 1812723,
+      "sha256": "6e97915fe83eda0e49bfbc429cab4fd78720dda95e91303b27ab855b94ccacd3"
+    },
+    {
+      "path": "assets/comic/fast.png",
+      "bytes": 1128641,
+      "sha256": "ac8da14a9741441bf1106b43fea410b3587f8aa4158d3273075c9ee73fe2e915"
+    },
+    {
+      "path": "assets/comic/player.png",
+      "bytes": 1462453,
+      "sha256": "fb6714f62de5e0725ca19a073ed80181c2f94a36b9af8c0c274cd350029a227b"
+    },
+    {
+      "path": "assets/comic/props.png",
+      "bytes": 1291815,
+      "sha256": "251b8c29cd36f45a66416ab6a30a79469448d3dea2efd29bdfdf38d8d48bd8e8"
+    },
+    {
+      "path": "config.mjs",
+      "bytes": 3817,
+      "sha256": "deb4fd82a9dd45343dd557f86b18fdd3770c4b23321968bd5ac92ee8538964ce"
+    },
+    {
+      "path": "game-install.js",
+      "bytes": 2379,
+      "sha256": "2a8ffe6d0e14fbc969ea1a44d0e4d8e60320d9b49cc2217c42bb02fe95e2390c"
+    },
+    {
+      "path": "game-shell.css",
+      "bytes": 2868,
+      "sha256": "94a6fba4fb0e51729b192ba2b52ec52e0dbf7bd8ef19dbc074a25ca728c00257"
+    },
+    {
+      "path": "game-shell.js",
+      "bytes": 6433,
+      "sha256": "380d7380395248e615ba19598909fe37cb06223dead3da48164e869a1b583bc1"
+    },
+    {
+      "path": "game-tools.js",
+      "bytes": 9186,
+      "sha256": "30f9f67695965d2b583980715dce1574df5013c05176d75f88b8b3f3eda7dcba"
+    },
+    {
+      "path": "game.config.js",
+      "bytes": 2435,
+      "sha256": "994a1e67eb286779017531993eff5b15462d7c8fa1df5e4f021e208c6537b163"
+    },
+    {
+      "path": "game.config.json",
+      "bytes": 2413,
+      "sha256": "4462e35f3b6daa5e8864a93c3d361400e95512ad13091ed67cd7e1d47b741503"
+    },
+    {
+      "path": "game.mjs",
+      "bytes": 25953,
+      "sha256": "400e1e837299d1f6ef523ef897f1098508e275ea44c222d4cc6ba686d6ac10f9"
+    },
+    {
+      "path": "icon-192.png",
+      "bytes": 811,
+      "sha256": "6fc09e6aae15ecf3db81632d912ed8b1134cdb493fb112555e05d201b7c5a390"
+    },
+    {
+      "path": "icon-512.png",
+      "bytes": 3920,
+      "sha256": "165d601003d478e28ec4d2de5b0c5a1622bb612c7db029e91a893d6cd791e1ff"
+    },
+    {
+      "path": "index.html",
+      "bytes": 1990,
+      "sha256": "b2ac67780c6df34e39e71f86f266f1627675bf9d51a81cd2565f7a78f925b2f9"
+    },
+    {
+      "path": "main.css",
+      "bytes": 1109,
+      "sha256": "1a514272a730b1ed8dd04b05324850bab09a9da1c4dc88dc8665ea3b848599c2"
+    },
+    {
+      "path": "main.js",
+      "bytes": 19069,
+      "sha256": "1ba0c2db5c71468b1e309739464801ac10b09a0d49b15c1bcf5316d0effaeeaf"
+    },
+    {
+      "path": "manifest.webmanifest",
+      "bytes": 507,
+      "sha256": "36d27f023342a574171324bed8cb27cd1659c42416adad5d5a08a73c83fafb47"
+    },
+    {
+      "path": "pwa.js",
+      "bytes": 2147,
+      "sha256": "266090c05276e298cf9cc10ae5c348797003ee0514a48a3b221db34fb2a0532a"
+    },
+    {
+      "path": "sw.js",
+      "bytes": 1942,
+      "sha256": "975d5e80af98181bb87c3283d1c5f6c8532cf14fab02bd7e1603cfa829b06911"
+    }
+  ]
+}
