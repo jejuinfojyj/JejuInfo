@@ -1,0 +1,32 @@
+/* 분홍 토끼 매치 톤 */
+:root {
+  --background: #5a2748;
+  --primary: #ffb6d9;
+  --text: #fff5fb;
+}
+
+body {
+  background:
+    radial-gradient(circle at 16% 10%, #ff9ecd88 0%, transparent 40%),
+    radial-gradient(circle at 90% 85%, #ff6b9d55 0%, transparent 42%),
+    #4a1f3a;
+}
+
+#game-canvas {
+  border-radius: 18px;
+  box-shadow: 0 18px 42px #2a102299;
+}
+
+#round-primary {
+  background: linear-gradient(180deg, #ffd0e8, #ff8fb8);
+  color: #5a2748;
+}
+
+#pause-game {
+  background: #ffffff1f;
+}
+
+#round-description,
+#game-help {
+  white-space: pre-line;
+}
