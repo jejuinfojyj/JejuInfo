@@ -1,0 +1,134 @@
+{
+  "schema": 3,
+  "kind": "authored",
+  "projectId": "4f15b0f6-de17-44ce-8e80-9527873a6330",
+  "kitVersion": "5.0.0",
+  "version": "6712fe752b796166939264d7bd562e356861191b6d2b60c0fcf12e562f0e57ca",
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 1068,
+      "sha256": "a794b9669a9a128b3caa5b83064062179e15057560d0e0857ffb3166995e74ee"
+    },
+    {
+      "path": "art.mjs",
+      "bytes": 2588,
+      "sha256": "e7e9391ad27efb75c616c1f57eb3253d198141b38202b253da29973eb6e4f79a"
+    },
+    {
+      "path": "assets/background.png",
+      "bytes": 1256342,
+      "sha256": "dba1c4bbcb03163c8832c79b62142578eca2c935d8d9c2f8c6e955397b155eb3"
+    },
+    {
+      "path": "assets/basic_enemy_sheet.png",
+      "bytes": 895892,
+      "sha256": "126488460935d5f6d1c1306c0dcf5e3f9282157f34524d06824255698286fd83"
+    },
+    {
+      "path": "assets/boss_enemy_sheet.png",
+      "bytes": 1784003,
+      "sha256": "a9d83351001e60c2fea533e2f66b55bd67fff677a651c6dfabb9b8e92311d015"
+    },
+    {
+      "path": "assets/elite_enemy_sheet.png",
+      "bytes": 1625873,
+      "sha256": "807ec6be0f063b42e45864ddf13102ab4dbc72fea301c418c12a274c0e2b154e"
+    },
+    {
+      "path": "assets/fast_enemy_sheet.png",
+      "bytes": 1018689,
+      "sha256": "08756c0986df3ac86f938033cc38856e0fff080a6547c73aa072b79994114301"
+    },
+    {
+      "path": "assets/player_sheet.png",
+      "bytes": 1141172,
+      "sha256": "8eb04a1594802eb40d5bf243eb1191071f95f96705398fcb0e82a8637754bb76"
+    },
+    {
+      "path": "assets/props_atlas.png",
+      "bytes": 935783,
+      "sha256": "666037417b287921d55eed63b6bcdb8a1203ed3b79e6e8f88103d0e1e83b48de"
+    },
+    {
+      "path": "config.mjs",
+      "bytes": 4229,
+      "sha256": "a09bfc7c084272dbd536d1de5125d919cd3f105feb4e0e547060f7016ab750da"
+    },
+    {
+      "path": "game-install.js",
+      "bytes": 2379,
+      "sha256": "2a8ffe6d0e14fbc969ea1a44d0e4d8e60320d9b49cc2217c42bb02fe95e2390c"
+    },
+    {
+      "path": "game-shell.css",
+      "bytes": 2868,
+      "sha256": "94a6fba4fb0e51729b192ba2b52ec52e0dbf7bd8ef19dbc074a25ca728c00257"
+    },
+    {
+      "path": "game-shell.js",
+      "bytes": 6321,
+      "sha256": "44c520665f4f6f139ae4291149efc7083c81c52974fb4732ec2642c7e1a5c0fc"
+    },
+    {
+      "path": "game-tools.js",
+      "bytes": 9186,
+      "sha256": "30f9f67695965d2b583980715dce1574df5013c05176d75f88b8b3f3eda7dcba"
+    },
+    {
+      "path": "game.config.js",
+      "bytes": 2248,
+      "sha256": "f4cc975be84a1266ef2e3caf81157a29dc308200a7f3411fdf32a5aac02d11cf"
+    },
+    {
+      "path": "game.config.json",
+      "bytes": 2226,
+      "sha256": "72c80277954017a51c774cbb1c83e024745633b0214accad29de867a624de4d4"
+    },
+    {
+      "path": "game.mjs",
+      "bytes": 28058,
+      "sha256": "cc8745a39d47d29755d151b78bbc9f1c06a17a76b5efc041485f056895119568"
+    },
+    {
+      "path": "icon-192.png",
+      "bytes": 811,
+      "sha256": "6fc09e6aae15ecf3db81632d912ed8b1134cdb493fb112555e05d201b7c5a390"
+    },
+    {
+      "path": "icon-512.png",
+      "bytes": 3920,
+      "sha256": "165d601003d478e28ec4d2de5b0c5a1622bb612c7db029e91a893d6cd791e1ff"
+    },
+    {
+      "path": "index.html",
+      "bytes": 1828,
+      "sha256": "6bb213d8d6f48265de061680af38b168dfd33280643d146653236c578df4d38d"
+    },
+    {
+      "path": "main.css",
+      "bytes": 227,
+      "sha256": "70a87077d4742ee5d99d54eee445419ea83d3424db3ead866d039e87c9692ade"
+    },
+    {
+      "path": "main.js",
+      "bytes": 13691,
+      "sha256": "42d73815703e06be9abd37b268418b5ecdeae77c6d27820c414b6d6503f4ad91"
+    },
+    {
+      "path": "manifest.webmanifest",
+      "bytes": 505,
+      "sha256": "cfa5e14955e1f81ab5a1c1d6e4ebf3c62cb1842584cd07559e0efa4134574990"
+    },
+    {
+      "path": "pwa.js",
+      "bytes": 2147,
+      "sha256": "266090c05276e298cf9cc10ae5c348797003ee0514a48a3b221db34fb2a0532a"
+    },
+    {
+      "path": "sw.js",
+      "bytes": 1972,
+      "sha256": "b5866ab7735b274d10e8fa8bad994710ed06249879e0b801c9b6dfbc91b48e98"
+    }
+  ]
+}
