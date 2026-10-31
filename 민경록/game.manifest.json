@@ -1,0 +1,149 @@
+{
+  "schema": 3,
+  "kind": "authored",
+  "projectId": "2c1086b9-c8a8-4c18-9607-c32161783e76",
+  "kitVersion": "5.0.0",
+  "version": "c376ee5f700301539f53dd19be7f8d265e116c541e48b7a4a5049280653893a5",
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 1068,
+      "sha256": "a794b9669a9a128b3caa5b83064062179e15057560d0e0857ffb3166995e74ee"
+    },
+    {
+      "path": "assets/background.png",
+      "bytes": 2271390,
+      "sha256": "854f02092e6b806ce3cf9d7ab352439125587a534cbc37536d24fe69e2f337f3"
+    },
+    {
+      "path": "assets/objects/ball.png",
+      "bytes": 32624,
+      "sha256": "65a54414ef3579446f97dd0010f33678d5aa06cf012fa2864be02d6df1e5d376"
+    },
+    {
+      "path": "assets/objects/goal_blue.png",
+      "bytes": 747809,
+      "sha256": "700e0bf15cc9dc71615413816e24f4910a3636f913dd5cb61b76b734c956a977"
+    },
+    {
+      "path": "assets/objects/goal_orange.png",
+      "bytes": 498523,
+      "sha256": "8f309b03876314fdc3290ffd55f508386a8e50f89290b5f5fff9971b1f9b67fe"
+    },
+    {
+      "path": "assets/objects/hoop.png",
+      "bytes": 60424,
+      "sha256": "b516f7020c2115073587be39dcaaf749828dfd3ba824cfa91675268d468cf440"
+    },
+    {
+      "path": "assets/sprites/wheels.png",
+      "bytes": 323632,
+      "sha256": "8a772ba6ba9118104c8014c9fc39165887e165860c26b51627f2196c67743e9a"
+    },
+    {
+      "path": "assets/vehicles/batmobile.png",
+      "bytes": 44639,
+      "sha256": "a2bcf766152efd14c4d67010ca1fa9b072538bf7f36693f684fdf44e7caba90a"
+    },
+    {
+      "path": "assets/vehicles/breakout.png",
+      "bytes": 50139,
+      "sha256": "b15240037f1955924f6e940139ef29be409599d6ec6a354b46c427a6778c22b2"
+    },
+    {
+      "path": "assets/vehicles/dominus.png",
+      "bytes": 28213,
+      "sha256": "8ea591ad39ca5d629343aab41c2fc18b76363e4caab7f075507b30a1bf83ea2a"
+    },
+    {
+      "path": "assets/vehicles/fennec.png",
+      "bytes": 59935,
+      "sha256": "4986c3bf622b0927dcc6cae70d9613d3db368f0cdd18bd4ca7b8b3db42196431"
+    },
+    {
+      "path": "assets/vehicles/octane.png",
+      "bytes": 48535,
+      "sha256": "89e5048d176f7b66c0ffeb42a0c592d9b3b5f4a74ec025449bd869491a77af70"
+    },
+    {
+      "path": "config.mjs",
+      "bytes": 4997,
+      "sha256": "df16d2da9a96f3784adbce0eea84bc11f1238d8e9c216dab6b2a71bd68ac0724"
+    },
+    {
+      "path": "game-install.js",
+      "bytes": 2379,
+      "sha256": "2a8ffe6d0e14fbc969ea1a44d0e4d8e60320d9b49cc2217c42bb02fe95e2390c"
+    },
+    {
+      "path": "game-shell.css",
+      "bytes": 2868,
+      "sha256": "94a6fba4fb0e51729b192ba2b52ec52e0dbf7bd8ef19dbc074a25ca728c00257"
+    },
+    {
+      "path": "game-shell.js",
+      "bytes": 6321,
+      "sha256": "44c520665f4f6f139ae4291149efc7083c81c52974fb4732ec2642c7e1a5c0fc"
+    },
+    {
+      "path": "game-tools.js",
+      "bytes": 9186,
+      "sha256": "30f9f67695965d2b583980715dce1574df5013c05176d75f88b8b3f3eda7dcba"
+    },
+    {
+      "path": "game.config.js",
+      "bytes": 2220,
+      "sha256": "c1a434a531a19846ca4980fb48ac710dc53ba99de0c26ab36b9fd146debd432c"
+    },
+    {
+      "path": "game.config.json",
+      "bytes": 2198,
+      "sha256": "71078c6428872c34875bbc2c8756d6060bf97eb33f349fc111cb8a74423b6ac3"
+    },
+    {
+      "path": "game.mjs",
+      "bytes": 25870,
+      "sha256": "06510c8c59822a5ccc54d7c29b02a31e20af57f04f1f879e84acda0cf897799b"
+    },
+    {
+      "path": "icon-192.png",
+      "bytes": 811,
+      "sha256": "2bef70bf4e8227418694dfbdf4ee67900b7b166d965489093a976bd3727f1dfb"
+    },
+    {
+      "path": "icon-512.png",
+      "bytes": 4628,
+      "sha256": "311eb04384424ed713fa3832eee52b99b1bc697bdd7b82b30ac8d5ce223144db"
+    },
+    {
+      "path": "index.html",
+      "bytes": 2281,
+      "sha256": "bc7e7ac78210ee15f60625242b567917131daa0d547d67748b339583e0c19c69"
+    },
+    {
+      "path": "main.css",
+      "bytes": 605,
+      "sha256": "cac6397c373f63e0ea5ca68015abe905a4647dc72cfa7e7c8d3d2fda8cbb04cb"
+    },
+    {
+      "path": "main.js",
+      "bytes": 26578,
+      "sha256": "2415fbea66d3122d1a67336862ce1519cb6b536339f0c415f1c57db3655605b1"
+    },
+    {
+      "path": "manifest.webmanifest",
+      "bytes": 508,
+      "sha256": "cb6e46a7d432c31af72c5c59aea6912d8cb252f3eb5218d67dbd654a67d00f43"
+    },
+    {
+      "path": "pwa.js",
+      "bytes": 2147,
+      "sha256": "266090c05276e298cf9cc10ae5c348797003ee0514a48a3b221db34fb2a0532a"
+    },
+    {
+      "path": "sw.js",
+      "bytes": 2090,
+      "sha256": "669e3e31fb1872e264a969c5d0b1e70eeddff21e6486d1b16408bc17fadab803"
+    }
+  ]
+}
