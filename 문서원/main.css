@@ -1,0 +1,26 @@
+/* 탕탕특공대 — 세로 전장과 메뉴 톤 */
+:root {
+  --background: #1a2430;
+  --primary: #ffd166;
+  --text: #f8f4e8;
+}
+
+#game-frame {
+  box-shadow: 0 18px 40px #00000066;
+}
+
+#round-description {
+  max-width: 36em;
+}
+
+#round-hard {
+  background: linear-gradient(180deg, #ef476f, #c9184a);
+  color: #fff8f0;
+  border: 0;
+  box-shadow: 0 6px 0 #7a1028;
+}
+
+#round-hard:active {
+  transform: translateY(2px);
+  box-shadow: 0 4px 0 #7a1028;
+}
