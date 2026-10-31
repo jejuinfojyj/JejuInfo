@@ -1,0 +1,129 @@
+{
+  "schema": 3,
+  "kind": "authored",
+  "projectId": "9cca1c38-225d-4e2f-bc77-e93b0daa73e8",
+  "kitVersion": "5.0.0",
+  "version": "5d2a85397bec27a10e72ebf4fba2eb01dd8da9d25bc538b9a9b0d8e2b0a5b0ae",
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 1068,
+      "sha256": "a794b9669a9a128b3caa5b83064062179e15057560d0e0857ffb3166995e74ee"
+    },
+    {
+      "path": "assets/background.png",
+      "bytes": 2136993,
+      "sha256": "1409f2388706376a3d0a714b6de6956a97e6f95da6f25ebc0cc41c850fef6a50"
+    },
+    {
+      "path": "assets/basic_enemy_sheet.png",
+      "bytes": 1195189,
+      "sha256": "2311ce7cc9dbf6f572edc757407659a49e6bfdee36934ea1581d4a46e4bf2fce"
+    },
+    {
+      "path": "assets/boss_enemy_sheet.png",
+      "bytes": 2024113,
+      "sha256": "f46aca16ffbc8f89d94f4a59cb6dfa99bdb10db222e88b50b2b1f115e9d38313"
+    },
+    {
+      "path": "assets/elite_enemy_sheet.png",
+      "bytes": 1850935,
+      "sha256": "6ad88d2d58e2fd8109ed657fb28ad2cf494cfef62545c448379b023ea017adb3"
+    },
+    {
+      "path": "assets/fast_enemy_sheet.png",
+      "bytes": 1287216,
+      "sha256": "b75c7e8c9f9d18dadaa8778eac8958929cf8c5c04b26bcbfb37984ed91b164ac"
+    },
+    {
+      "path": "assets/player_sheet.png",
+      "bytes": 1460403,
+      "sha256": "01969801585519a1c4bdd01f6aa2494be90cf46e89582b4baa64f412066d17c5"
+    },
+    {
+      "path": "assets/props_atlas.png",
+      "bytes": 1288950,
+      "sha256": "7aff999895412a7cb56ea90680c98bf2abd32cc114cdbf35a03cb9eee0f7bfdf"
+    },
+    {
+      "path": "config.mjs",
+      "bytes": 3558,
+      "sha256": "807d07ba88b17780f453c6da2bffe198a841af9f536e2c5681ae5bba7d8f8fb8"
+    },
+    {
+      "path": "game-install.js",
+      "bytes": 2379,
+      "sha256": "2a8ffe6d0e14fbc969ea1a44d0e4d8e60320d9b49cc2217c42bb02fe95e2390c"
+    },
+    {
+      "path": "game-shell.css",
+      "bytes": 2868,
+      "sha256": "94a6fba4fb0e51729b192ba2b52ec52e0dbf7bd8ef19dbc074a25ca728c00257"
+    },
+    {
+      "path": "game-shell.js",
+      "bytes": 6321,
+      "sha256": "44c520665f4f6f139ae4291149efc7083c81c52974fb4732ec2642c7e1a5c0fc"
+    },
+    {
+      "path": "game-tools.js",
+      "bytes": 9186,
+      "sha256": "30f9f67695965d2b583980715dce1574df5013c05176d75f88b8b3f3eda7dcba"
+    },
+    {
+      "path": "game.config.js",
+      "bytes": 2238,
+      "sha256": "d796b4d8142827ba08cfce159a22ab77a2c61ae3108c8141110eb37339049013"
+    },
+    {
+      "path": "game.config.json",
+      "bytes": 2216,
+      "sha256": "670dc8b35c392a068bd4dfe1c89c9d388c3e408273ab9a7722f30c5dd7873a03"
+    },
+    {
+      "path": "game.mjs",
+      "bytes": 26834,
+      "sha256": "d71139c01959cbb13970b13b8de0cc50acbeeb0f674e442dc85352aa7df9a0d0"
+    },
+    {
+      "path": "icon-192.png",
+      "bytes": 811,
+      "sha256": "6fc09e6aae15ecf3db81632d912ed8b1134cdb493fb112555e05d201b7c5a390"
+    },
+    {
+      "path": "icon-512.png",
+      "bytes": 3920,
+      "sha256": "165d601003d478e28ec4d2de5b0c5a1622bb612c7db029e91a893d6cd791e1ff"
+    },
+    {
+      "path": "index.html",
+      "bytes": 1857,
+      "sha256": "110c2fb97792b22bde442e63b6c085249c0565b8b303180a2875b68b0fff5deb"
+    },
+    {
+      "path": "main.css",
+      "bytes": 227,
+      "sha256": "70a87077d4742ee5d99d54eee445419ea83d3424db3ead866d039e87c9692ade"
+    },
+    {
+      "path": "main.js",
+      "bytes": 16491,
+      "sha256": "f85410114abe4520dc2aa18b067915e5f15a0494e4688c0f3f5b42e5dda2338c"
+    },
+    {
+      "path": "manifest.webmanifest",
+      "bytes": 563,
+      "sha256": "9858b6c0b767a38ef2efb6d629dd608cb96e578058c66c4c61981e5e24019c87"
+    },
+    {
+      "path": "pwa.js",
+      "bytes": 2147,
+      "sha256": "266090c05276e298cf9cc10ae5c348797003ee0514a48a3b221db34fb2a0532a"
+    },
+    {
+      "path": "sw.js",
+      "bytes": 1960,
+      "sha256": "9e0eaeb0bb3b91600120010840e6d9e1d821e4bd0df88119409f65d746e8ba0f"
+    }
+  ]
+}
