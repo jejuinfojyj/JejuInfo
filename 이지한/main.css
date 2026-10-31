@@ -1,0 +1,9 @@
+#game-canvas { cursor: crosshair; }
+#nickname-field { display: grid; gap: 6px; margin: 0 0 12px; font-size: 12px; font-weight: 800; color: #f4ffe9; }
+#nickname-field input { width: 100%; min-height: 48px; padding: 10px 14px; border: 2px solid rgba(255,255,255,0.28); border-radius: 12px; background: rgba(7, 28, 16, 0.55); color: #f4ffe9; font: inherit; font-size: 16px; font-weight: 700; }
+#nickname-field input::placeholder { color: rgba(244,255,233,0.45); }
+#nickname-field input:focus { outline: 3px solid #ffe08a; outline-offset: 2px; border-color: #ffe08a; }
+#skin-picker { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 0 0 14px; }
+#skin-picker .skin-label { flex-basis: 100%; font-size: 12px; font-weight: 800; }
+#skin-picker button { min-height: 44px; min-width: 64px; padding: 8px 12px; color: #142416; border: 3px solid transparent; border-radius: 12px; }
+#skin-picker button.is-selected { border-color: #fff; }
