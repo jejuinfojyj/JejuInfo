@@ -1,5 +1,5 @@
 window.GAME_CONFIG = {
-  "title": "오벌 드리프트",
+  "title": "문어 드리프트",
   "creator": "문어",
   "rules": {},
   "custom": {},

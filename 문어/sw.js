@@ -1,5 +1,5 @@
 'use strict';
-const VERSION="2b55a1a46a3be50045e304090c0a2253256a9422470d3e1e854fb32277ee831c";
+const VERSION="57b14b6e569d3ba70b3635f0cfbe0a6ebd196bf7fab4ec891eb31185eea07355";
 const PREFIX="cursor-game:99eae6c4-723b-4b70-a471-728b40b63389:"+self.registration.scope+':';
 const CACHE=PREFIX+VERSION;
 const FILES=["./","./assets/driver.png","./assets/kart.png","./game-install.js","./game.config.js","./game.config.json","./icon-192.png","./icon-512.png","./index.html","./main.css","./manifest.webmanifest","./pwa.js","./shell.js","./src/assets/library.js","./src/assets/manifest.js","./src/audio/engine.js","./src/config/handling.js","./src/config/rules.js","./src/config/track.js","./src/config/visual.js","./src/fx/particles.js","./src/fx/skids.js","./src/game.js","./src/input.js","./src/kart/kart.js","./src/main.js","./src/math.js","./src/race/director.js","./src/render/changeBoard.js","./src/render/hud.js","./src/render/kartView.js","./src/render/textures.js","./src/render/world.js","./src/track/oval.js","./src/track/props.js"];

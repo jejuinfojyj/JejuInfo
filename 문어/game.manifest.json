@@ -3,7 +3,7 @@
   "kind": "authored",
   "projectId": "99eae6c4-723b-4b70-a471-728b40b63389",
   "kitVersion": "5.0.0",
-  "version": "02aa1c508a3a59c8281a8c62cd3a60a3dec70c78abd9d7a5c3a263f565e80a12",
+  "version": "0a75f9e722b5834252169c06a7af0f5ce9f3db853da6d8a88d186da217a413f9",
   "files": [
     {
       "path": "assets/driver.png",
@@ -23,12 +23,12 @@
     {
       "path": "game.config.js",
       "bytes": 2643,
-      "sha256": "493dd804020c38354d2ddc765f978d81063eb025d0ac3557025138d46dc94c02"
+      "sha256": "c9344b416484f48662dd89d1f47e29141963045250bb749e37dfba105ba3e1f9"
     },
     {
       "path": "game.config.json",
       "bytes": 2621,
-      "sha256": "afbf57316c7e30de2d73ddb13bc5b9a3a02be6fc4382ab8dc29b8a55739d23aa"
+      "sha256": "f98c9bb77ed1f15e72148c994a9664ed2dae538c3492d64de64b5f621823b516"
     },
     {
       "path": "icon-192.png",
@@ -43,7 +43,7 @@
     {
       "path": "index.html",
       "bytes": 2263,
-      "sha256": "a48d38aa0cfc490d6f06ded316d90f42df2b1f04f7c86bef4321b5028f36251d"
+      "sha256": "bb9905b55926178755255430f20d1608435125915c08b108309418a997b3c7af"
     },
     {
       "path": "main.css",
@@ -53,7 +53,7 @@
     {
       "path": "manifest.webmanifest",
       "bytes": 514,
-      "sha256": "b30b9bf30d84ba0efe982f83270113c89d99604e13cab77683029feace80fda6"
+      "sha256": "3e6dcb9efb28d30fbacff20c097930e67418c3cbabff0d484be42e69b8d4d6b8"
     },
     {
       "path": "pwa.js",
@@ -178,7 +178,7 @@
     {
       "path": "sw.js",
       "bytes": 2200,
-      "sha256": "17613b756329af20fd83d05186687db4e78fb01b8c88e109fc2c8829f6b1c7ba"
+      "sha256": "bb16e4ebe4c730ce920b2eac56507ecd5dc2f7e483830738514570987d0d7cbc"
     }
   ]
 }
