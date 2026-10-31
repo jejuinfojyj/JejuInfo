@@ -1,0 +1,134 @@
+{
+  "schema": 3,
+  "kind": "authored",
+  "projectId": "dbf6c9f2-3829-4948-ba5e-36964e457700",
+  "kitVersion": "5.0.0",
+  "version": "1f570532b148964a267bf279e5a8d1e63a92c32fede244fdef8e4e9ea5ff9157",
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 1068,
+      "sha256": "a794b9669a9a128b3caa5b83064062179e15057560d0e0857ffb3166995e74ee"
+    },
+    {
+      "path": "assets/09-화산섬-01.png",
+      "bytes": 6705,
+      "sha256": "12aabd3679c7b06d68c768a85395fbf896cbcf3e9e96e4ecdd9fa38e2d09bc63"
+    },
+    {
+      "path": "assets/09-화산섬-02.png",
+      "bytes": 7049,
+      "sha256": "b426abb51d38792ed8b6ee76c8eac37ed4ef9473aa1b92f22c5fc4cd723cd971"
+    },
+    {
+      "path": "assets/09-화산섬-03.png",
+      "bytes": 1707,
+      "sha256": "40a77a3cd06e4ee8c5e02886146befec97a167a7c1af6f9e9fac88ae3c4df08b"
+    },
+    {
+      "path": "birds.mjs",
+      "bytes": 1684,
+      "sha256": "5153e4b765eb7f8ff0c18e7ceef3ed5d8a78eb4e2c0a595e6d4fe75119278eb6"
+    },
+    {
+      "path": "config.mjs",
+      "bytes": 2391,
+      "sha256": "7830748a6e4c9bf7c17e463f3ec932eac6d019c8f7b65e6f93e2b3105525f78a"
+    },
+    {
+      "path": "draw.mjs",
+      "bytes": 20675,
+      "sha256": "8fe044ccb5370f00a907016a38fda4339585014f06d7cfa0e9780f8f8e1811f0"
+    },
+    {
+      "path": "game-install.js",
+      "bytes": 2379,
+      "sha256": "2a8ffe6d0e14fbc969ea1a44d0e4d8e60320d9b49cc2217c42bb02fe95e2390c"
+    },
+    {
+      "path": "game-shell.css",
+      "bytes": 2868,
+      "sha256": "94a6fba4fb0e51729b192ba2b52ec52e0dbf7bd8ef19dbc074a25ca728c00257"
+    },
+    {
+      "path": "game-shell.js",
+      "bytes": 6321,
+      "sha256": "44c520665f4f6f139ae4291149efc7083c81c52974fb4732ec2642c7e1a5c0fc"
+    },
+    {
+      "path": "game-tools.js",
+      "bytes": 9186,
+      "sha256": "30f9f67695965d2b583980715dce1574df5013c05176d75f88b8b3f3eda7dcba"
+    },
+    {
+      "path": "game.config.js",
+      "bytes": 2117,
+      "sha256": "b7c191574463ca38305a4cc0928558b15d313d0f644ac42139d71345f7b9f1d8"
+    },
+    {
+      "path": "game.config.json",
+      "bytes": 2095,
+      "sha256": "c263051bce9e6e7884ecf9b6ed79675764d039862cbfa55d52120ebef5fb6687"
+    },
+    {
+      "path": "game.mjs",
+      "bytes": 11598,
+      "sha256": "a2e7de99faa235bf416ab0bc17f1a8343cd008f98fd345d57abda3cf79f9d468"
+    },
+    {
+      "path": "icon-192.png",
+      "bytes": 810,
+      "sha256": "6abe3aa42e48ca428a032bebfc693f542dbae183e6d7653b2aca6f17eb4c544c"
+    },
+    {
+      "path": "icon-512.png",
+      "bytes": 3920,
+      "sha256": "e5474688fcf6737017c3a34460849278d9f632c56a5670bc77224ccbb368e049"
+    },
+    {
+      "path": "index.html",
+      "bytes": 1957,
+      "sha256": "261914312a91d655307f045e2eabf61112430c4875072f68e32820dcfa1b3850"
+    },
+    {
+      "path": "levels.mjs",
+      "bytes": 1771,
+      "sha256": "7669cafd11e2636a91d435270d103cdc29958c5b8deee2e9605facf95dda69b2"
+    },
+    {
+      "path": "main.css",
+      "bytes": 1370,
+      "sha256": "d8bc1ea136f8697df05beed59ea683c552d392e3a61c92e6f22562a734da9bd3"
+    },
+    {
+      "path": "main.js",
+      "bytes": 958,
+      "sha256": "fe203eb8fb9d99deeb24a49f51faa3d620b3f2ddbe1ee9564ca9b6602e36a2cf"
+    },
+    {
+      "path": "manifest.webmanifest",
+      "bytes": 500,
+      "sha256": "5bad5740e873f06b897788f51849a3008ce5d39844a9f92ee226ba3069e15785"
+    },
+    {
+      "path": "physics.mjs",
+      "bytes": 7350,
+      "sha256": "2a2349de02106adc01271c2bf3c2c669ba77f4d1e6a9c6a5bfc9ee246af47efd"
+    },
+    {
+      "path": "pwa.js",
+      "bytes": 2147,
+      "sha256": "266090c05276e298cf9cc10ae5c348797003ee0514a48a3b221db34fb2a0532a"
+    },
+    {
+      "path": "sound.mjs",
+      "bytes": 3535,
+      "sha256": "f7d3111fbaec445adcdb5516a03d7726d38febdc480499df32dfaf2e5815ce19"
+    },
+    {
+      "path": "sw.js",
+      "bytes": 1968,
+      "sha256": "006f3ca6d32c38c17f98fea030532a9027e0eeb9df4328a4a68ef4a8d29b094a"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+'use strict';
+const VERSION="fb53d387b55725a4f511ddd3ab94339909878e81b9b6fd11bbae326d89daf0a4";
+const PREFIX="cursor-game:dbf6c9f2-3829-4948-ba5e-36964e457700:"+self.registration.scope+':';
+const CACHE=PREFIX+VERSION;
+const FILES=["./","./LICENSE.txt","./assets/09-%ED%99%94%EC%82%B0%EC%84%AC-01.png","./assets/09-%ED%99%94%EC%82%B0%EC%84%AC-02.png","./assets/09-%ED%99%94%EC%82%B0%EC%84%AC-03.png","./birds.mjs","./config.mjs","./draw.mjs","./game-install.js","./game-shell.css","./game-shell.js","./game-tools.js","./game.config.js","./game.config.json","./game.mjs","./icon-192.png","./icon-512.png","./index.html","./levels.mjs","./main.css","./main.js","./manifest.webmanifest","./physics.mjs","./pwa.js","./sound.mjs"];
+self.addEventListener('install',event=>event.waitUntil((async()=>{const cache=await caches.open(CACHE);await cache.addAll(FILES.map(file=>new Request(new URL(file,self.registration.scope),{cache:'reload'})));})()));
+self.addEventListener('activate',event=>event.waitUntil((async()=>{for(const key of await caches.keys())if(key.startsWith(PREFIX)&&key!==CACHE)await caches.delete(key);await self.clients.claim();})()));
+self.addEventListener('message',event=>{if(event.data==='SKIP_WAITING')self.skipWaiting();if(event.data==='OFFLINE_STATUS')event.waitUntil((async()=>{const cache=await caches.open(CACHE);const ready=(await Promise.all(FILES.map(file=>cache.match(new URL(file,self.registration.scope).href)))).every(Boolean);event.ports[0]?.postMessage({ready,version:VERSION});})());});
+self.addEventListener('fetch',event=>{const url=new URL(event.request.url);if(event.request.method!=='GET'||url.origin!==self.location.origin||!url.href.startsWith(self.registration.scope))return;event.respondWith((async()=>{const cache=await caches.open(CACHE);const request=event.request.mode==='navigate'?new URL('./',self.registration.scope).href:event.request;return(await cache.match(request,{ignoreSearch:true}))||fetch(event.request);})());});
