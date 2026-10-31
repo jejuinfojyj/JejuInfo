@@ -3,7 +3,7 @@
   "kind": "authored",
   "projectId": "dd691f66-4ef8-4022-9aed-aaa0d2c63070",
   "kitVersion": "5.0.0",
-  "version": "24f124ab096bb6d3a3957a80cd3cf908e585052a32f9a8a258f898bb22d4aa75",
+  "version": "e466bfb4b8b9f2429f988b6e371800ec8270696e50f3d655d8cd36775df17f5d",
   "files": [
     {
       "path": "LICENSE.txt",
@@ -48,12 +48,12 @@
     {
       "path": "game.config.js",
       "bytes": 2123,
-      "sha256": "50aea4168d6ea44afa24e75d5f9ed0beffdedf53c1e9c37188a33c382ff996bd"
+      "sha256": "c57f3337a48787b9b896b64adac0c8d8cf523a2274e4ff7421443b6537cdaa02"
     },
     {
       "path": "game.config.json",
       "bytes": 2101,
-      "sha256": "10d978649c2ea4109afb6c0ce5bf3a064952a6b0b30263429dcc16f1a21584e2"
+      "sha256": "1ac8733f3e3ec07aaa214406452b254d3ecf1b52c46da5a153d1f151ecd4d30d"
     },
     {
       "path": "game.mjs",
@@ -73,7 +73,7 @@
     {
       "path": "index.html",
       "bytes": 1960,
-      "sha256": "4c5c8588d511a972a8aa411b184a41cfc1293323027b5661baf3a0560227da82"
+      "sha256": "824f4d6f7daf7ce5ebbb8dcff56108177efa186134529c2a561fca5c2f6665eb"
     },
     {
       "path": "levels.mjs",
@@ -93,7 +93,7 @@
     {
       "path": "manifest.webmanifest",
       "bytes": 506,
-      "sha256": "a4deb92ded2a6bfc6b7afa560ec2c4630f8d2fed6dffd9b85712e28cf6e743bf"
+      "sha256": "ea2cf6c2c2643c651d76a4f0480b554c5e92dbc0276a646645a0eaaf1eb0242a"
     },
     {
       "path": "physics.mjs",
@@ -113,7 +113,7 @@
     {
       "path": "sw.js",
       "bytes": 1821,
-      "sha256": "59c2cc213bc154cbea218305d72007eaed8e5916e0828a3210ccc0aa1bfe6e1d"
+      "sha256": "2ee52d299d1a11f1663d0c45a88c5390608ef694735f1a5d0a11cd4f69ab7129"
     }
   ]
 }

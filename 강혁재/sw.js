@@ -1,5 +1,5 @@
 'use strict';
-const VERSION="659fe87d27a706287232058a359b45e8c28646856feb1b592719f7997f0cce87";
+const VERSION="f455d0658f48a66db346b07401dc6868fc6ee066f1cc327d28b0266aa564972a";
 const PREFIX="cursor-game:dd691f66-4ef8-4022-9aed-aaa0d2c63070:"+self.registration.scope+':';
 const CACHE=PREFIX+VERSION;
 const FILES=["./","./LICENSE.txt","./birds.mjs","./config.mjs","./draw.mjs","./game-install.js","./game-shell.css","./game-shell.js","./game-tools.js","./game.config.js","./game.config.json","./game.mjs","./icon-192.png","./icon-512.png","./index.html","./levels.mjs","./main.css","./main.js","./manifest.webmanifest","./physics.mjs","./pwa.js","./sound.mjs"];

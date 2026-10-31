@@ -1,5 +1,5 @@
 window.GAME_CONFIG = {
-  "title": "앵그리버드",
+  "title": "앵그리버브",
   "creator": "강혁재",
   "rules": {},
   "custom": {},
