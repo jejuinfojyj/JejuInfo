@@ -1,0 +1,124 @@
+{
+  "schema": 3,
+  "kind": "authored",
+  "projectId": "211e7b5e-192e-4015-8581-771c899bc13c",
+  "kitVersion": "5.0.0",
+  "version": "3388377536026e64729aa51732cf377c3974952cd895921a1e94b297522ac846",
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 1068,
+      "sha256": "a794b9669a9a128b3caa5b83064062179e15057560d0e0857ffb3166995e74ee"
+    },
+    {
+      "path": "assets/bg-play.png",
+      "bytes": 348072,
+      "sha256": "70a7b8802f1922fc4e6b801e0ffcdad8fea8259dee2390cce93e4e369fda621c"
+    },
+    {
+      "path": "assets/블록/17-연한나무판.png",
+      "bytes": 13833,
+      "sha256": "8934f05990ef92d1d1ffae478ed3337a04afd8652a06fefc1aa43f9115bdf587"
+    },
+    {
+      "path": "assets/블록/18-진한나무판.png",
+      "bytes": 14271,
+      "sha256": "d24109982b89b3a1370a2a37ef33be8d736065279a0141a972f66c7b991c7fa9"
+    },
+    {
+      "path": "assets/블록/19-통나무단면.png",
+      "bytes": 21286,
+      "sha256": "5fa17f78e3512e166f740a4b320375bb257695db702bf750d43d174800cf5f3e"
+    },
+    {
+      "path": "assets/블록/20-쪽매나무.png",
+      "bytes": 22016,
+      "sha256": "55fccf6440885379abd0acbb226e885a86308e1845d6c273e09de68954a30590"
+    },
+    {
+      "path": "assets/블록/21-소용돌이나무.png",
+      "bytes": 18891,
+      "sha256": "ef318bea4d8e2bbe3411dfc898141536095dd7859e9b27868eaa5e25bb957ca4"
+    },
+    {
+      "path": "config.mjs",
+      "bytes": 3096,
+      "sha256": "f74d1fe3bc47c1dc51cd906ae3ebae4cc351eeffbfb252f12a937f9d24f4085f"
+    },
+    {
+      "path": "game-install.js",
+      "bytes": 2379,
+      "sha256": "2a8ffe6d0e14fbc969ea1a44d0e4d8e60320d9b49cc2217c42bb02fe95e2390c"
+    },
+    {
+      "path": "game-shell.css",
+      "bytes": 2868,
+      "sha256": "94a6fba4fb0e51729b192ba2b52ec52e0dbf7bd8ef19dbc074a25ca728c00257"
+    },
+    {
+      "path": "game-shell.js",
+      "bytes": 6329,
+      "sha256": "26aecefde9a7153eb0938452f90f886868254590d99b4bf05d9a478186edffed"
+    },
+    {
+      "path": "game-tools.js",
+      "bytes": 9186,
+      "sha256": "30f9f67695965d2b583980715dce1574df5013c05176d75f88b8b3f3eda7dcba"
+    },
+    {
+      "path": "game.config.js",
+      "bytes": 2212,
+      "sha256": "8792a179410c21ab99d38606f42fe7098d4c73b18a4149c83a76c1a10bec9bec"
+    },
+    {
+      "path": "game.config.json",
+      "bytes": 2190,
+      "sha256": "f92774e702c85d42b1fa1ced2b32afa0ce6143ea0bc37cca0af3f22a871ee497"
+    },
+    {
+      "path": "game.mjs",
+      "bytes": 14133,
+      "sha256": "c2b08a18b433a508602497f491c94cc524de993c8af97d30d4b1e62811079b4c"
+    },
+    {
+      "path": "icon-192.png",
+      "bytes": 812,
+      "sha256": "f9f3ad6a6c005c0aad7016351eb35d688100a6119890ffdb2182b3b30a7a497c"
+    },
+    {
+      "path": "icon-512.png",
+      "bytes": 3922,
+      "sha256": "2a54d4caff8c34f9694a4fe5550350293eea0d59d26ca278299c577568264168"
+    },
+    {
+      "path": "index.html",
+      "bytes": 1830,
+      "sha256": "c9ac835a27844fde961fb3f30610110a7e2471da30c557c474f1bcf04ca80159"
+    },
+    {
+      "path": "main.css",
+      "bytes": 512,
+      "sha256": "2e6f5ffe398998a63bbe73e60770439e4af9282b76665e938397c590a8a7e4df"
+    },
+    {
+      "path": "main.js",
+      "bytes": 9349,
+      "sha256": "e92fb24258acf9373d71852dca8d12a0388a1fd84fdbaa73d2b4731e7a3e65c6"
+    },
+    {
+      "path": "manifest.webmanifest",
+      "bytes": 511,
+      "sha256": "36d82a128dd72be37655658a8273d321fe99dae22da4d7b362060bbdb44f34ad"
+    },
+    {
+      "path": "pwa.js",
+      "bytes": 2147,
+      "sha256": "266090c05276e298cf9cc10ae5c348797003ee0514a48a3b221db34fb2a0532a"
+    },
+    {
+      "path": "sw.js",
+      "bytes": 2187,
+      "sha256": "1add209823697a2fc9dd0eaf5357c9d2e5d88aea99eaa5b3cb7fcb88547717e4"
+    }
+  ]
+}
