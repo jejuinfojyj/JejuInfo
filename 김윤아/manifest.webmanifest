@@ -1,0 +1,26 @@
+{
+  "id": "./",
+  "name": "옷 코디 스튜디오",
+  "short_name": "옷 코디 스튜디오",
+  "lang": "ko",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f6e9df",
+  "theme_color": "#ef7a6b",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

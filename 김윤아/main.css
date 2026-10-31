@@ -1,0 +1,27 @@
+/* 옷 코디 스튜디오 화면·메뉴 톤 */
+:root {
+  --background: #f6e9df;
+  --primary: #ef7a6b;
+  --text: #3d2a2f;
+}
+
+body {
+  background:
+    radial-gradient(circle at 16% 10%, #ffe0c8 0%, transparent 40%),
+    radial-gradient(circle at 88% 82%, #c8e8dc88 0%, transparent 42%),
+    #f6e9df;
+}
+
+#game-canvas {
+  border-radius: 18px;
+  box-shadow: 0 18px 40px #b8897044;
+}
+
+#round-primary {
+  background: linear-gradient(180deg, #ff9b8c, #ef7a6b);
+  color: #fff7f0;
+}
+
+#pause-game {
+  background: #3d2a2f18;
+}
