@@ -1,0 +1,43 @@
+export const CONFIG = {
+  title: '덩크 슛',
+  width: 480,
+  height: 720,
+  palette: {
+    background: '#3d2817',
+    surface: '#5c3a1e',
+    primary: '#d4893a',
+    accent: '#f0c36a',
+    rim: '#e07a3d',
+    net: '#f4e6c8',
+    ball: '#c97a3a',
+    text: '#fff7ea',
+    star: '#ffe566',
+    flame: '#ff8a3d',
+  },
+  physics: {
+    gravity: 1850,
+    ballRadius: 16,
+    maxPull: 120,
+    powerScale: 11.5,
+    bounce: 0.55,
+    airDrag: 0.015,
+    settleSpeed: 40,
+  },
+  hoop: {
+    radius: 42,
+    rimThickness: 7,
+    scoreRadius: 22,
+  },
+  scoring: {
+    normal: 1,
+    cleanBase: 2,
+  },
+  storageKey: 'dunk-shot-v1',
+  balls: [
+    { id: 'orange', name: '기본 농구공', cost: 0, colors: ['#d4893a', '#5c3a1e'], image: 'assets/ball-orange.png' },
+    { id: 'earth', name: '지구본', cost: 15, colors: ['#3d8bfd', '#2ecc71'], image: 'assets/ball-earth.png' },
+    { id: 'eight', name: '8번 공', cost: 30, colors: ['#111111', '#f5f5f5'], image: 'assets/ball-eight.png' },
+    { id: 'baseball', name: '야구공', cost: 45, colors: ['#f7f3ea', '#c0392b'], image: 'assets/ball-baseball.png' },
+    { id: 'flame', name: '불꽃 공', cost: 80, colors: ['#ff3b1f', '#ffd447'], image: 'assets/ball-flame.png' },
+  ],
+};
